@@ -1,0 +1,40 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cryptest", "cryptest.vcproj", "{E9C904DE-5F09-4915-A05B-51F292687AE5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4D153124-4A6E-409B-B4CA-C0AB472FF563} = {4D153124-4A6E-409B-B4CA-C0AB472FF563}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cryptlib", "cryptlib.vcproj", "{4D153124-4A6E-409B-B4CA-C0AB472FF563}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		DLL-Import Debug = DLL-Import Debug
+		DLL-Import Release = DLL-Import Release
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{E9C904DE-5F09-4915-A05B-51F292687AE5}.Debug.ActiveCfg = Debug|Win32
+		{E9C904DE-5F09-4915-A05B-51F292687AE5}.Debug.Build.0 = Debug|Win32
+		{E9C904DE-5F09-4915-A05B-51F292687AE5}.DLL-Import Debug.ActiveCfg = DLL-Import Debug|Win32
+		{E9C904DE-5F09-4915-A05B-51F292687AE5}.DLL-Import Debug.Build.0 = DLL-Import Debug|Win32
+		{E9C904DE-5F09-4915-A05B-51F292687AE5}.DLL-Import Release.ActiveCfg = DLL-Import Release|Win32
+		{E9C904DE-5F09-4915-A05B-51F292687AE5}.DLL-Import Release.Build.0 = DLL-Import Release|Win32
+		{E9C904DE-5F09-4915-A05B-51F292687AE5}.Release.ActiveCfg = Release|Win32
+		{E9C904DE-5F09-4915-A05B-51F292687AE5}.Release.Build.0 = Release|Win32
+		{4D153124-4A6E-409B-B4CA-C0AB472FF563}.Debug.ActiveCfg = Debug|Win32
+		{4D153124-4A6E-409B-B4CA-C0AB472FF563}.Debug.Build.0 = Debug|Win32
+		{4D153124-4A6E-409B-B4CA-C0AB472FF563}.DLL-Import Debug.ActiveCfg = DLL-Import Debug|Win32
+		{4D153124-4A6E-409B-B4CA-C0AB472FF563}.DLL-Import Debug.Build.0 = DLL-Import Debug|Win32
+		{4D153124-4A6E-409B-B4CA-C0AB472FF563}.DLL-Import Release.ActiveCfg = DLL-Import Release|Win32
+		{4D153124-4A6E-409B-B4CA-C0AB472FF563}.DLL-Import Release.Build.0 = DLL-Import Release|Win32
+		{4D153124-4A6E-409B-B4CA-C0AB472FF563}.Release.ActiveCfg = Release|Win32
+		{4D153124-4A6E-409B-B4CA-C0AB472FF563}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

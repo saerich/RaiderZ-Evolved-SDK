@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basic Sample", "Basic Sample", "{B2D5B360-B089-46A9-BB01-EE5249D2039C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sample Platform Library", "Sample Platform Library", "{13C8E233-D7BF-4681-B47C-70734BC7F3FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Multithreaded sample", "Multithreaded sample", "{21F3CF91-A9AE-40AF-9DFC-A2ED0513DFDC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "basic_d3d9_win32", "..\..\samples\basic\build\msvc9\basic_d3d9_win32.vcproj", "{47E0E240-CC0D-4E2B-9793-60935CBAE98D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8CDF89C2-C6C8-47D9-BCA4-0B120453F0D9} = {8CDF89C2-C6C8-47D9-BCA4-0B120453F0D9}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "platformlib_d3d9_win32", "..\..\samples\platformlib\build\msvc9\platformlib_d3d9_win32.vcproj", "{8CDF89C2-C6C8-47D9-BCA4-0B120453F0D9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "basic_d3d10_win64", "..\..\samples\basic\build\msvc9\basic_d3d10_win64.vcproj", "{A38A096A-8769-4ED5-8742-D8AE0DA34758}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5D5401DF-05DD-43E8-9C2D-BC562AFA0F1D} = {5D5401DF-05DD-43E8-9C2D-BC562AFA0F1D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "multithreaded_d3d9_win32", "..\..\samples\multithreaded\build\msvc9\multithreaded_d3d9_win32.vcproj", "{D1E36380-1AAA-4BC6-8BF8-35434982BF73}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8CDF89C2-C6C8-47D9-BCA4-0B120453F0D9} = {8CDF89C2-C6C8-47D9-BCA4-0B120453F0D9}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "multithreaded_d3d10_win64", "..\..\samples\multithreaded\build\msvc9\multithreaded_d3d10_win64.vcproj", "{115E82A6-502C-4EB3-A36F-0F450D18D84D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5D5401DF-05DD-43E8-9C2D-BC562AFA0F1D} = {5D5401DF-05DD-43E8-9C2D-BC562AFA0F1D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "platformlib_d3d10_win64", "..\..\samples\platformlib\build\msvc9\platformlib_d3d10_win64.vcproj", "{5D5401DF-05DD-43E8-9C2D-BC562AFA0F1D}"
+EndProject
+Global
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|All = Debug|All
+		Eval|All = Eval|All
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47E0E240-CC0D-4E2B-9793-60935CBAE98D}.Debug|All.ActiveCfg = Debug|Win32
+		{47E0E240-CC0D-4E2B-9793-60935CBAE98D}.Debug|All.Build.0 = Debug|Win32
+		{47E0E240-CC0D-4E2B-9793-60935CBAE98D}.Eval|All.ActiveCfg = Eval|Win32
+		{47E0E240-CC0D-4E2B-9793-60935CBAE98D}.Eval|All.Build.0 = Eval|Win32
+		{8CDF89C2-C6C8-47D9-BCA4-0B120453F0D9}.Debug|All.ActiveCfg = Debug|Win32
+		{8CDF89C2-C6C8-47D9-BCA4-0B120453F0D9}.Debug|All.Build.0 = Debug|Win32
+		{8CDF89C2-C6C8-47D9-BCA4-0B120453F0D9}.Eval|All.ActiveCfg = Release|Win32
+		{8CDF89C2-C6C8-47D9-BCA4-0B120453F0D9}.Eval|All.Build.0 = Release|Win32
+		{A38A096A-8769-4ED5-8742-D8AE0DA34758}.Debug|All.ActiveCfg = Debug|x64
+		{A38A096A-8769-4ED5-8742-D8AE0DA34758}.Debug|All.Build.0 = Debug|x64
+		{A38A096A-8769-4ED5-8742-D8AE0DA34758}.Eval|All.ActiveCfg = Eval|x64
+		{A38A096A-8769-4ED5-8742-D8AE0DA34758}.Eval|All.Build.0 = Eval|x64
+		{D1E36380-1AAA-4BC6-8BF8-35434982BF73}.Debug|All.ActiveCfg = Debug|Win32
+		{D1E36380-1AAA-4BC6-8BF8-35434982BF73}.Debug|All.Build.0 = Debug|Win32
+		{D1E36380-1AAA-4BC6-8BF8-35434982BF73}.Eval|All.ActiveCfg = Eval|Win32
+		{D1E36380-1AAA-4BC6-8BF8-35434982BF73}.Eval|All.Build.0 = Eval|Win32
+		{115E82A6-502C-4EB3-A36F-0F450D18D84D}.Debug|All.ActiveCfg = Debug|x64
+		{115E82A6-502C-4EB3-A36F-0F450D18D84D}.Debug|All.Build.0 = Debug|x64
+		{115E82A6-502C-4EB3-A36F-0F450D18D84D}.Eval|All.ActiveCfg = Eval|x64
+		{115E82A6-502C-4EB3-A36F-0F450D18D84D}.Eval|All.Build.0 = Eval|x64
+		{5D5401DF-05DD-43E8-9C2D-BC562AFA0F1D}.Debug|All.ActiveCfg = Debug|x64
+		{5D5401DF-05DD-43E8-9C2D-BC562AFA0F1D}.Debug|All.Build.0 = Debug|x64
+		{5D5401DF-05DD-43E8-9C2D-BC562AFA0F1D}.Eval|All.ActiveCfg = Release|x64
+		{5D5401DF-05DD-43E8-9C2D-BC562AFA0F1D}.Eval|All.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{47E0E240-CC0D-4E2B-9793-60935CBAE98D} = {B2D5B360-B089-46A9-BB01-EE5249D2039C}
+		{A38A096A-8769-4ED5-8742-D8AE0DA34758} = {B2D5B360-B089-46A9-BB01-EE5249D2039C}
+		{8CDF89C2-C6C8-47D9-BCA4-0B120453F0D9} = {13C8E233-D7BF-4681-B47C-70734BC7F3FD}
+		{5D5401DF-05DD-43E8-9C2D-BC562AFA0F1D} = {13C8E233-D7BF-4681-B47C-70734BC7F3FD}
+		{D1E36380-1AAA-4BC6-8BF8-35434982BF73} = {21F3CF91-A9AE-40AF-9DFC-A2ED0513DFDC}
+		{115E82A6-502C-4EB3-A36F-0F450D18D84D} = {21F3CF91-A9AE-40AF-9DFC-A2ED0513DFDC}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,1453 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <NXUSTREAM2>
+    <NxuPhysicsCollection id="deer_bound" sdkVersion="244" nxuVersion="100">
+      <NxPhysicsSDKDesc id="SDK">
+        <hwPageSize>65536</hwPageSize>
+        <hwPageMax>256</hwPageMax>
+        <hwConvexMax>2048</hwConvexMax>
+      </NxPhysicsSDKDesc>
+  <NxConvexMeshDesc id="C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_1">
+    <points>
+    -0.059800692 0.086961865 -0.007364988   0.100204132 -0.026107669 -0.120434284   -0.076829366 -0.099167228 -0.193493843   0.059828155 0.087001085 -0.007325649   
+    0.038236871 -0.023582578 0.186411023   0.000032874 -0.086970687 0.162984014   0.000032874 -0.050890803 0.193494081   -0.038522124 -0.054976583 0.182458043   
+    -0.10020414 -0.026107669 -0.120434284   0.000032874 -0.009551644 0.191533089   0.00001253 0.101896644 0.007569909   -0.038170125 -0.023582578 0.186411023   
+    0.038587876 -0.054976583 0.182458043   0.076829128 -0.099167228 -0.193493962   0.075096868 -0.101896644 -0.184700906   -0.024103126 -0.08003962 0.16298902   
+    0.024168873 -0.08003962 0.16298902   -0.069522128 -0.100868583 -0.125167847   -0.081994087 0.040760159 -0.053566575   0.069520876 -0.100868583 -0.125167847   
+    -0.075097136 -0.101896644 -0.184700906   
+    </points>
+    <triangles>
+    0 1 2  3 1 0  4 1 3  5 6 7  8 0 2  9 4 3  9 6 4  10 3 0  
+    10 0 9  10 9 3  11 9 0  11 7 6  11 6 9  11 8 7  12 4 6  12 6 5  
+    12 1 4  13 14 2  13 2 1  13 1 14  15 5 7  16 12 5  17 5 15  17 15 7  
+    17 7 8  18 0 8  18 8 11  18 11 0  19 5 17  19 17 14  19 12 16  19 16 5  
+    19 14 1  19 1 12  20 2 14  20 14 17  20 8 2  20 17 8  
+    </triangles>
+  </NxConvexMeshDesc>
+  <NxConvexMeshDesc id="C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_2">
+    <points>
+    -0.149495214 0.24391377 0.035342097   -0.148819208 0.155505657 0.124866247   0.124835745 0.302823842 -0.024116516   0.128583804 0.214207292 0.065620422   
+    0.141679481 -0.188989818 -0.022303462   0.137547478 -0.225070819 -0.124866247   0.160993502 -0.181492835 -0.116971254   -0.117858522 -0.300707817 -0.026883483   
+    -0.137546524 -0.302823842 -0.02610147   0.077008486 0.300454199 -0.027053237   0.086957477 -0.17924583 -0.117126465   -0.160993516 -0.26023683 -0.038253307   
+    0.140862972 0.246601164 0.032826781   0.143439487 -0.112834841 0.057235718   -0.160234854 0.191164911 0.088748813   -0.115658522 -0.179556847 0.103782535   
+    0.154378489 -0.108310789 0.028552532   -0.154248521 -0.152517825 0.091551542   -0.143343523 -0.156472832 0.120554686   0.143555492 -0.139093846 0.039398789   
+    -0.143136516 -0.182396829 0.103759527   -0.115865521 -0.153917849 0.119316697   0.117859483 -0.222826838 -0.124634266   -0.116385832 0.158031464 0.122331619   
+    </points>
+    <triangles>
+    0 1 2  3 2 1  4 5 6  4 7 5  8 5 7  9 2 6  9 0 2  10 11 0  
+    10 0 9  10 9 6  12 3 13  12 2 3  12 6 2  14 1 0  14 0 11  15 8 7  
+    16 6 12  16 12 13  16 4 6  17 14 11  17 18 1  17 1 14  19 4 16  19 16 13  
+    19 13 15  19 7 4  19 15 7  20 18 17  20 17 11  20 8 15  20 15 18  20 11 8  
+    21 18 15  21 15 13  21 13 3  21 1 18  22 6 5  22 10 6  22 11 10  22 5 8  
+    22 8 11  23 3 1  23 1 21  23 21 3  
+    </triangles>
+  </NxConvexMeshDesc>
+  <NxConvexMeshDesc id="C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_3">
+    <points>
+    -0.201970801 0.030018568 0.278754473   -0.137625724 -0.152309179 -0.140866399   0.207465023 0.048652112 0.291194737   -0.155190468 0.123643219 0.019107282   
+    0.141903535 0.152309179 -0.015079737   0.139777333 -0.093607724 -0.200111866   0.090738319 -0.00369364 -0.291194797   -0.1383017 -0.063901007 -0.230390191   
+    0.136029258 -0.004991055 -0.289849043   0.132737994 0.05703032 -0.264850736   0.169527024 -0.00823766 -0.212038875   -0.205430299 0.079110384 0.138124585   
+    0.198277697 0.106891513 0.123545408   -0.173184022 -0.053586721 -0.152923942   0.1520565 -0.061213672 -0.232905626   0.084922999 0.054591298 -0.264691949   
+    -0.140971005 0.010962188 -0.211929917   -0.14904134 -0.116649926 -0.176983476   -0.140326023 -0.051842809 -0.232450724   -0.105192333 -0.149783432 -0.143401027   
+    -0.207465023 0.04572916 0.233046293   -0.196936041 0.031052351 0.027138233   0.189621031 0.057743311 -0.023968935   
+    </points>
+    <triangles>
+    0 1 2  0 2 3  4 3 2  5 1 6  7 6 1  8 6 9  8 9 10  8 5 6  
+    11 0 3  12 4 2  13 1 0  14 5 8  14 8 10  14 10 2  14 2 5  15 16 3  
+    15 3 4  15 4 9  15 6 16  15 9 6  17 7 1  17 1 13  18 7 17  18 17 13  
+    18 13 16  18 16 6  18 6 7  19 2 1  19 1 5  19 5 2  20 0 11  20 13 0  
+    21 13 20  21 20 11  21 16 13  21 3 16  21 11 3  22 2 10  22 12 2  22 9 4  
+    22 4 12  22 10 9  
+    </triangles>
+  </NxConvexMeshDesc>
+  <NxConvexMeshDesc id="C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_4">
+    <points>
+    0.147882223 0.320608109 -0.193460464   -0.135734707 0.203329772 -0.310738862   -0.122764453 0.302487463 -0.211581141   -0.107840993 -0.356498808 0.221063912   
+    0.068722017 0.298521191 0.041938901   0.134002909 0.263674408 -0.250394166   0.067709014 0.363447875 -0.150620699   -0.066527985 -0.365337789 0.16772294   
+    0.129262015 -0.191293806 0.310738921   0.119509019 0.333863169 -0.008551061   0.150148019 0.276825219 -0.006150067   -0.134850979 -0.362862796 0.168929935   
+    -0.12420699 -0.27301681 0.009817898   0.15313302 -0.171892807 0.260322928   0.125407025 -0.012293816 0.264782012   0.116875827 0.365337759 -0.148730874   
+    -0.153133005 0.256170064 -0.25789851   0.099566028 -0.092933804 0.294505954   0.121298023 0.300834209 0.04243201   -0.088224985 -0.271478802 0.016266048   
+    0.091783017 0.01567021 0.246577919   0.06693802 0.331459194 -0.009183943   0.129611015 -0.091062814 0.294243991   -0.141165987 0.035856187 -0.196636051   
+    </points>
+    <triangles>
+    0 1 2  3 4 2  5 1 0  6 0 2  7 8 3  9 10 0  11 12 7  11 7 3  
+    11 3 2  13 10 14  13 8 7  13 0 10  13 5 0  15 0 6  15 6 9  15 9 0  
+    16 2 1  16 11 2  17 3 8  18 14 10  18 10 9  18 9 4  19 5 13  19 13 7  
+    19 7 12  19 12 1  19 1 5  20 14 18  20 18 4  20 17 14  20 4 3  20 3 17  
+    21 4 9  21 9 6  21 2 4  21 6 2  22 14 17  22 17 8  22 8 13  22 13 14  
+    23 12 11  23 11 16  23 1 12  23 16 1  
+    </triangles>
+  </NxConvexMeshDesc>
+  <NxConvexMeshDesc id="C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_5">
+    <points>
+    -0.192967713 -0.122267842 0.240341216   -0.000004004 -0.291717887 0.217433766   -0.000003306 0.248277664 0.261675715   -0.122350544 0.243914247 -0.242836267   
+    0.18516095 0.074143171 -0.245622635   -0.124645963 -0.147643328 -0.262500256   0.193938136 -0.117492795 0.222637966   0.128030956 -0.152714491 -0.258053511   
+    0.122966863 0.24364543 -0.23828575   -0.118187018 0.192352533 0.262620896   0.120098338 0.193345904 0.251558363   -0.144380003 -0.24069941 0.138604343   
+    -0.208590001 -0.096541405 -0.098653674   -0.000000004 -0.261757433 -0.076400667   0.144373 -0.24069941 0.138604343   -0.182697564 0.078703284 -0.252237797   
+    -0.000000004 0.291717887 -0.238164544   0.208590001 -0.096541405 -0.098653674   -0.137401819 -0.242723584 0.227873594   0.138401255 -0.242431641 0.214998975   
+    -0.000000004 -0.196328223 -0.262620896   -0.19111 0.052969575 0.159747332   0.191102996 0.052969575 0.159747332   -0.151393995 -0.213328421 -0.087614655   
+    </points>
+    <triangles>
+    0 1 2  3 4 5  6 2 1  7 5 4  8 4 3  9 0 2  9 2 3  10 2 6  
+    10 8 2  11 0 12  13 1 11  13 7 14  13 14 1  15 3 5  15 5 12  16 3 2  
+    16 2 8  16 8 3  17 6 14  17 14 7  17 7 4  18 1 0  18 0 11  18 11 1  
+    19 6 1  19 1 14  19 14 6  20 5 7  20 7 13  21 12 0  21 15 12  21 0 9  
+    21 9 3  21 3 15  22 6 17  22 17 4  22 4 8  22 8 10  22 10 6  23 5 20  
+    23 20 13  23 13 11  23 12 5  23 11 12  
+    </triangles>
+  </NxConvexMeshDesc>
+  <NxConvexMeshDesc id="C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_6">
+    <points>
+    -0.146830499 0.33383882 -0.036633015   0.146830499 0.33383882 -0.036633015   -0.000874498 -0.164265633 -0.341079891   0.081773803 -0.331673503 -0.173671901   
+    -0.083523594 -0.331673503 -0.17367202   0.059457503 0.400205731 0.025561988   0.237813503 0.205505729 0.103679001   -0.067703508 0.059586883 0.34107995   
+    -0.237813503 0.205505729 0.103679001   -0.082867458 -0.194752336 0.247923374   -0.077702753 -0.334679842 0.107996106   0.075955749 -0.334679842 0.107996047   
+    -0.000874215 -0.400205731 -0.105139732   0.219826505 0.163872719 -0.05882901   -0.219826505 0.163872719 -0.05882901   -0.128232494 0.251595736 0.202641129   
+    0.067703508 0.059586883 0.34107995   0.058954787 -0.14851141 0.294164419   0.128232524 0.251595736 0.202642024   -0.205881476 -0.068225026 -0.019829988   
+    -0.0594575 0.400205731 0.025561988   0.218917504 -0.001696229 -0.035543978   -0.072065338 -0.211008787 -0.294336796   0.070316344 -0.211008787 -0.294336796   
+    </points>
+    <triangles>
+    0 1 2  3 4 2  5 6 1  5 1 0  7 8 9  10 11 9  12 11 10  12 10 4  
+    12 4 3  12 3 11  13 2 1  13 1 6  14 8 0  14 0 2  15 8 7  15 7 16  
+    17 16 7  17 7 9  17 11 6  17 6 16  17 9 11  18 5 15  18 15 16  18 16 6  
+    18 6 5  19 8 14  19 9 8  19 10 9  19 4 10  20 5 0  20 15 5  20 0 8  
+    20 8 15  21 13 6  21 6 11  21 11 3  22 4 19  22 19 14  22 2 4  22 14 2  
+    23 2 13  23 13 21  23 3 2  23 21 3  
+    </triangles>
+  </NxConvexMeshDesc>
+  <NxConvexMeshDesc id="C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_7">
+    <points>
+    0.179390058 0.180471659 -0.331096202   0.073454313 -0.13793242 -0.35222885   -0.118672229 0.321443677 -0.305606812   -0.193452924 0.006823242 -0.327886492   
+    0.119613126 0.32243681 -0.316669375   -0.083146311 0.161466479 0.28469649   -0.000496933 0.092934132 0.353228718   0.017124558 0.319422841 0.126739919   
+    0.082151085 0.161466479 0.284696609   0.150459975 -0.260090351 0.147814244   -0.137887031 -0.1136325 -0.340354115   -0.13315694 -0.377368689 0.030535847   
+    0.193452924 0.011598229 -0.345589727   0.146238789 -0.289693296 -0.065550357   -0.000488518 0.377368689 -0.306551993   -0.071688063 0.282131076 0.164031744   
+    0.136580691 -0.317024052 0.090880454   -0.179476216 0.007329702 -0.04370141   -0.150555238 -0.324528456 0.083376139   0.137916043 -0.113340616 -0.353228718   
+    0.070693634 0.282131076 0.164031744   -0.000489215 -0.162626863 -0.350793958   -0.178230658 0.179824591 -0.314424336   -0.000489215 0.369725585 -0.104752362   
+    </points>
+    <triangles>
+    0 1 2  3 2 1  4 0 2  5 6 7  8 9 0  8 6 9  8 7 6  10 11 3  
+    10 3 1  12 0 9  12 9 13  12 1 0  14 4 2  15 5 7  16 9 11  16 11 13  
+    16 13 9  17 5 15  18 5 17  18 3 11  18 17 3  18 6 5  18 11 9  18 9 6  
+    19 13 1  19 1 12  19 12 13  20 7 8  20 0 4  20 8 0  21 11 10  21 10 1  
+    21 1 13  21 13 11  22 15 2  22 17 15  22 2 3  22 3 17  23 7 20  23 20 4  
+    23 14 2  23 2 15  23 15 7  23 4 14  
+    </triangles>
+  </NxConvexMeshDesc>
+  <NxConvexMeshDesc id="C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_8">
+    <points>
+    -0.197081059 -0.099834919 0.240571827   -0.014383499 -0.374866486 0.230188727   0.064838268 0.08430481 0.254671991   0.144678041 -0.330117822 -0.239665926   
+    0.2102395 -0.433774829 0.066608608   -0.202655777 -0.403316617 -0.086461604   -0.2102395 -0.428962588 0.11697799   -0.206374496 -0.068811774 -0.062328041   
+    -0.164340496 -0.030400634 -0.210373044   -0.014383499 0.247488379 -0.246588051   0.008745501 -0.159716725 -0.25467205   0.160933673 -0.250262856 0.239694297   
+    -0.152415946 -0.358783603 -0.205478966   -0.136734039 0.065375924 0.249973357   -0.014383499 0.452408314 -0.087249041   0.179927498 -0.058827639 -0.031546056   
+    0.133273497 -0.007892728 -0.208342016   0.170777455 -0.104395032 0.247187018   -0.139029458 -0.326181591 0.230309367   -0.056536499 0.399073243 -0.125549018   
+    -0.014383499 0.375268221 -0.191411018   -0.199196294 -0.452408373 0.054168224   0.027770501 0.399073243 -0.125549018   0.108583368 0.065107226 0.254523873   
+    </points>
+    <triangles>
+    0 1 2  3 4 5  6 7 5  6 0 7  6 4 1  8 5 7  9 10 8  9 3 10  
+    11 2 1  11 1 4  12 5 8  12 8 10  12 10 3  12 3 5  13 2 14  13 0 2  
+    15 4 3  16 3 9  16 15 3  17 2 11  17 11 4  17 4 15  18 1 0  18 0 6  
+    18 6 1  19 7 0  19 0 13  19 13 14  19 8 7  20 9 8  20 8 19  20 19 14  
+    20 16 9  21 5 4  21 4 6  21 6 5  22 16 20  22 20 14  22 17 15  22 15 16  
+    23 17 22  23 22 14  23 14 2  23 2 17  
+    </triangles>
+  </NxConvexMeshDesc>
+  <NxSceneDesc id="deer_bound" userProperties="graphics_mesh=%22C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj%22">
+        <filterBool>false</filterBool>
+        <filterOp0>NX_FILTEROP_AND</filterOp0>
+        <filterOp1>NX_FILTEROP_AND</filterOp1>
+        <filterOp2>NX_FILTEROP_AND</filterOp2>
+        <NxGroupsMask id="groupMask0" bits0="0" bits1="0" bits2="0" bits3="0"/>
+        <NxGroupsMask id="groupMask1" bits0="0" bits1="0" bits2="0" bits3="0"/>
+        <gravity>0 -9.800000191 0</gravity>
+        <maxTimestep>0.016666668</maxTimestep>
+        <maxIter>8</maxIter>
+        <timeStepMethod>NX_TIMESTEP_FIXED</timeStepMethod>
+        <maxBounds>FLT_MIN FLT_MIN FLT_MIN  FLT_MAX FLT_MAX FLT_MAX</maxBounds>
+        <NxSceneLimits id="limits">
+          <maxNbActors>0</maxNbActors>
+          <maxNbBodies>0</maxNbBodies>
+          <maxNbStaticShapes>0</maxNbStaticShapes>
+          <maxNbDynamicShapes>0</maxNbDynamicShapes>
+          <maxNbJoints>0</maxNbJoints>
+        </NxSceneLimits>
+        <simType>NX_SIMULATION_SW</simType>
+        <groundPlane>true</groundPlane>
+        <boundsPlanes>false</boundsPlanes>
+        <NxSceneFlags id="flags">
+          <NX_SF_DISABLE_SSE>false</NX_SF_DISABLE_SSE>
+          <NX_SF_DISABLE_COLLISIONS>false</NX_SF_DISABLE_COLLISIONS>
+          <NX_SF_SIMULATE_SEPARATE_THREAD>true</NX_SF_SIMULATE_SEPARATE_THREAD>
+          <NX_SF_ENABLE_MULTITHREAD>false</NX_SF_ENABLE_MULTITHREAD>
+        </NxSceneFlags>
+        <internalThreadCount>0</internalThreadCount>
+        <backgroundThreadCount>0</backgroundThreadCount>
+        <threadMask>1431655764</threadMask>
+        <backgroundThreadMask>1431655764</backgroundThreadMask>
+        <NxMaterialDesc id="Material_0" userProperties="" hasSpring="false" materialIndex="0">
+          <dynamicFriction>0.5</dynamicFriction>
+          <staticFriction>0.5</staticFriction>
+          <restitution>0</restitution>
+          <dynamicFrictionV>0</dynamicFrictionV>
+          <staticFrictionV>0</staticFrictionV>
+          <frictionCombineMode>NX_CM_AVERAGE</frictionCombineMode>
+          <restitutionCombineMode>NX_CM_AVERAGE</restitutionCombineMode>
+          <dirOfAnisotropy>1 0 0</dirOfAnisotropy>
+          <NxMaterialFlag id="flags">
+            <NX_MF_ANISOTROPIC>false</NX_MF_ANISOTROPIC>
+            <NX_MF_DISABLE_FRICTION>false</NX_MF_DISABLE_FRICTION>
+            <NX_MF_DISABLE_STRONG_FRICTION>false</NX_MF_DISABLE_STRONG_FRICTION>
+          </NxMaterialFlag>
+        </NxMaterialDesc>
+    <NxActorDesc id="C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_0" userProperties="graphics_mesh=%22C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj%22" hasBody="true" name="C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_0">
+      <globalPose> 1 0 0    0 1 0    0 0 1    -0.000049874 1.200430632 1.081491947 </globalPose>
+			<NxBodyDesc>
+        <mass>1</mass>
+        <density>0</density>
+        <linearDamping>0</linearDamping>
+        <angularDamping>0</angularDamping>
+        <solverIterationCount>33</solverIterationCount>
+        <NxBodyFlag id="flags">
+          <NX_BF_DISABLE_GRAVITY>false</NX_BF_DISABLE_GRAVITY>
+            <NX_BF_FROZEN_POS_X>false</NX_BF_FROZEN_POS_X>
+            <NX_BF_FROZEN_POS_Y>false</NX_BF_FROZEN_POS_Y>
+            <NX_BF_FROZEN_POS_Z>false</NX_BF_FROZEN_POS_Z>
+            <NX_BF_FROZEN_ROT_X>false</NX_BF_FROZEN_ROT_X>
+            <NX_BF_FROZEN_ROT_Y>false</NX_BF_FROZEN_ROT_Y>
+            <NX_BF_FROZEN_ROT_Z>false</NX_BF_FROZEN_ROT_Z>
+            <NX_BF_KINEMATIC>false</NX_BF_KINEMATIC>
+            <NX_BF_VISUALIZATION>false</NX_BF_VISUALIZATION>
+            <NX_BF_POSE_SLEEP_TEST>true</NX_BF_POSE_SLEEP_TEST>
+            <NX_BF_FILTER_SLEEP_VEL>false</NX_BF_FILTER_SLEEP_VEL>
+            <NX_BF_ENERGY_SLEEP_TEST>false</NX_BF_ENERGY_SLEEP_TEST>
+        </NxBodyFlag>
+      </NxBodyDesc>
+        <NxActorFlag id="flags">
+          <NX_AF_DISABLE_COLLISION>false</NX_AF_DISABLE_COLLISION>
+          <NX_AF_DISABLE_RESPONSE>false</NX_AF_DISABLE_RESPONSE>
+          <NX_AF_LOCK_COM>false</NX_AF_LOCK_COM>
+          <NX_AF_FLUID_DISABLE_COLLISION>false</NX_AF_FLUID_DISABLE_COLLISION>
+          <NX_AF_CONTACT_MODIFICATION>false</NX_AF_CONTACT_MODIFICATION>
+          <NX_AF_FORCE_CONE_FRICTION>false</NX_AF_FORCE_CONE_FRICTION>
+        </NxActorFlag>
+      <name>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_0</name>
+      <NxConvexShapeDesc id="Shape_0" meshData="C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_1">
+      <NxShapeDesc>
+        <localPose>1 0 0    0 1 0    0 0 1    0 0 0 </localPose>
+        <skinWidth>0</skinWidth>
+      </NxShapeDesc>
+      </NxConvexShapeDesc>
+    </NxActorDesc>
+    <NxActorDesc id="C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_1" userProperties="graphics_mesh=%22C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj%22" hasBody="true" name="C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_1">
+      <globalPose> 1 0 0    0 1 0    0 0 1    0.028312519 0.460190833 -1.229722738 </globalPose>
+			<NxBodyDesc>
+        <mass>1</mass>
+        <density>0</density>
+        <linearDamping>0</linearDamping>
+        <angularDamping>0</angularDamping>
+        <solverIterationCount>33</solverIterationCount>
+        <NxBodyFlag id="flags">
+          <NX_BF_DISABLE_GRAVITY>false</NX_BF_DISABLE_GRAVITY>
+            <NX_BF_FROZEN_POS_X>false</NX_BF_FROZEN_POS_X>
+            <NX_BF_FROZEN_POS_Y>false</NX_BF_FROZEN_POS_Y>
+            <NX_BF_FROZEN_POS_Z>false</NX_BF_FROZEN_POS_Z>
+            <NX_BF_FROZEN_ROT_X>false</NX_BF_FROZEN_ROT_X>
+            <NX_BF_FROZEN_ROT_Y>false</NX_BF_FROZEN_ROT_Y>
+            <NX_BF_FROZEN_ROT_Z>false</NX_BF_FROZEN_ROT_Z>
+            <NX_BF_KINEMATIC>false</NX_BF_KINEMATIC>
+            <NX_BF_VISUALIZATION>false</NX_BF_VISUALIZATION>
+            <NX_BF_POSE_SLEEP_TEST>true</NX_BF_POSE_SLEEP_TEST>
+            <NX_BF_FILTER_SLEEP_VEL>false</NX_BF_FILTER_SLEEP_VEL>
+            <NX_BF_ENERGY_SLEEP_TEST>false</NX_BF_ENERGY_SLEEP_TEST>
+        </NxBodyFlag>
+      </NxBodyDesc>
+        <NxActorFlag id="flags">
+          <NX_AF_DISABLE_COLLISION>false</NX_AF_DISABLE_COLLISION>
+          <NX_AF_DISABLE_RESPONSE>false</NX_AF_DISABLE_RESPONSE>
+          <NX_AF_LOCK_COM>false</NX_AF_LOCK_COM>
+          <NX_AF_FLUID_DISABLE_COLLISION>false</NX_AF_FLUID_DISABLE_COLLISION>
+          <NX_AF_CONTACT_MODIFICATION>false</NX_AF_CONTACT_MODIFICATION>
+          <NX_AF_FORCE_CONE_FRICTION>false</NX_AF_FORCE_CONE_FRICTION>
+        </NxActorFlag>
+      <name>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_1</name>
+      <NxConvexShapeDesc id="Shape_0" meshData="C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_2">
+      <NxShapeDesc>
+        <localPose>1 0 0    0 1 0    0 0 1    0 0 0 </localPose>
+        <skinWidth>0</skinWidth>
+      </NxShapeDesc>
+      </NxConvexShapeDesc>
+    </NxActorDesc>
+    <NxActorDesc id="C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_2" userProperties="graphics_mesh=%22C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj%22" hasBody="true" name="C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_2">
+      <globalPose> 1 0 0    0 1 0    0 0 1    0.017119005 0.768005669 -0.963990092 </globalPose>
+			<NxBodyDesc>
+        <mass>1</mass>
+        <density>0</density>
+        <linearDamping>0</linearDamping>
+        <angularDamping>0</angularDamping>
+        <solverIterationCount>33</solverIterationCount>
+        <NxBodyFlag id="flags">
+          <NX_BF_DISABLE_GRAVITY>false</NX_BF_DISABLE_GRAVITY>
+            <NX_BF_FROZEN_POS_X>false</NX_BF_FROZEN_POS_X>
+            <NX_BF_FROZEN_POS_Y>false</NX_BF_FROZEN_POS_Y>
+            <NX_BF_FROZEN_POS_Z>false</NX_BF_FROZEN_POS_Z>
+            <NX_BF_FROZEN_ROT_X>false</NX_BF_FROZEN_ROT_X>
+            <NX_BF_FROZEN_ROT_Y>false</NX_BF_FROZEN_ROT_Y>
+            <NX_BF_FROZEN_ROT_Z>false</NX_BF_FROZEN_ROT_Z>
+            <NX_BF_KINEMATIC>false</NX_BF_KINEMATIC>
+            <NX_BF_VISUALIZATION>false</NX_BF_VISUALIZATION>
+            <NX_BF_POSE_SLEEP_TEST>true</NX_BF_POSE_SLEEP_TEST>
+            <NX_BF_FILTER_SLEEP_VEL>false</NX_BF_FILTER_SLEEP_VEL>
+            <NX_BF_ENERGY_SLEEP_TEST>false</NX_BF_ENERGY_SLEEP_TEST>
+        </NxBodyFlag>
+      </NxBodyDesc>
+        <NxActorFlag id="flags">
+          <NX_AF_DISABLE_COLLISION>false</NX_AF_DISABLE_COLLISION>
+          <NX_AF_DISABLE_RESPONSE>false</NX_AF_DISABLE_RESPONSE>
+          <NX_AF_LOCK_COM>false</NX_AF_LOCK_COM>
+          <NX_AF_FLUID_DISABLE_COLLISION>false</NX_AF_FLUID_DISABLE_COLLISION>
+          <NX_AF_CONTACT_MODIFICATION>false</NX_AF_CONTACT_MODIFICATION>
+          <NX_AF_FORCE_CONE_FRICTION>false</NX_AF_FORCE_CONE_FRICTION>
+        </NxActorFlag>
+      <name>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_2</name>
+      <NxConvexShapeDesc id="Shape_0" meshData="C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_3">
+      <NxShapeDesc>
+        <localPose>1 0 0    0 1 0    0 0 1    0 0 0 </localPose>
+        <skinWidth>0</skinWidth>
+      </NxShapeDesc>
+      </NxConvexShapeDesc>
+    </NxActorDesc>
+    <NxActorDesc id="C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_3" userProperties="graphics_mesh=%22C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj%22" hasBody="true" name="C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_3">
+      <globalPose> 1 0 0    0 1 0    0 0 1    0.003023982 0.362104803 0.662908077 </globalPose>
+			<NxBodyDesc>
+        <mass>1</mass>
+        <density>0</density>
+        <linearDamping>0</linearDamping>
+        <angularDamping>0</angularDamping>
+        <solverIterationCount>33</solverIterationCount>
+        <NxBodyFlag id="flags">
+          <NX_BF_DISABLE_GRAVITY>false</NX_BF_DISABLE_GRAVITY>
+            <NX_BF_FROZEN_POS_X>false</NX_BF_FROZEN_POS_X>
+            <NX_BF_FROZEN_POS_Y>false</NX_BF_FROZEN_POS_Y>
+            <NX_BF_FROZEN_POS_Z>false</NX_BF_FROZEN_POS_Z>
+            <NX_BF_FROZEN_ROT_X>false</NX_BF_FROZEN_ROT_X>
+            <NX_BF_FROZEN_ROT_Y>false</NX_BF_FROZEN_ROT_Y>
+            <NX_BF_FROZEN_ROT_Z>false</NX_BF_FROZEN_ROT_Z>
+            <NX_BF_KINEMATIC>false</NX_BF_KINEMATIC>
+            <NX_BF_VISUALIZATION>false</NX_BF_VISUALIZATION>
+            <NX_BF_POSE_SLEEP_TEST>true</NX_BF_POSE_SLEEP_TEST>
+            <NX_BF_FILTER_SLEEP_VEL>false</NX_BF_FILTER_SLEEP_VEL>
+            <NX_BF_ENERGY_SLEEP_TEST>false</NX_BF_ENERGY_SLEEP_TEST>
+        </NxBodyFlag>
+      </NxBodyDesc>
+        <NxActorFlag id="flags">
+          <NX_AF_DISABLE_COLLISION>false</NX_AF_DISABLE_COLLISION>
+          <NX_AF_DISABLE_RESPONSE>false</NX_AF_DISABLE_RESPONSE>
+          <NX_AF_LOCK_COM>false</NX_AF_LOCK_COM>
+          <NX_AF_FLUID_DISABLE_COLLISION>false</NX_AF_FLUID_DISABLE_COLLISION>
+          <NX_AF_CONTACT_MODIFICATION>false</NX_AF_CONTACT_MODIFICATION>
+          <NX_AF_FORCE_CONE_FRICTION>false</NX_AF_FORCE_CONE_FRICTION>
+        </NxActorFlag>
+      <name>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_3</name>
+      <NxConvexShapeDesc id="Shape_0" meshData="C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_4">
+      <NxShapeDesc>
+        <localPose>1 0 0    0 1 0    0 0 1    0 0 0 </localPose>
+        <skinWidth>0</skinWidth>
+      </NxShapeDesc>
+      </NxConvexShapeDesc>
+    </NxActorDesc>
+    <NxActorDesc id="C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_4" userProperties="graphics_mesh=%22C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj%22" hasBody="true" name="C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_4">
+      <globalPose> 1 0 0    0 1 0    0 0 1    -0.000038996 1.071894407 -0.24659434 </globalPose>
+			<NxBodyDesc>
+        <mass>1</mass>
+        <density>0</density>
+        <linearDamping>0</linearDamping>
+        <angularDamping>0</angularDamping>
+        <solverIterationCount>33</solverIterationCount>
+        <NxBodyFlag id="flags">
+          <NX_BF_DISABLE_GRAVITY>false</NX_BF_DISABLE_GRAVITY>
+            <NX_BF_FROZEN_POS_X>false</NX_BF_FROZEN_POS_X>
+            <NX_BF_FROZEN_POS_Y>false</NX_BF_FROZEN_POS_Y>
+            <NX_BF_FROZEN_POS_Z>false</NX_BF_FROZEN_POS_Z>
+            <NX_BF_FROZEN_ROT_X>false</NX_BF_FROZEN_ROT_X>
+            <NX_BF_FROZEN_ROT_Y>false</NX_BF_FROZEN_ROT_Y>
+            <NX_BF_FROZEN_ROT_Z>false</NX_BF_FROZEN_ROT_Z>
+            <NX_BF_KINEMATIC>false</NX_BF_KINEMATIC>
+            <NX_BF_VISUALIZATION>false</NX_BF_VISUALIZATION>
+            <NX_BF_POSE_SLEEP_TEST>true</NX_BF_POSE_SLEEP_TEST>
+            <NX_BF_FILTER_SLEEP_VEL>false</NX_BF_FILTER_SLEEP_VEL>
+            <NX_BF_ENERGY_SLEEP_TEST>false</NX_BF_ENERGY_SLEEP_TEST>
+        </NxBodyFlag>
+      </NxBodyDesc>
+        <NxActorFlag id="flags">
+          <NX_AF_DISABLE_COLLISION>false</NX_AF_DISABLE_COLLISION>
+          <NX_AF_DISABLE_RESPONSE>false</NX_AF_DISABLE_RESPONSE>
+          <NX_AF_LOCK_COM>false</NX_AF_LOCK_COM>
+          <NX_AF_FLUID_DISABLE_COLLISION>false</NX_AF_FLUID_DISABLE_COLLISION>
+          <NX_AF_CONTACT_MODIFICATION>false</NX_AF_CONTACT_MODIFICATION>
+          <NX_AF_FORCE_CONE_FRICTION>false</NX_AF_FORCE_CONE_FRICTION>
+        </NxActorFlag>
+      <name>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_4</name>
+      <NxConvexShapeDesc id="Shape_0" meshData="C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_5">
+      <NxShapeDesc>
+        <localPose>1 0 0    0 1 0    0 0 1    0 0 0 </localPose>
+        <skinWidth>0</skinWidth>
+      </NxShapeDesc>
+      </NxConvexShapeDesc>
+    </NxActorDesc>
+    <NxActorDesc id="C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_5" userProperties="graphics_mesh=%22C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj%22" hasBody="true" name="C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_5">
+      <globalPose> 1 0 0    0 1 0    0 0 1    0.000823498 1.435943246 0.780001998 </globalPose>
+			<NxBodyDesc>
+        <mass>1</mass>
+        <density>0</density>
+        <linearDamping>0</linearDamping>
+        <angularDamping>0</angularDamping>
+        <solverIterationCount>33</solverIterationCount>
+        <NxBodyFlag id="flags">
+          <NX_BF_DISABLE_GRAVITY>false</NX_BF_DISABLE_GRAVITY>
+            <NX_BF_FROZEN_POS_X>false</NX_BF_FROZEN_POS_X>
+            <NX_BF_FROZEN_POS_Y>false</NX_BF_FROZEN_POS_Y>
+            <NX_BF_FROZEN_POS_Z>false</NX_BF_FROZEN_POS_Z>
+            <NX_BF_FROZEN_ROT_X>false</NX_BF_FROZEN_ROT_X>
+            <NX_BF_FROZEN_ROT_Y>false</NX_BF_FROZEN_ROT_Y>
+            <NX_BF_FROZEN_ROT_Z>false</NX_BF_FROZEN_ROT_Z>
+            <NX_BF_KINEMATIC>false</NX_BF_KINEMATIC>
+            <NX_BF_VISUALIZATION>false</NX_BF_VISUALIZATION>
+            <NX_BF_POSE_SLEEP_TEST>true</NX_BF_POSE_SLEEP_TEST>
+            <NX_BF_FILTER_SLEEP_VEL>false</NX_BF_FILTER_SLEEP_VEL>
+            <NX_BF_ENERGY_SLEEP_TEST>false</NX_BF_ENERGY_SLEEP_TEST>
+        </NxBodyFlag>
+      </NxBodyDesc>
+        <NxActorFlag id="flags">
+          <NX_AF_DISABLE_COLLISION>false</NX_AF_DISABLE_COLLISION>
+          <NX_AF_DISABLE_RESPONSE>false</NX_AF_DISABLE_RESPONSE>
+          <NX_AF_LOCK_COM>false</NX_AF_LOCK_COM>
+          <NX_AF_FLUID_DISABLE_COLLISION>false</NX_AF_FLUID_DISABLE_COLLISION>
+          <NX_AF_CONTACT_MODIFICATION>false</NX_AF_CONTACT_MODIFICATION>
+          <NX_AF_FORCE_CONE_FRICTION>false</NX_AF_FORCE_CONE_FRICTION>
+        </NxActorFlag>
+      <name>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_5</name>
+      <NxConvexShapeDesc id="Shape_0" meshData="C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_6">
+      <NxShapeDesc>
+        <localPose>1 0 0    0 1 0    0 0 1    0 0 0 </localPose>
+        <skinWidth>0</skinWidth>
+      </NxShapeDesc>
+      </NxConvexShapeDesc>
+    </NxActorDesc>
+    <NxActorDesc id="C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_6" userProperties="graphics_mesh=%22C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj%22" hasBody="true" name="C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_6">
+      <globalPose> 1 0 0    0 1 0    0 0 1    0.000446215 0.942803264 0.321633369 </globalPose>
+			<NxBodyDesc>
+        <mass>1</mass>
+        <density>0</density>
+        <linearDamping>0</linearDamping>
+        <angularDamping>0</angularDamping>
+        <solverIterationCount>33</solverIterationCount>
+        <NxBodyFlag id="flags">
+          <NX_BF_DISABLE_GRAVITY>false</NX_BF_DISABLE_GRAVITY>
+            <NX_BF_FROZEN_POS_X>false</NX_BF_FROZEN_POS_X>
+            <NX_BF_FROZEN_POS_Y>false</NX_BF_FROZEN_POS_Y>
+            <NX_BF_FROZEN_POS_Z>false</NX_BF_FROZEN_POS_Z>
+            <NX_BF_FROZEN_ROT_X>false</NX_BF_FROZEN_ROT_X>
+            <NX_BF_FROZEN_ROT_Y>false</NX_BF_FROZEN_ROT_Y>
+            <NX_BF_FROZEN_ROT_Z>false</NX_BF_FROZEN_ROT_Z>
+            <NX_BF_KINEMATIC>false</NX_BF_KINEMATIC>
+            <NX_BF_VISUALIZATION>false</NX_BF_VISUALIZATION>
+            <NX_BF_POSE_SLEEP_TEST>true</NX_BF_POSE_SLEEP_TEST>
+            <NX_BF_FILTER_SLEEP_VEL>false</NX_BF_FILTER_SLEEP_VEL>
+            <NX_BF_ENERGY_SLEEP_TEST>false</NX_BF_ENERGY_SLEEP_TEST>
+        </NxBodyFlag>
+      </NxBodyDesc>
+        <NxActorFlag id="flags">
+          <NX_AF_DISABLE_COLLISION>false</NX_AF_DISABLE_COLLISION>
+          <NX_AF_DISABLE_RESPONSE>false</NX_AF_DISABLE_RESPONSE>
+          <NX_AF_LOCK_COM>false</NX_AF_LOCK_COM>
+          <NX_AF_FLUID_DISABLE_COLLISION>false</NX_AF_FLUID_DISABLE_COLLISION>
+          <NX_AF_CONTACT_MODIFICATION>false</NX_AF_CONTACT_MODIFICATION>
+          <NX_AF_FORCE_CONE_FRICTION>false</NX_AF_FORCE_CONE_FRICTION>
+        </NxActorFlag>
+      <name>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_6</name>
+      <NxConvexShapeDesc id="Shape_0" meshData="C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_7">
+      <NxShapeDesc>
+        <localPose>1 0 0    0 1 0    0 0 1    0 0 0 </localPose>
+        <skinWidth>0</skinWidth>
+      </NxShapeDesc>
+      </NxConvexShapeDesc>
+    </NxActorDesc>
+    <NxActorDesc id="C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_7" userProperties="graphics_mesh=%22C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj%22" hasBody="true" name="C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_7">
+      <globalPose> 1 0 0    0 1 0    0 0 1    0.014344499 1.250432611 -0.739403963 </globalPose>
+			<NxBodyDesc>
+        <mass>1</mass>
+        <density>0</density>
+        <linearDamping>0</linearDamping>
+        <angularDamping>0</angularDamping>
+        <solverIterationCount>33</solverIterationCount>
+        <NxBodyFlag id="flags">
+          <NX_BF_DISABLE_GRAVITY>false</NX_BF_DISABLE_GRAVITY>
+            <NX_BF_FROZEN_POS_X>false</NX_BF_FROZEN_POS_X>
+            <NX_BF_FROZEN_POS_Y>false</NX_BF_FROZEN_POS_Y>
+            <NX_BF_FROZEN_POS_Z>false</NX_BF_FROZEN_POS_Z>
+            <NX_BF_FROZEN_ROT_X>false</NX_BF_FROZEN_ROT_X>
+            <NX_BF_FROZEN_ROT_Y>false</NX_BF_FROZEN_ROT_Y>
+            <NX_BF_FROZEN_ROT_Z>false</NX_BF_FROZEN_ROT_Z>
+            <NX_BF_KINEMATIC>false</NX_BF_KINEMATIC>
+            <NX_BF_VISUALIZATION>false</NX_BF_VISUALIZATION>
+            <NX_BF_POSE_SLEEP_TEST>true</NX_BF_POSE_SLEEP_TEST>
+            <NX_BF_FILTER_SLEEP_VEL>false</NX_BF_FILTER_SLEEP_VEL>
+            <NX_BF_ENERGY_SLEEP_TEST>false</NX_BF_ENERGY_SLEEP_TEST>
+        </NxBodyFlag>
+      </NxBodyDesc>
+        <NxActorFlag id="flags">
+          <NX_AF_DISABLE_COLLISION>false</NX_AF_DISABLE_COLLISION>
+          <NX_AF_DISABLE_RESPONSE>false</NX_AF_DISABLE_RESPONSE>
+          <NX_AF_LOCK_COM>false</NX_AF_LOCK_COM>
+          <NX_AF_FLUID_DISABLE_COLLISION>false</NX_AF_FLUID_DISABLE_COLLISION>
+          <NX_AF_CONTACT_MODIFICATION>false</NX_AF_CONTACT_MODIFICATION>
+          <NX_AF_FORCE_CONE_FRICTION>false</NX_AF_FORCE_CONE_FRICTION>
+        </NxActorFlag>
+      <name>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_7</name>
+      <NxConvexShapeDesc id="Shape_0" meshData="C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_8">
+      <NxShapeDesc>
+        <localPose>1 0 0    0 1 0    0 0 1    0 0 0 </localPose>
+        <skinWidth>0</skinWidth>
+      </NxShapeDesc>
+      </NxConvexShapeDesc>
+    </NxActorDesc>
+    <NxD6JointDesc>
+      <NxJointDesc id="C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_2" userProperties="" name="C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_2">
+        <actor0>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_7</actor0>
+        <actor1>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_2</actor1>
+        <localNormal0>-0.006149368 -0.551025212 -0.834465921</localNormal0>
+        <localAxis0>-0.00406052 0.83448863 -0.551010311</localAxis0>
+        <localAnchor0>0.003791884 -0.391263068 -0.086528659</localAnchor0>
+        <localNormal1>-0.006149368 -0.551025212 -0.834465921</localNormal1>
+        <localAxis1>-0.00406052 0.83448863 -0.551010311</localAxis1>
+        <localAnchor1>0.001017377 0.091163874 0.13805747</localAnchor1>
+        <maxForce>FLT_MAX</maxForce>
+        <maxTorque>FLT_MAX</maxTorque>
+        <NxJointFlag id="jointFlags">
+          <NX_JF_COLLISION_ENABLED>false</NX_JF_COLLISION_ENABLED>
+          <NX_JF_VISUALIZATION>true</NX_JF_VISUALIZATION>
+        </NxJointFlag>
+        <planeLimitPoint>0 0 0</planeLimitPoint>
+        <onActor2>false</onActor2>
+      </NxJointDesc>
+      <xMotion>NX_D6JOINT_MOTION_LOCKED</xMotion>
+      <yMotion>NX_D6JOINT_MOTION_LOCKED</yMotion>
+      <zMotion>NX_D6JOINT_MOTION_LOCKED</zMotion>
+      <swing1Motion>NX_D6JOINT_MOTION_LIMITED</swing1Motion>
+      <swing2Motion>NX_D6JOINT_MOTION_LIMITED</swing2Motion>
+      <twistMotion>NX_D6JOINT_MOTION_LOCKED</twistMotion>
+      <NxJointLimitSoftDesc id="linearLimit">
+        <value>0</value>
+        <restitution>0</restitution>
+        <spring>0</spring>
+        <damping>0</damping>
+      </NxJointLimitSoftDesc>
+      <NxJointLimitSoftDesc id="swing1Limit">
+        <value>0.922038078</value>
+        <restitution>0</restitution>
+        <spring>0</spring>
+        <damping>0</damping>
+		   </NxJointLimitSoftDesc>
+      <NxJointLimitSoftDesc id="swing2Limit">
+        <value>0.922038078</value>
+        <restitution>0</restitution>
+        <spring>0</spring>
+        <damping>0</damping>
+		   </NxJointLimitSoftDesc>
+          <NxJointDriveDesc id="xDrive">
+            <NxD6JointDriveType id="driveType">
+              <NX_D6JOINT_DRIVE_POSITION>true</NX_D6JOINT_DRIVE_POSITION>
+              <NX_D6JOINT_DRIVE_VELOCITY>false</NX_D6JOINT_DRIVE_VELOCITY>
+            </NxD6JointDriveType>
+            <spring>0</spring>
+            <damping>0</damping>
+            <forceLimit>FLT_MAX</forceLimit>
+          </NxJointDriveDesc>
+          <NxJointDriveDesc id="yDrive">
+            <NxD6JointDriveType id="driveType">
+              <NX_D6JOINT_DRIVE_POSITION>true</NX_D6JOINT_DRIVE_POSITION>
+              <NX_D6JOINT_DRIVE_VELOCITY>false</NX_D6JOINT_DRIVE_VELOCITY>
+            </NxD6JointDriveType>
+            <spring>0</spring>
+            <damping>0</damping>
+            <forceLimit>FLT_MAX</forceLimit>
+          </NxJointDriveDesc>
+          <NxJointDriveDesc id="zDrive">
+            <NxD6JointDriveType id="driveType">
+              <NX_D6JOINT_DRIVE_POSITION>true</NX_D6JOINT_DRIVE_POSITION>
+              <NX_D6JOINT_DRIVE_VELOCITY>false</NX_D6JOINT_DRIVE_VELOCITY>
+            </NxD6JointDriveType>
+            <spring>0</spring>
+            <damping>0</damping>
+            <forceLimit>FLT_MAX</forceLimit>
+          </NxJointDriveDesc>
+          <NxJointDriveDesc id="slerpDrive">
+            <NxD6JointDriveType id="driveType">
+              <NX_D6JOINT_DRIVE_POSITION>true</NX_D6JOINT_DRIVE_POSITION>
+              <NX_D6JOINT_DRIVE_VELOCITY>false</NX_D6JOINT_DRIVE_VELOCITY>
+            </NxD6JointDriveType>
+            <spring>0</spring>
+            <damping>0</damping>
+            <forceLimit>FLT_MAX</forceLimit>
+          </NxJointDriveDesc>
+          <NxJointDriveDesc id="swingDrive">
+            <NxD6JointDriveType id="driveType">
+              <NX_D6JOINT_DRIVE_POSITION>true</NX_D6JOINT_DRIVE_POSITION>
+              <NX_D6JOINT_DRIVE_VELOCITY>false</NX_D6JOINT_DRIVE_VELOCITY>
+            </NxD6JointDriveType>
+            <spring>0</spring>
+            <damping>0.300000012</damping>
+            <forceLimit>FLT_MAX</forceLimit>
+          </NxJointDriveDesc>
+          <NxJointDriveDesc id="twistDrive">
+            <NxD6JointDriveType id="driveType">
+              <NX_D6JOINT_DRIVE_POSITION>true</NX_D6JOINT_DRIVE_POSITION>
+              <NX_D6JOINT_DRIVE_VELOCITY>false</NX_D6JOINT_DRIVE_VELOCITY>
+            </NxD6JointDriveType>
+            <spring>0</spring>
+            <damping>0</damping>
+            <forceLimit>FLT_MAX</forceLimit>
+          </NxJointDriveDesc>
+          <drivePosition>0 0 0</drivePosition>
+          <driveOrientation>0 0 0 1</driveOrientation>
+          <driveLinearVelocity>0 0 0</driveLinearVelocity>
+          <driveAngularVelocity>0 0 0</driveAngularVelocity>
+      <projectionMode>NX_JPM_NONE</projectionMode>
+      <projectionDistance>0.02</projectionDistance>
+      <projectionAngle>0.087264627</projectionAngle>
+          <gearRatio>1</gearRatio>
+          <NxD6JointFlag id="flags">
+            <NX_D6JOINT_SLERP_DRIVE>false</NX_D6JOINT_SLERP_DRIVE>
+            <NX_D6JOINT_GEAR_ENABLED>false</NX_D6JOINT_GEAR_ENABLED>
+          </NxD6JointFlag>
+    </NxD6JointDesc>
+    <NxD6JointDesc>
+      <NxJointDesc id="C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_4" userProperties="" name="C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_4">
+        <actor0>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_7</actor0>
+        <actor1>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_4</actor1>
+        <localNormal0>-0.004876449 -0.131669909 0.991281629</localNormal0>
+        <localAxis0>-0.000647721 0.991293609 0.131668314</localAxis0>
+        <localAnchor0>-0.013151795 -0.145280838 0.242430359</localAnchor0>
+        <localNormal1>-0.004876449 -0.131669909 0.991281629</localNormal1>
+        <localAxis1>-0.000647721 0.991293609 0.131668314</localAxis1>
+        <localAnchor1>0.0012317 0.033257365 -0.250379264</localAnchor1>
+        <maxForce>FLT_MAX</maxForce>
+        <maxTorque>FLT_MAX</maxTorque>
+        <NxJointFlag id="jointFlags">
+          <NX_JF_COLLISION_ENABLED>false</NX_JF_COLLISION_ENABLED>
+          <NX_JF_VISUALIZATION>true</NX_JF_VISUALIZATION>
+        </NxJointFlag>
+        <planeLimitPoint>0 0 0</planeLimitPoint>
+        <onActor2>false</onActor2>
+      </NxJointDesc>
+      <xMotion>NX_D6JOINT_MOTION_LOCKED</xMotion>
+      <yMotion>NX_D6JOINT_MOTION_LOCKED</yMotion>
+      <zMotion>NX_D6JOINT_MOTION_LOCKED</zMotion>
+      <swing1Motion>NX_D6JOINT_MOTION_LIMITED</swing1Motion>
+      <swing2Motion>NX_D6JOINT_MOTION_LIMITED</swing2Motion>
+      <twistMotion>NX_D6JOINT_MOTION_LOCKED</twistMotion>
+      <NxJointLimitSoftDesc id="linearLimit">
+        <value>0</value>
+        <restitution>0</restitution>
+        <spring>0</spring>
+        <damping>0</damping>
+      </NxJointLimitSoftDesc>
+      <NxJointLimitSoftDesc id="swing1Limit">
+        <value>0.922038078</value>
+        <restitution>0</restitution>
+        <spring>0</spring>
+        <damping>0</damping>
+		   </NxJointLimitSoftDesc>
+      <NxJointLimitSoftDesc id="swing2Limit">
+        <value>0.922038078</value>
+        <restitution>0</restitution>
+        <spring>0</spring>
+        <damping>0</damping>
+		   </NxJointLimitSoftDesc>
+          <NxJointDriveDesc id="xDrive">
+            <NxD6JointDriveType id="driveType">
+              <NX_D6JOINT_DRIVE_POSITION>true</NX_D6JOINT_DRIVE_POSITION>
+              <NX_D6JOINT_DRIVE_VELOCITY>false</NX_D6JOINT_DRIVE_VELOCITY>
+            </NxD6JointDriveType>
+            <spring>0</spring>
+            <damping>0</damping>
+            <forceLimit>FLT_MAX</forceLimit>
+          </NxJointDriveDesc>
+          <NxJointDriveDesc id="yDrive">
+            <NxD6JointDriveType id="driveType">
+              <NX_D6JOINT_DRIVE_POSITION>true</NX_D6JOINT_DRIVE_POSITION>
+              <NX_D6JOINT_DRIVE_VELOCITY>false</NX_D6JOINT_DRIVE_VELOCITY>
+            </NxD6JointDriveType>
+            <spring>0</spring>
+            <damping>0</damping>
+            <forceLimit>FLT_MAX</forceLimit>
+          </NxJointDriveDesc>
+          <NxJointDriveDesc id="zDrive">
+            <NxD6JointDriveType id="driveType">
+              <NX_D6JOINT_DRIVE_POSITION>true</NX_D6JOINT_DRIVE_POSITION>
+              <NX_D6JOINT_DRIVE_VELOCITY>false</NX_D6JOINT_DRIVE_VELOCITY>
+            </NxD6JointDriveType>
+            <spring>0</spring>
+            <damping>0</damping>
+            <forceLimit>FLT_MAX</forceLimit>
+          </NxJointDriveDesc>
+          <NxJointDriveDesc id="slerpDrive">
+            <NxD6JointDriveType id="driveType">
+              <NX_D6JOINT_DRIVE_POSITION>true</NX_D6JOINT_DRIVE_POSITION>
+              <NX_D6JOINT_DRIVE_VELOCITY>false</NX_D6JOINT_DRIVE_VELOCITY>
+            </NxD6JointDriveType>
+            <spring>0</spring>
+            <damping>0</damping>
+            <forceLimit>FLT_MAX</forceLimit>
+          </NxJointDriveDesc>
+          <NxJointDriveDesc id="swingDrive">
+            <NxD6JointDriveType id="driveType">
+              <NX_D6JOINT_DRIVE_POSITION>true</NX_D6JOINT_DRIVE_POSITION>
+              <NX_D6JOINT_DRIVE_VELOCITY>false</NX_D6JOINT_DRIVE_VELOCITY>
+            </NxD6JointDriveType>
+            <spring>0</spring>
+            <damping>0.300000012</damping>
+            <forceLimit>FLT_MAX</forceLimit>
+          </NxJointDriveDesc>
+          <NxJointDriveDesc id="twistDrive">
+            <NxD6JointDriveType id="driveType">
+              <NX_D6JOINT_DRIVE_POSITION>true</NX_D6JOINT_DRIVE_POSITION>
+              <NX_D6JOINT_DRIVE_VELOCITY>false</NX_D6JOINT_DRIVE_VELOCITY>
+            </NxD6JointDriveType>
+            <spring>0</spring>
+            <damping>0</damping>
+            <forceLimit>FLT_MAX</forceLimit>
+          </NxJointDriveDesc>
+          <drivePosition>0 0 0</drivePosition>
+          <driveOrientation>0 0 0 1</driveOrientation>
+          <driveLinearVelocity>0 0 0</driveLinearVelocity>
+          <driveAngularVelocity>0 0 0</driveAngularVelocity>
+      <projectionMode>NX_JPM_NONE</projectionMode>
+      <projectionDistance>0.02</projectionDistance>
+      <projectionAngle>0.087264627</projectionAngle>
+          <gearRatio>1</gearRatio>
+          <NxD6JointFlag id="flags">
+            <NX_D6JOINT_SLERP_DRIVE>false</NX_D6JOINT_SLERP_DRIVE>
+            <NX_D6JOINT_GEAR_ENABLED>false</NX_D6JOINT_GEAR_ENABLED>
+          </NxD6JointFlag>
+    </NxD6JointDesc>
+    <NxD6JointDesc>
+      <NxJointDesc id="C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_1" userProperties="" name="C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_1">
+        <actor0>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_2</actor0>
+        <actor1>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_1</actor1>
+        <localNormal0>0.067154482 -0.97519666 -0.210907072</localNormal0>
+        <localAxis0>0.29587397 0.221340284 -0.929229319</localAxis0>
+        <localAnchor0>-0.004632011 -0.07800144 -0.216030598</localAnchor0>
+        <localNormal1>0.067154482 -0.97519666 -0.210907072</localNormal1>
+        <localAxis1>0.29587397 0.221340284 -0.929229319</localAxis1>
+        <localAnchor1>-0.015825525 0.229813397 0.049702048</localAnchor1>
+        <maxForce>FLT_MAX</maxForce>
+        <maxTorque>FLT_MAX</maxTorque>
+        <NxJointFlag id="jointFlags">
+          <NX_JF_COLLISION_ENABLED>false</NX_JF_COLLISION_ENABLED>
+          <NX_JF_VISUALIZATION>true</NX_JF_VISUALIZATION>
+        </NxJointFlag>
+        <planeLimitPoint>0 0 0</planeLimitPoint>
+        <onActor2>false</onActor2>
+      </NxJointDesc>
+      <xMotion>NX_D6JOINT_MOTION_LOCKED</xMotion>
+      <yMotion>NX_D6JOINT_MOTION_LOCKED</yMotion>
+      <zMotion>NX_D6JOINT_MOTION_LOCKED</zMotion>
+      <swing1Motion>NX_D6JOINT_MOTION_LIMITED</swing1Motion>
+      <swing2Motion>NX_D6JOINT_MOTION_LIMITED</swing2Motion>
+      <twistMotion>NX_D6JOINT_MOTION_LOCKED</twistMotion>
+      <NxJointLimitSoftDesc id="linearLimit">
+        <value>0</value>
+        <restitution>0</restitution>
+        <spring>0</spring>
+        <damping>0</damping>
+      </NxJointLimitSoftDesc>
+      <NxJointLimitSoftDesc id="swing1Limit">
+        <value>0.922038078</value>
+        <restitution>0</restitution>
+        <spring>0</spring>
+        <damping>0</damping>
+		   </NxJointLimitSoftDesc>
+      <NxJointLimitSoftDesc id="swing2Limit">
+        <value>0.922038078</value>
+        <restitution>0</restitution>
+        <spring>0</spring>
+        <damping>0</damping>
+		   </NxJointLimitSoftDesc>
+          <NxJointDriveDesc id="xDrive">
+            <NxD6JointDriveType id="driveType">
+              <NX_D6JOINT_DRIVE_POSITION>true</NX_D6JOINT_DRIVE_POSITION>
+              <NX_D6JOINT_DRIVE_VELOCITY>false</NX_D6JOINT_DRIVE_VELOCITY>
+            </NxD6JointDriveType>
+            <spring>0</spring>
+            <damping>0</damping>
+            <forceLimit>FLT_MAX</forceLimit>
+          </NxJointDriveDesc>
+          <NxJointDriveDesc id="yDrive">
+            <NxD6JointDriveType id="driveType">
+              <NX_D6JOINT_DRIVE_POSITION>true</NX_D6JOINT_DRIVE_POSITION>
+              <NX_D6JOINT_DRIVE_VELOCITY>false</NX_D6JOINT_DRIVE_VELOCITY>
+            </NxD6JointDriveType>
+            <spring>0</spring>
+            <damping>0</damping>
+            <forceLimit>FLT_MAX</forceLimit>
+          </NxJointDriveDesc>
+          <NxJointDriveDesc id="zDrive">
+            <NxD6JointDriveType id="driveType">
+              <NX_D6JOINT_DRIVE_POSITION>true</NX_D6JOINT_DRIVE_POSITION>
+              <NX_D6JOINT_DRIVE_VELOCITY>false</NX_D6JOINT_DRIVE_VELOCITY>
+            </NxD6JointDriveType>
+            <spring>0</spring>
+            <damping>0</damping>
+            <forceLimit>FLT_MAX</forceLimit>
+          </NxJointDriveDesc>
+          <NxJointDriveDesc id="slerpDrive">
+            <NxD6JointDriveType id="driveType">
+              <NX_D6JOINT_DRIVE_POSITION>true</NX_D6JOINT_DRIVE_POSITION>
+              <NX_D6JOINT_DRIVE_VELOCITY>false</NX_D6JOINT_DRIVE_VELOCITY>
+            </NxD6JointDriveType>
+            <spring>0</spring>
+            <damping>0</damping>
+            <forceLimit>FLT_MAX</forceLimit>
+          </NxJointDriveDesc>
+          <NxJointDriveDesc id="swingDrive">
+            <NxD6JointDriveType id="driveType">
+              <NX_D6JOINT_DRIVE_POSITION>true</NX_D6JOINT_DRIVE_POSITION>
+              <NX_D6JOINT_DRIVE_VELOCITY>false</NX_D6JOINT_DRIVE_VELOCITY>
+            </NxD6JointDriveType>
+            <spring>0</spring>
+            <damping>0.300000012</damping>
+            <forceLimit>FLT_MAX</forceLimit>
+          </NxJointDriveDesc>
+          <NxJointDriveDesc id="twistDrive">
+            <NxD6JointDriveType id="driveType">
+              <NX_D6JOINT_DRIVE_POSITION>true</NX_D6JOINT_DRIVE_POSITION>
+              <NX_D6JOINT_DRIVE_VELOCITY>false</NX_D6JOINT_DRIVE_VELOCITY>
+            </NxD6JointDriveType>
+            <spring>0</spring>
+            <damping>0</damping>
+            <forceLimit>FLT_MAX</forceLimit>
+          </NxJointDriveDesc>
+          <drivePosition>0 0 0</drivePosition>
+          <driveOrientation>0 0 0 1</driveOrientation>
+          <driveLinearVelocity>0 0 0</driveLinearVelocity>
+          <driveAngularVelocity>0 0 0</driveAngularVelocity>
+      <projectionMode>NX_JPM_NONE</projectionMode>
+      <projectionDistance>0.02</projectionDistance>
+      <projectionAngle>0.087264627</projectionAngle>
+          <gearRatio>1</gearRatio>
+          <NxD6JointFlag id="flags">
+            <NX_D6JOINT_SLERP_DRIVE>false</NX_D6JOINT_SLERP_DRIVE>
+            <NX_D6JOINT_GEAR_ENABLED>false</NX_D6JOINT_GEAR_ENABLED>
+          </NxD6JointFlag>
+    </NxD6JointDesc>
+    <NxD6JointDesc>
+      <NxJointDesc id="C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_6" userProperties="" name="C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_6">
+        <actor0>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_4</actor0>
+        <actor1>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_6</actor1>
+        <localNormal0>0 -0.309895694 0.950770497</localNormal0>
+        <localAxis0>0 0.950770617 0.309895724</localAxis0>
+        <localAnchor0>0.000485212 -0.021720171 0.238809943</localAnchor0>
+        <localNormal1>0 -0.309895694 0.950770497</localNormal1>
+        <localAxis1>0 0.950770617 0.309895724</localAxis1>
+        <localAnchor1>0 0.107370973 -0.329417765</localAnchor1>
+        <maxForce>FLT_MAX</maxForce>
+        <maxTorque>FLT_MAX</maxTorque>
+        <NxJointFlag id="jointFlags">
+          <NX_JF_COLLISION_ENABLED>false</NX_JF_COLLISION_ENABLED>
+          <NX_JF_VISUALIZATION>true</NX_JF_VISUALIZATION>
+        </NxJointFlag>
+        <planeLimitPoint>0 0 0</planeLimitPoint>
+        <onActor2>false</onActor2>
+      </NxJointDesc>
+      <xMotion>NX_D6JOINT_MOTION_LOCKED</xMotion>
+      <yMotion>NX_D6JOINT_MOTION_LOCKED</yMotion>
+      <zMotion>NX_D6JOINT_MOTION_LOCKED</zMotion>
+      <swing1Motion>NX_D6JOINT_MOTION_LIMITED</swing1Motion>
+      <swing2Motion>NX_D6JOINT_MOTION_LIMITED</swing2Motion>
+      <twistMotion>NX_D6JOINT_MOTION_LOCKED</twistMotion>
+      <NxJointLimitSoftDesc id="linearLimit">
+        <value>0</value>
+        <restitution>0</restitution>
+        <spring>0</spring>
+        <damping>0</damping>
+      </NxJointLimitSoftDesc>
+      <NxJointLimitSoftDesc id="swing1Limit">
+        <value>0.922038078</value>
+        <restitution>0</restitution>
+        <spring>0</spring>
+        <damping>0</damping>
+		   </NxJointLimitSoftDesc>
+      <NxJointLimitSoftDesc id="swing2Limit">
+        <value>0.922038078</value>
+        <restitution>0</restitution>
+        <spring>0</spring>
+        <damping>0</damping>
+		   </NxJointLimitSoftDesc>
+          <NxJointDriveDesc id="xDrive">
+            <NxD6JointDriveType id="driveType">
+              <NX_D6JOINT_DRIVE_POSITION>true</NX_D6JOINT_DRIVE_POSITION>
+              <NX_D6JOINT_DRIVE_VELOCITY>false</NX_D6JOINT_DRIVE_VELOCITY>
+            </NxD6JointDriveType>
+            <spring>0</spring>
+            <damping>0</damping>
+            <forceLimit>FLT_MAX</forceLimit>
+          </NxJointDriveDesc>
+          <NxJointDriveDesc id="yDrive">
+            <NxD6JointDriveType id="driveType">
+              <NX_D6JOINT_DRIVE_POSITION>true</NX_D6JOINT_DRIVE_POSITION>
+              <NX_D6JOINT_DRIVE_VELOCITY>false</NX_D6JOINT_DRIVE_VELOCITY>
+            </NxD6JointDriveType>
+            <spring>0</spring>
+            <damping>0</damping>
+            <forceLimit>FLT_MAX</forceLimit>
+          </NxJointDriveDesc>
+          <NxJointDriveDesc id="zDrive">
+            <NxD6JointDriveType id="driveType">
+              <NX_D6JOINT_DRIVE_POSITION>true</NX_D6JOINT_DRIVE_POSITION>
+              <NX_D6JOINT_DRIVE_VELOCITY>false</NX_D6JOINT_DRIVE_VELOCITY>
+            </NxD6JointDriveType>
+            <spring>0</spring>
+            <damping>0</damping>
+            <forceLimit>FLT_MAX</forceLimit>
+          </NxJointDriveDesc>
+          <NxJointDriveDesc id="slerpDrive">
+            <NxD6JointDriveType id="driveType">
+              <NX_D6JOINT_DRIVE_POSITION>true</NX_D6JOINT_DRIVE_POSITION>
+              <NX_D6JOINT_DRIVE_VELOCITY>false</NX_D6JOINT_DRIVE_VELOCITY>
+            </NxD6JointDriveType>
+            <spring>0</spring>
+            <damping>0</damping>
+            <forceLimit>FLT_MAX</forceLimit>
+          </NxJointDriveDesc>
+          <NxJointDriveDesc id="swingDrive">
+            <NxD6JointDriveType id="driveType">
+              <NX_D6JOINT_DRIVE_POSITION>true</NX_D6JOINT_DRIVE_POSITION>
+              <NX_D6JOINT_DRIVE_VELOCITY>false</NX_D6JOINT_DRIVE_VELOCITY>
+            </NxD6JointDriveType>
+            <spring>0</spring>
+            <damping>0.300000012</damping>
+            <forceLimit>FLT_MAX</forceLimit>
+          </NxJointDriveDesc>
+          <NxJointDriveDesc id="twistDrive">
+            <NxD6JointDriveType id="driveType">
+              <NX_D6JOINT_DRIVE_POSITION>true</NX_D6JOINT_DRIVE_POSITION>
+              <NX_D6JOINT_DRIVE_VELOCITY>false</NX_D6JOINT_DRIVE_VELOCITY>
+            </NxD6JointDriveType>
+            <spring>0</spring>
+            <damping>0</damping>
+            <forceLimit>FLT_MAX</forceLimit>
+          </NxJointDriveDesc>
+          <drivePosition>0 0 0</drivePosition>
+          <driveOrientation>0 0 0 1</driveOrientation>
+          <driveLinearVelocity>0 0 0</driveLinearVelocity>
+          <driveAngularVelocity>0 0 0</driveAngularVelocity>
+      <projectionMode>NX_JPM_NONE</projectionMode>
+      <projectionDistance>0.02</projectionDistance>
+      <projectionAngle>0.087264627</projectionAngle>
+          <gearRatio>1</gearRatio>
+          <NxD6JointFlag id="flags">
+            <NX_D6JOINT_SLERP_DRIVE>false</NX_D6JOINT_SLERP_DRIVE>
+            <NX_D6JOINT_GEAR_ENABLED>false</NX_D6JOINT_GEAR_ENABLED>
+          </NxD6JointFlag>
+    </NxD6JointDesc>
+    <NxD6JointDesc>
+      <NxJointDesc id="C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_3" userProperties="" name="C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_3">
+        <actor0>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_6</actor0>
+        <actor1>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_3</actor1>
+        <localNormal0>0.007220987 -0.72053057 0.693385661</localNormal0>
+        <localAxis0>0.007503269 0.693423271 0.720491469</localAxis0>
+        <localAnchor0>-0.000047624 -0.31872952 0.089175045</localAnchor0>
+        <localNormal1>0.007220987 -0.72053057 0.693385661</localNormal1>
+        <localAxis1>0.007503269 0.693423271 0.720491469</localAxis1>
+        <localAnchor1>-0.002625391 0.26196894 -0.252099663</localAnchor1>
+        <maxForce>FLT_MAX</maxForce>
+        <maxTorque>FLT_MAX</maxTorque>
+        <NxJointFlag id="jointFlags">
+          <NX_JF_COLLISION_ENABLED>false</NX_JF_COLLISION_ENABLED>
+          <NX_JF_VISUALIZATION>true</NX_JF_VISUALIZATION>
+        </NxJointFlag>
+        <planeLimitPoint>0 0 0</planeLimitPoint>
+        <onActor2>false</onActor2>
+      </NxJointDesc>
+      <xMotion>NX_D6JOINT_MOTION_LOCKED</xMotion>
+      <yMotion>NX_D6JOINT_MOTION_LOCKED</yMotion>
+      <zMotion>NX_D6JOINT_MOTION_LOCKED</zMotion>
+      <swing1Motion>NX_D6JOINT_MOTION_LIMITED</swing1Motion>
+      <swing2Motion>NX_D6JOINT_MOTION_LIMITED</swing2Motion>
+      <twistMotion>NX_D6JOINT_MOTION_LOCKED</twistMotion>
+      <NxJointLimitSoftDesc id="linearLimit">
+        <value>0</value>
+        <restitution>0</restitution>
+        <spring>0</spring>
+        <damping>0</damping>
+      </NxJointLimitSoftDesc>
+      <NxJointLimitSoftDesc id="swing1Limit">
+        <value>0.922038078</value>
+        <restitution>0</restitution>
+        <spring>0</spring>
+        <damping>0</damping>
+		   </NxJointLimitSoftDesc>
+      <NxJointLimitSoftDesc id="swing2Limit">
+        <value>0.922038078</value>
+        <restitution>0</restitution>
+        <spring>0</spring>
+        <damping>0</damping>
+		   </NxJointLimitSoftDesc>
+          <NxJointDriveDesc id="xDrive">
+            <NxD6JointDriveType id="driveType">
+              <NX_D6JOINT_DRIVE_POSITION>true</NX_D6JOINT_DRIVE_POSITION>
+              <NX_D6JOINT_DRIVE_VELOCITY>false</NX_D6JOINT_DRIVE_VELOCITY>
+            </NxD6JointDriveType>
+            <spring>0</spring>
+            <damping>0</damping>
+            <forceLimit>FLT_MAX</forceLimit>
+          </NxJointDriveDesc>
+          <NxJointDriveDesc id="yDrive">
+            <NxD6JointDriveType id="driveType">
+              <NX_D6JOINT_DRIVE_POSITION>true</NX_D6JOINT_DRIVE_POSITION>
+              <NX_D6JOINT_DRIVE_VELOCITY>false</NX_D6JOINT_DRIVE_VELOCITY>
+            </NxD6JointDriveType>
+            <spring>0</spring>
+            <damping>0</damping>
+            <forceLimit>FLT_MAX</forceLimit>
+          </NxJointDriveDesc>
+          <NxJointDriveDesc id="zDrive">
+            <NxD6JointDriveType id="driveType">
+              <NX_D6JOINT_DRIVE_POSITION>true</NX_D6JOINT_DRIVE_POSITION>
+              <NX_D6JOINT_DRIVE_VELOCITY>false</NX_D6JOINT_DRIVE_VELOCITY>
+            </NxD6JointDriveType>
+            <spring>0</spring>
+            <damping>0</damping>
+            <forceLimit>FLT_MAX</forceLimit>
+          </NxJointDriveDesc>
+          <NxJointDriveDesc id="slerpDrive">
+            <NxD6JointDriveType id="driveType">
+              <NX_D6JOINT_DRIVE_POSITION>true</NX_D6JOINT_DRIVE_POSITION>
+              <NX_D6JOINT_DRIVE_VELOCITY>false</NX_D6JOINT_DRIVE_VELOCITY>
+            </NxD6JointDriveType>
+            <spring>0</spring>
+            <damping>0</damping>
+            <forceLimit>FLT_MAX</forceLimit>
+          </NxJointDriveDesc>
+          <NxJointDriveDesc id="swingDrive">
+            <NxD6JointDriveType id="driveType">
+              <NX_D6JOINT_DRIVE_POSITION>true</NX_D6JOINT_DRIVE_POSITION>
+              <NX_D6JOINT_DRIVE_VELOCITY>false</NX_D6JOINT_DRIVE_VELOCITY>
+            </NxD6JointDriveType>
+            <spring>0</spring>
+            <damping>0.300000012</damping>
+            <forceLimit>FLT_MAX</forceLimit>
+          </NxJointDriveDesc>
+          <NxJointDriveDesc id="twistDrive">
+            <NxD6JointDriveType id="driveType">
+              <NX_D6JOINT_DRIVE_POSITION>true</NX_D6JOINT_DRIVE_POSITION>
+              <NX_D6JOINT_DRIVE_VELOCITY>false</NX_D6JOINT_DRIVE_VELOCITY>
+            </NxD6JointDriveType>
+            <spring>0</spring>
+            <damping>0</damping>
+            <forceLimit>FLT_MAX</forceLimit>
+          </NxJointDriveDesc>
+          <drivePosition>0 0 0</drivePosition>
+          <driveOrientation>0 0 0 1</driveOrientation>
+          <driveLinearVelocity>0 0 0</driveLinearVelocity>
+          <driveAngularVelocity>0 0 0</driveAngularVelocity>
+      <projectionMode>NX_JPM_NONE</projectionMode>
+      <projectionDistance>0.02</projectionDistance>
+      <projectionAngle>0.087264627</projectionAngle>
+          <gearRatio>1</gearRatio>
+          <NxD6JointFlag id="flags">
+            <NX_D6JOINT_SLERP_DRIVE>false</NX_D6JOINT_SLERP_DRIVE>
+            <NX_D6JOINT_GEAR_ENABLED>false</NX_D6JOINT_GEAR_ENABLED>
+          </NxD6JointFlag>
+    </NxD6JointDesc>
+    <NxD6JointDesc>
+      <NxJointDesc id="C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_5" userProperties="" name="C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_5">
+        <actor0>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_6</actor0>
+        <actor1>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_5</actor1>
+        <localNormal0>0.002431817 0.784485281 0.620142698</localNormal0>
+        <localAxis0>-0.003076243 0.620147467 -0.784479201</localAxis0>
+        <localAnchor0>-0.000497617 0.210904241 0.235258728</localAnchor0>
+        <localNormal1>0.002431817 0.784485281 0.620142698</localNormal1>
+        <localAxis1>-0.003076243 0.620147467 -0.784479201</localAxis1>
+        <localAnchor1>-0.000874899 -0.282235742 -0.223109901</localAnchor1>
+        <maxForce>FLT_MAX</maxForce>
+        <maxTorque>FLT_MAX</maxTorque>
+        <NxJointFlag id="jointFlags">
+          <NX_JF_COLLISION_ENABLED>false</NX_JF_COLLISION_ENABLED>
+          <NX_JF_VISUALIZATION>true</NX_JF_VISUALIZATION>
+        </NxJointFlag>
+        <planeLimitPoint>0 0 0</planeLimitPoint>
+        <onActor2>false</onActor2>
+      </NxJointDesc>
+      <xMotion>NX_D6JOINT_MOTION_LOCKED</xMotion>
+      <yMotion>NX_D6JOINT_MOTION_LOCKED</yMotion>
+      <zMotion>NX_D6JOINT_MOTION_LOCKED</zMotion>
+      <swing1Motion>NX_D6JOINT_MOTION_LIMITED</swing1Motion>
+      <swing2Motion>NX_D6JOINT_MOTION_LIMITED</swing2Motion>
+      <twistMotion>NX_D6JOINT_MOTION_LOCKED</twistMotion>
+      <NxJointLimitSoftDesc id="linearLimit">
+        <value>0</value>
+        <restitution>0</restitution>
+        <spring>0</spring>
+        <damping>0</damping>
+      </NxJointLimitSoftDesc>
+      <NxJointLimitSoftDesc id="swing1Limit">
+        <value>0.922038078</value>
+        <restitution>0</restitution>
+        <spring>0</spring>
+        <damping>0</damping>
+		   </NxJointLimitSoftDesc>
+      <NxJointLimitSoftDesc id="swing2Limit">
+        <value>0.922038078</value>
+        <restitution>0</restitution>
+        <spring>0</spring>
+        <damping>0</damping>
+		   </NxJointLimitSoftDesc>
+          <NxJointDriveDesc id="xDrive">
+            <NxD6JointDriveType id="driveType">
+              <NX_D6JOINT_DRIVE_POSITION>true</NX_D6JOINT_DRIVE_POSITION>
+              <NX_D6JOINT_DRIVE_VELOCITY>false</NX_D6JOINT_DRIVE_VELOCITY>
+            </NxD6JointDriveType>
+            <spring>0</spring>
+            <damping>0</damping>
+            <forceLimit>FLT_MAX</forceLimit>
+          </NxJointDriveDesc>
+          <NxJointDriveDesc id="yDrive">
+            <NxD6JointDriveType id="driveType">
+              <NX_D6JOINT_DRIVE_POSITION>true</NX_D6JOINT_DRIVE_POSITION>
+              <NX_D6JOINT_DRIVE_VELOCITY>false</NX_D6JOINT_DRIVE_VELOCITY>
+            </NxD6JointDriveType>
+            <spring>0</spring>
+            <damping>0</damping>
+            <forceLimit>FLT_MAX</forceLimit>
+          </NxJointDriveDesc>
+          <NxJointDriveDesc id="zDrive">
+            <NxD6JointDriveType id="driveType">
+              <NX_D6JOINT_DRIVE_POSITION>true</NX_D6JOINT_DRIVE_POSITION>
+              <NX_D6JOINT_DRIVE_VELOCITY>false</NX_D6JOINT_DRIVE_VELOCITY>
+            </NxD6JointDriveType>
+            <spring>0</spring>
+            <damping>0</damping>
+            <forceLimit>FLT_MAX</forceLimit>
+          </NxJointDriveDesc>
+          <NxJointDriveDesc id="slerpDrive">
+            <NxD6JointDriveType id="driveType">
+              <NX_D6JOINT_DRIVE_POSITION>true</NX_D6JOINT_DRIVE_POSITION>
+              <NX_D6JOINT_DRIVE_VELOCITY>false</NX_D6JOINT_DRIVE_VELOCITY>
+            </NxD6JointDriveType>
+            <spring>0</spring>
+            <damping>0</damping>
+            <forceLimit>FLT_MAX</forceLimit>
+          </NxJointDriveDesc>
+          <NxJointDriveDesc id="swingDrive">
+            <NxD6JointDriveType id="driveType">
+              <NX_D6JOINT_DRIVE_POSITION>true</NX_D6JOINT_DRIVE_POSITION>
+              <NX_D6JOINT_DRIVE_VELOCITY>false</NX_D6JOINT_DRIVE_VELOCITY>
+            </NxD6JointDriveType>
+            <spring>0</spring>
+            <damping>0.300000012</damping>
+            <forceLimit>FLT_MAX</forceLimit>
+          </NxJointDriveDesc>
+          <NxJointDriveDesc id="twistDrive">
+            <NxD6JointDriveType id="driveType">
+              <NX_D6JOINT_DRIVE_POSITION>true</NX_D6JOINT_DRIVE_POSITION>
+              <NX_D6JOINT_DRIVE_VELOCITY>false</NX_D6JOINT_DRIVE_VELOCITY>
+            </NxD6JointDriveType>
+            <spring>0</spring>
+            <damping>0</damping>
+            <forceLimit>FLT_MAX</forceLimit>
+          </NxJointDriveDesc>
+          <drivePosition>0 0 0</drivePosition>
+          <driveOrientation>0 0 0 1</driveOrientation>
+          <driveLinearVelocity>0 0 0</driveLinearVelocity>
+          <driveAngularVelocity>0 0 0</driveAngularVelocity>
+      <projectionMode>NX_JPM_NONE</projectionMode>
+      <projectionDistance>0.02</projectionDistance>
+      <projectionAngle>0.087264627</projectionAngle>
+          <gearRatio>1</gearRatio>
+          <NxD6JointFlag id="flags">
+            <NX_D6JOINT_SLERP_DRIVE>false</NX_D6JOINT_SLERP_DRIVE>
+            <NX_D6JOINT_GEAR_ENABLED>false</NX_D6JOINT_GEAR_ENABLED>
+          </NxD6JointFlag>
+    </NxD6JointDesc>
+    <NxD6JointDesc>
+      <NxJointDesc id="C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_0" userProperties="" name="C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_0">
+        <actor0>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_5</actor0>
+        <actor1>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_0</actor1>
+        <localNormal0>0 0.060471017 0.998169959</localNormal0>
+        <localAxis0>0 0.998169959 -0.060471017</localAxis0>
+        <localAnchor0>-0.000873372 -0.241595626 0.201080203</localAnchor0>
+        <localNormal1>0 0.060471017 0.998169959</localNormal1>
+        <localAxis1>0 0.998169959 -0.060471017</localAxis1>
+        <localAnchor1>0 -0.006083012 -0.100409746</localAnchor1>
+        <maxForce>FLT_MAX</maxForce>
+        <maxTorque>FLT_MAX</maxTorque>
+        <NxJointFlag id="jointFlags">
+          <NX_JF_COLLISION_ENABLED>false</NX_JF_COLLISION_ENABLED>
+          <NX_JF_VISUALIZATION>true</NX_JF_VISUALIZATION>
+        </NxJointFlag>
+        <planeLimitPoint>0 0 0</planeLimitPoint>
+        <onActor2>false</onActor2>
+      </NxJointDesc>
+      <xMotion>NX_D6JOINT_MOTION_LOCKED</xMotion>
+      <yMotion>NX_D6JOINT_MOTION_LOCKED</yMotion>
+      <zMotion>NX_D6JOINT_MOTION_LOCKED</zMotion>
+      <swing1Motion>NX_D6JOINT_MOTION_LIMITED</swing1Motion>
+      <swing2Motion>NX_D6JOINT_MOTION_LIMITED</swing2Motion>
+      <twistMotion>NX_D6JOINT_MOTION_LOCKED</twistMotion>
+      <NxJointLimitSoftDesc id="linearLimit">
+        <value>0</value>
+        <restitution>0</restitution>
+        <spring>0</spring>
+        <damping>0</damping>
+      </NxJointLimitSoftDesc>
+      <NxJointLimitSoftDesc id="swing1Limit">
+        <value>0.922038078</value>
+        <restitution>0</restitution>
+        <spring>0</spring>
+        <damping>0</damping>
+		   </NxJointLimitSoftDesc>
+      <NxJointLimitSoftDesc id="swing2Limit">
+        <value>0.922038078</value>
+        <restitution>0</restitution>
+        <spring>0</spring>
+        <damping>0</damping>
+		   </NxJointLimitSoftDesc>
+          <NxJointDriveDesc id="xDrive">
+            <NxD6JointDriveType id="driveType">
+              <NX_D6JOINT_DRIVE_POSITION>true</NX_D6JOINT_DRIVE_POSITION>
+              <NX_D6JOINT_DRIVE_VELOCITY>false</NX_D6JOINT_DRIVE_VELOCITY>
+            </NxD6JointDriveType>
+            <spring>0</spring>
+            <damping>0</damping>
+            <forceLimit>FLT_MAX</forceLimit>
+          </NxJointDriveDesc>
+          <NxJointDriveDesc id="yDrive">
+            <NxD6JointDriveType id="driveType">
+              <NX_D6JOINT_DRIVE_POSITION>true</NX_D6JOINT_DRIVE_POSITION>
+              <NX_D6JOINT_DRIVE_VELOCITY>false</NX_D6JOINT_DRIVE_VELOCITY>
+            </NxD6JointDriveType>
+            <spring>0</spring>
+            <damping>0</damping>
+            <forceLimit>FLT_MAX</forceLimit>
+          </NxJointDriveDesc>
+          <NxJointDriveDesc id="zDrive">
+            <NxD6JointDriveType id="driveType">
+              <NX_D6JOINT_DRIVE_POSITION>true</NX_D6JOINT_DRIVE_POSITION>
+              <NX_D6JOINT_DRIVE_VELOCITY>false</NX_D6JOINT_DRIVE_VELOCITY>
+            </NxD6JointDriveType>
+            <spring>0</spring>
+            <damping>0</damping>
+            <forceLimit>FLT_MAX</forceLimit>
+          </NxJointDriveDesc>
+          <NxJointDriveDesc id="slerpDrive">
+            <NxD6JointDriveType id="driveType">
+              <NX_D6JOINT_DRIVE_POSITION>true</NX_D6JOINT_DRIVE_POSITION>
+              <NX_D6JOINT_DRIVE_VELOCITY>false</NX_D6JOINT_DRIVE_VELOCITY>
+            </NxD6JointDriveType>
+            <spring>0</spring>
+            <damping>0</damping>
+            <forceLimit>FLT_MAX</forceLimit>
+          </NxJointDriveDesc>
+          <NxJointDriveDesc id="swingDrive">
+            <NxD6JointDriveType id="driveType">
+              <NX_D6JOINT_DRIVE_POSITION>true</NX_D6JOINT_DRIVE_POSITION>
+              <NX_D6JOINT_DRIVE_VELOCITY>false</NX_D6JOINT_DRIVE_VELOCITY>
+            </NxD6JointDriveType>
+            <spring>0</spring>
+            <damping>0.300000012</damping>
+            <forceLimit>FLT_MAX</forceLimit>
+          </NxJointDriveDesc>
+          <NxJointDriveDesc id="twistDrive">
+            <NxD6JointDriveType id="driveType">
+              <NX_D6JOINT_DRIVE_POSITION>true</NX_D6JOINT_DRIVE_POSITION>
+              <NX_D6JOINT_DRIVE_VELOCITY>false</NX_D6JOINT_DRIVE_VELOCITY>
+            </NxD6JointDriveType>
+            <spring>0</spring>
+            <damping>0</damping>
+            <forceLimit>FLT_MAX</forceLimit>
+          </NxJointDriveDesc>
+          <drivePosition>0 0 0</drivePosition>
+          <driveOrientation>0 0 0 1</driveOrientation>
+          <driveLinearVelocity>0 0 0</driveLinearVelocity>
+          <driveAngularVelocity>0 0 0</driveAngularVelocity>
+      <projectionMode>NX_JPM_NONE</projectionMode>
+      <projectionDistance>0.02</projectionDistance>
+      <projectionAngle>0.087264627</projectionAngle>
+          <gearRatio>1</gearRatio>
+          <NxD6JointFlag id="flags">
+            <NX_D6JOINT_SLERP_DRIVE>false</NX_D6JOINT_SLERP_DRIVE>
+            <NX_D6JOINT_GEAR_ENABLED>false</NX_D6JOINT_GEAR_ENABLED>
+          </NxD6JointFlag>
+    </NxD6JointDesc>
+     <NxPairFlagDesc id="PairFlag_0" isActorPair="false">
+       <NxContactPairFlag id="mFlags">
+         <NX_IGNORE_PAIR>true</NX_IGNORE_PAIR>
+       </NxContactPairFlag>
+       <actor0>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_0</actor0>
+       <shapeIndex0>0</shapeIndex0>
+       <actor1>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_4</actor1>
+       <shapeIndex1>0</shapeIndex1>
+     </NxPairFlagDesc>
+     <NxPairFlagDesc id="PairFlag_1" isActorPair="false">
+       <NxContactPairFlag id="mFlags">
+         <NX_IGNORE_PAIR>true</NX_IGNORE_PAIR>
+       </NxContactPairFlag>
+       <actor0>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_0</actor0>
+       <shapeIndex0>0</shapeIndex0>
+       <actor1>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_6</actor1>
+       <shapeIndex1>0</shapeIndex1>
+     </NxPairFlagDesc>
+     <NxPairFlagDesc id="PairFlag_2" isActorPair="false">
+       <NxContactPairFlag id="mFlags">
+         <NX_IGNORE_PAIR>true</NX_IGNORE_PAIR>
+       </NxContactPairFlag>
+       <actor0>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_0</actor0>
+       <shapeIndex0>0</shapeIndex0>
+       <actor1>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_7</actor1>
+       <shapeIndex1>0</shapeIndex1>
+     </NxPairFlagDesc>
+     <NxPairFlagDesc id="PairFlag_3" isActorPair="false">
+       <NxContactPairFlag id="mFlags">
+         <NX_IGNORE_PAIR>true</NX_IGNORE_PAIR>
+       </NxContactPairFlag>
+       <actor0>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_1</actor0>
+       <shapeIndex0>0</shapeIndex0>
+       <actor1>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_7</actor1>
+       <shapeIndex1>0</shapeIndex1>
+     </NxPairFlagDesc>
+     <NxPairFlagDesc id="PairFlag_4" isActorPair="false">
+       <NxContactPairFlag id="mFlags">
+         <NX_IGNORE_PAIR>true</NX_IGNORE_PAIR>
+       </NxContactPairFlag>
+       <actor0>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_3</actor0>
+       <shapeIndex0>0</shapeIndex0>
+       <actor1>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_4</actor1>
+       <shapeIndex1>0</shapeIndex1>
+     </NxPairFlagDesc>
+     <NxPairFlagDesc id="PairFlag_5" isActorPair="false">
+       <NxContactPairFlag id="mFlags">
+         <NX_IGNORE_PAIR>true</NX_IGNORE_PAIR>
+       </NxContactPairFlag>
+       <actor0>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_3</actor0>
+       <shapeIndex0>0</shapeIndex0>
+       <actor1>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_7</actor1>
+       <shapeIndex1>0</shapeIndex1>
+     </NxPairFlagDesc>
+     <NxPairFlagDesc id="PairFlag_6" isActorPair="false">
+       <NxContactPairFlag id="mFlags">
+         <NX_IGNORE_PAIR>true</NX_IGNORE_PAIR>
+       </NxContactPairFlag>
+       <actor0>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_4</actor0>
+       <shapeIndex0>0</shapeIndex0>
+       <actor1>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_0</actor1>
+       <shapeIndex1>0</shapeIndex1>
+     </NxPairFlagDesc>
+     <NxPairFlagDesc id="PairFlag_7" isActorPair="false">
+       <NxContactPairFlag id="mFlags">
+         <NX_IGNORE_PAIR>true</NX_IGNORE_PAIR>
+       </NxContactPairFlag>
+       <actor0>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_4</actor0>
+       <shapeIndex0>0</shapeIndex0>
+       <actor1>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_3</actor1>
+       <shapeIndex1>0</shapeIndex1>
+     </NxPairFlagDesc>
+     <NxPairFlagDesc id="PairFlag_8" isActorPair="false">
+       <NxContactPairFlag id="mFlags">
+         <NX_IGNORE_PAIR>true</NX_IGNORE_PAIR>
+       </NxContactPairFlag>
+       <actor0>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_4</actor0>
+       <shapeIndex0>0</shapeIndex0>
+       <actor1>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_5</actor1>
+       <shapeIndex1>0</shapeIndex1>
+     </NxPairFlagDesc>
+     <NxPairFlagDesc id="PairFlag_9" isActorPair="false">
+       <NxContactPairFlag id="mFlags">
+         <NX_IGNORE_PAIR>true</NX_IGNORE_PAIR>
+       </NxContactPairFlag>
+       <actor0>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_5</actor0>
+       <shapeIndex0>0</shapeIndex0>
+       <actor1>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_4</actor1>
+       <shapeIndex1>0</shapeIndex1>
+     </NxPairFlagDesc>
+     <NxPairFlagDesc id="PairFlag_10" isActorPair="false">
+       <NxContactPairFlag id="mFlags">
+         <NX_IGNORE_PAIR>true</NX_IGNORE_PAIR>
+       </NxContactPairFlag>
+       <actor0>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_5</actor0>
+       <shapeIndex0>0</shapeIndex0>
+       <actor1>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_7</actor1>
+       <shapeIndex1>0</shapeIndex1>
+     </NxPairFlagDesc>
+     <NxPairFlagDesc id="PairFlag_11" isActorPair="false">
+       <NxContactPairFlag id="mFlags">
+         <NX_IGNORE_PAIR>true</NX_IGNORE_PAIR>
+       </NxContactPairFlag>
+       <actor0>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_6</actor0>
+       <shapeIndex0>0</shapeIndex0>
+       <actor1>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_0</actor1>
+       <shapeIndex1>0</shapeIndex1>
+     </NxPairFlagDesc>
+     <NxPairFlagDesc id="PairFlag_12" isActorPair="false">
+       <NxContactPairFlag id="mFlags">
+         <NX_IGNORE_PAIR>true</NX_IGNORE_PAIR>
+       </NxContactPairFlag>
+       <actor0>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_6</actor0>
+       <shapeIndex0>0</shapeIndex0>
+       <actor1>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_7</actor1>
+       <shapeIndex1>0</shapeIndex1>
+     </NxPairFlagDesc>
+     <NxPairFlagDesc id="PairFlag_13" isActorPair="false">
+       <NxContactPairFlag id="mFlags">
+         <NX_IGNORE_PAIR>true</NX_IGNORE_PAIR>
+       </NxContactPairFlag>
+       <actor0>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_7</actor0>
+       <shapeIndex0>0</shapeIndex0>
+       <actor1>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_0</actor1>
+       <shapeIndex1>0</shapeIndex1>
+     </NxPairFlagDesc>
+     <NxPairFlagDesc id="PairFlag_14" isActorPair="false">
+       <NxContactPairFlag id="mFlags">
+         <NX_IGNORE_PAIR>true</NX_IGNORE_PAIR>
+       </NxContactPairFlag>
+       <actor0>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_7</actor0>
+       <shapeIndex0>0</shapeIndex0>
+       <actor1>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_1</actor1>
+       <shapeIndex1>0</shapeIndex1>
+     </NxPairFlagDesc>
+     <NxPairFlagDesc id="PairFlag_15" isActorPair="false">
+       <NxContactPairFlag id="mFlags">
+         <NX_IGNORE_PAIR>true</NX_IGNORE_PAIR>
+       </NxContactPairFlag>
+       <actor0>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_7</actor0>
+       <shapeIndex0>0</shapeIndex0>
+       <actor1>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_3</actor1>
+       <shapeIndex1>0</shapeIndex1>
+     </NxPairFlagDesc>
+     <NxPairFlagDesc id="PairFlag_16" isActorPair="false">
+       <NxContactPairFlag id="mFlags">
+         <NX_IGNORE_PAIR>true</NX_IGNORE_PAIR>
+       </NxContactPairFlag>
+       <actor0>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_7</actor0>
+       <shapeIndex0>0</shapeIndex0>
+       <actor1>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_5</actor1>
+       <shapeIndex1>0</shapeIndex1>
+     </NxPairFlagDesc>
+     <NxPairFlagDesc id="PairFlag_17" isActorPair="false">
+       <NxContactPairFlag id="mFlags">
+         <NX_IGNORE_PAIR>true</NX_IGNORE_PAIR>
+       </NxContactPairFlag>
+       <actor0>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_7</actor0>
+       <shapeIndex0>0</shapeIndex0>
+       <actor1>C:\p4\release\PhysX_2.7.0\novodex\Samples\PhysXViewer\media\deer_bound.obj_6</actor1>
+       <shapeIndex1>0</shapeIndex1>
+     </NxPairFlagDesc>
+  </NxSceneDesc>
+	 <NxSceneInstance id="deer_bound">
+	 	 <sceneName>deer_bound</sceneName>
+	 	 <NxuUserProperties></NxuUserProperties>
+	 	 <rootNode>1	0	0	0	1	0	0	0	1	0	0 0</rootNode>
+	 	 <newScene>false</newScene>
+	 	 <ignorePlane>true</ignorePlane>
+	 	 <numSceneInstances>0</numSceneInstances>
+	 </NxSceneInstance>
+  </NxuPhysicsCollection>
+</NXUSTREAM2>

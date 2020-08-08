@@ -1,0 +1,12 @@
+LIBRARY SUNLIGHT.dlo
+EXPORTS
+   LibDescription    @1    PRIVATE
+   LibNumberClasses  @2    PRIVATE
+   LibClassDesc      @3    PRIVATE
+   LibVersion        @4    PRIVATE
+   GetSunTime        @5
+   GetSunLoc         @6
+
+SECTIONS
+   .data READ WRITE
+

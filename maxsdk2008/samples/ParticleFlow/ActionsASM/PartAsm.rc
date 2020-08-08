@@ -1,0 +1,1674 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "#include ""veroverrides.h""\r\n"
+    "#include ""maxversion.r""\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_DISPLAY_ACTIVEICON  BITMAP                  "Display_ActiveIcon.bmp"
+IDB_DISPLAY_DEPOTICON   BITMAP                  "Display_DepotIcon.bmp"
+IDB_DISPLAY_INACTIVEICON BITMAP                  "Display_InactiveIcon.bmp"
+IDB_DEPOTICONMASK_OPERATOR BITMAP                  "Operator_DepotIconMask.bmp"
+IDB_DEPOTICONMASK_TEST  BITMAP                  "Test_DepotIconMask.bmp"
+IDB_OPERATOR_INACTIVEICON BITMAP                  "ASMOperator_InactiveIcon.bmp"
+IDB_OPERATOR_DEPOTICON  BITMAP                  "ASMOperator_DepotIcon.bmp"
+IDB_OPERATOR_ACTIVEICON BITMAP                  "ASMOperator_ActiveIcon.bmp"
+IDB_TEST_TRUEICON       BITMAP                  "Test_TrueIcon.bmp"
+IDB_TEST_DEPOTICON      BITMAP                  "Test_DepotIcon.bmp"
+IDB_TEST_FALSEICON      BITMAP                  "Test_FalseIcon.bmp"
+IDB_TEST_ACTIVEICON     BITMAP                  "Test_ActiveIcon.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DISPLAY_PARAMETERS DIALOGEX 0, 0, 108, 439
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    RTEXT           "Type:",IDC_STATIC,9,20,19,8
+    COMBOBOX        IDC_DISPLAYVIEWPORT,29,18,74,110,CBS_DROPDOWNLIST | 
+                    CBS_DISABLENOSCROLL | WS_GROUP | WS_TABSTOP
+    RTEXT           "Visible %",IDC_STATIC,19,35,28,8
+    CONTROL         "",IDC_VISIBLEVIEWPORT,"CustEdit",WS_GROUP | WS_TABSTOP,
+                    51,34,40,10
+    CONTROL         "",IDC_VISIBLEVIEWPORTSPIN,"SpinnerControl",WS_GROUP,93,
+                    34,8,10
+    CONTROL         "Show Particle IDs",IDC_NUMBER,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,48,76,10
+    CONTROL         "",IDC_VIEWPORTCOLOR,"ColorSwatch",WS_GROUP | WS_TABSTOP,
+                    85,4,17,10,WS_EX_STATICEDGE
+    CONTROL         "Show Particle Data",IDC_DATA,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,59,76,10
+    COMBOBOX        IDC_DATATYPE,29,82,74,378,CBS_DROPDOWNLIST | 
+                    CBS_DISABLENOSCROLL | WS_GROUP | WS_TABSTOP
+    CONTROL         "Use Color Coding",IDC_USECOLORCODING,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,128,76,10
+    LTEXT           "Data:",IDC_TEXT_DATA,10,85,18,8
+    CONTROL         "",IDC_CHANNELNAME,"CustEdit",WS_GROUP | WS_TABSTOP,29,
+                    98,73,10
+    LTEXT           "Name:",IDC_TEXT_CUSTOMNAME,7,99,22,8
+    GROUPBOX        "Gradient For Float Values:",IDC_FRAME_GRADIENT,2,139,
+                    104,114
+    CONTROL         "",IDC_FVALUE1,"CustEdit",WS_GROUP | WS_TABSTOP,52,151,
+                    40,10
+    CONTROL         "",IDC_FVALUESPIN1,"SpinnerControl",WS_GROUP,94,151,8,10
+    CONTROL         "Linear",IDC_LINEAR,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,31,238,33,10
+    CONTROL         "Solid",IDC_SOLID,"Button",BS_AUTORADIOBUTTON,69,238,29,
+                    10
+    LTEXT           "Type:",IDC_TEXT_TYPE,9,239,19,8
+    CONTROL         "",IDC_COLOR1,"ColorSwatch",WS_GROUP | WS_TABSTOP,31,151,
+                    17,10,WS_EX_STATICEDGE
+    LTEXT           "#1",IDC_TEXT_NUM1,7,153,10,8
+    CONTROL         "",IDC_USE_NUM1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,19,
+                    153,9,8
+    CONTROL         "",IDC_FVALUE2,"CustEdit",WS_GROUP | WS_TABSTOP,52,163,
+                    40,10
+    CONTROL         "",IDC_FVALUESPIN2,"SpinnerControl",WS_GROUP,94,163,8,10
+    CONTROL         "",IDC_COLOR2,"ColorSwatch",WS_GROUP | WS_TABSTOP,31,163,
+                    17,10,WS_EX_STATICEDGE
+    LTEXT           "#2",IDC_TEXT_NUM2,7,165,10,8
+    CONTROL         "",IDC_USE_NUM2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,19,
+                    165,9,8
+    CONTROL         "",IDC_FVALUE3,"CustEdit",WS_GROUP | WS_TABSTOP,52,175,
+                    40,10
+    CONTROL         "",IDC_FVALUESPIN3,"SpinnerControl",WS_GROUP,94,175,8,10
+    CONTROL         "",IDC_COLOR3,"ColorSwatch",WS_GROUP | WS_TABSTOP,31,175,
+                    17,10,WS_EX_STATICEDGE
+    LTEXT           "#3",IDC_TEXT_NUM3,7,177,10,8
+    CONTROL         "",IDC_USE_NUM3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,19,
+                    177,9,8
+    CONTROL         "",IDC_FVALUE4,"CustEdit",WS_GROUP | WS_TABSTOP,52,187,
+                    40,10
+    CONTROL         "",IDC_FVALUESPIN4,"SpinnerControl",WS_GROUP,94,187,8,10
+    CONTROL         "",IDC_COLOR4,"ColorSwatch",WS_GROUP | WS_TABSTOP,31,187,
+                    17,10,WS_EX_STATICEDGE
+    LTEXT           "#4",IDC_TEXT_NUM4,7,189,10,8
+    CONTROL         "",IDC_USE_NUM4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,19,
+                    189,9,8
+    CONTROL         "",IDC_FVALUE5,"CustEdit",WS_GROUP | WS_TABSTOP,52,199,
+                    40,10
+    CONTROL         "",IDC_FVALUESPIN5,"SpinnerControl",WS_GROUP,94,199,8,10
+    CONTROL         "",IDC_COLOR5,"ColorSwatch",WS_GROUP | WS_TABSTOP,31,199,
+                    17,10,WS_EX_STATICEDGE
+    LTEXT           "#5",IDC_TEXT_NUM5,7,201,10,8
+    CONTROL         "",IDC_USE_NUM5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,19,
+                    201,9,8
+    CONTROL         "",IDC_FVALUE6,"CustEdit",WS_GROUP | WS_TABSTOP,52,211,
+                    40,10
+    CONTROL         "",IDC_FVALUESPIN6,"SpinnerControl",WS_GROUP,94,211,8,10
+    CONTROL         "",IDC_COLOR6,"ColorSwatch",WS_GROUP | WS_TABSTOP,31,211,
+                    17,10,WS_EX_STATICEDGE
+    LTEXT           "#6",IDC_TEXT_NUM6,7,213,10,8
+    CONTROL         "",IDC_USE_NUM6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,19,
+                    213,9,8
+    CONTROL         "",IDC_FVALUE7,"CustEdit",WS_GROUP | WS_TABSTOP,52,223,
+                    40,10
+    CONTROL         "",IDC_FVALUESPIN7,"SpinnerControl",WS_GROUP,94,223,8,10
+    CONTROL         "",IDC_COLOR7,"ColorSwatch",WS_GROUP | WS_TABSTOP,31,223,
+                    17,10,WS_EX_STATICEDGE
+    LTEXT           "#7",IDC_TEXT_NUM7,7,225,10,8
+    CONTROL         "",IDC_USE_NUM7,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,19,
+                    225,9,8
+    CONTROL         "Show Particles",IDC_SHOWPARTICLES,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,5,62,10
+    GROUPBOX        "RGB For Vector Values:",IDC_FRAME_VECTOR,2,255,104,125
+    LTEXT           "R:",IDC_TEXT_R,8,266,8,8
+    CONTROL         "X",IDC_R_X,"Button",BS_AUTORADIOBUTTON | WS_GROUP | 
+                    WS_TABSTOP,23,266,21,10
+    CONTROL         "Y",IDC_R_Y,"Button",BS_AUTORADIOBUTTON,49,266,21,10
+    CONTROL         "Z",IDC_R_Z,"Button",BS_AUTORADIOBUTTON,76,266,21,10
+    CONTROL         "",IDC_RFMIN,"CustEdit",WS_GROUP | WS_TABSTOP,52,278,40,
+                    10
+    CONTROL         "",IDC_RFMINSPIN,"SpinnerControl",WS_GROUP,94,278,8,10
+    CONTROL         "",IDC_RFMAX,"CustEdit",WS_GROUP | WS_TABSTOP,52,290,40,
+                    10
+    CONTROL         "",IDC_RFMAXSPIN,"SpinnerControl",WS_GROUP,94,290,8,10
+    LTEXT           "Min:",IDC_TEXT_RMIN,36,279,14,8
+    LTEXT           "Max:",IDC_TEXT_RMAX,34,290,16,8
+    LTEXT           "G:",IDC_TEXT_G,8,304,8,8
+    CONTROL         "X",IDC_G_X,"Button",BS_AUTORADIOBUTTON | WS_GROUP | 
+                    WS_TABSTOP,23,304,21,10
+    CONTROL         "Y",IDC_G_Y,"Button",BS_AUTORADIOBUTTON,49,304,21,10
+    CONTROL         "Z",IDC_G_Z,"Button",BS_AUTORADIOBUTTON,76,304,21,10
+    CONTROL         "",IDC_GFMIN,"CustEdit",WS_GROUP | WS_TABSTOP,52,316,40,
+                    10
+    CONTROL         "",IDC_GFMINSPIN,"SpinnerControl",WS_GROUP,94,316,8,10
+    CONTROL         "",IDC_GFMAX,"CustEdit",WS_GROUP | WS_TABSTOP,52,328,40,
+                    10
+    CONTROL         "",IDC_GFMAXSPIN,"SpinnerControl",WS_GROUP,94,328,8,10
+    LTEXT           "Min:",IDC_TEXT_GMIN,36,317,14,8
+    LTEXT           "Max:",IDC_TEXT_GMAX,34,328,16,8
+    LTEXT           "B:",IDC_TEXT_B,8,342,8,8
+    CONTROL         "X",IDC_B_X,"Button",BS_AUTORADIOBUTTON | WS_GROUP | 
+                    WS_TABSTOP,23,342,21,10
+    CONTROL         "Y",IDC_B_Y,"Button",BS_AUTORADIOBUTTON,49,342,21,10
+    CONTROL         "Z",IDC_B_Z,"Button",BS_AUTORADIOBUTTON,76,342,21,10
+    CONTROL         "",IDC_BFMIN,"CustEdit",WS_GROUP | WS_TABSTOP,52,353,40,
+                    10
+    CONTROL         "",IDC_BFMINSPIN,"SpinnerControl",WS_GROUP,94,353,8,10
+    CONTROL         "",IDC_BFMAX,"CustEdit",WS_GROUP | WS_TABSTOP,52,365,40,
+                    10
+    CONTROL         "",IDC_BFMAXSPIN,"SpinnerControl",WS_GROUP,94,365,8,10
+    LTEXT           "Min:",IDC_TEXT_BMIN,36,355,14,8
+    LTEXT           "Max:",IDC_TEXT_BMAX,34,366,16,8
+    CONTROL         "",IDC_TVALUE1,"CustEdit",WS_GROUP | WS_TABSTOP,52,151,
+                    40,10
+    CONTROL         "",IDC_TVALUESPIN1,"SpinnerControl",WS_GROUP,94,151,8,10
+    CONTROL         "",IDC_TVALUE2,"CustEdit",WS_GROUP | WS_TABSTOP,52,163,
+                    40,10
+    CONTROL         "",IDC_TVALUESPIN2,"SpinnerControl",WS_GROUP,94,163,8,10
+    CONTROL         "",IDC_TVALUE3,"CustEdit",WS_GROUP | WS_TABSTOP,52,175,
+                    40,10
+    CONTROL         "",IDC_TVALUESPIN3,"SpinnerControl",WS_GROUP,94,175,8,10
+    CONTROL         "",IDC_TVALUE4,"CustEdit",WS_GROUP | WS_TABSTOP,52,187,
+                    40,10
+    CONTROL         "",IDC_TVALUESPIN4,"SpinnerControl",WS_GROUP,94,187,8,10
+    CONTROL         "",IDC_TVALUE5,"CustEdit",WS_GROUP | WS_TABSTOP,52,199,
+                    40,10
+    CONTROL         "",IDC_TVALUESPIN5,"SpinnerControl",WS_GROUP,94,199,8,10
+    CONTROL         "",IDC_TVALUE6,"CustEdit",WS_GROUP | WS_TABSTOP,52,211,
+                    40,10
+    CONTROL         "",IDC_TVALUESPIN6,"SpinnerControl",WS_GROUP,94,211,8,10
+    CONTROL         "",IDC_TVALUE7,"CustEdit",WS_GROUP | WS_TABSTOP,52,223,
+                    40,10
+    CONTROL         "",IDC_TVALUESPIN7,"SpinnerControl",WS_GROUP,94,223,8,10
+    COMBOBOX        IDC_CUSTOMTYPE,29,111,74,145,CBS_DROPDOWNLIST | 
+                    CBS_DISABLENOSCROLL | WS_GROUP | WS_TABSTOP
+    LTEXT           "Type:",IDC_TEXT_CUSTOMTYPE,9,114,19,8
+    LTEXT           "False Value",IDC_FALSEVALUE_TEXT,58,153,38,8
+    LTEXT           "True Value",IDC_TRUEVALUE_TEXT,57,165,36,8
+    CONTROL         "",IDC_IVALUE1,"CustEdit",WS_GROUP | WS_TABSTOP,52,151,
+                    40,10
+    CONTROL         "",IDC_IVALUESPIN1,"SpinnerControl",WS_GROUP,94,151,8,10
+    CONTROL         "",IDC_IVALUE2,"CustEdit",WS_GROUP | WS_TABSTOP,52,163,
+                    40,10
+    CONTROL         "",IDC_IVALUESPIN2,"SpinnerControl",WS_GROUP,94,163,8,10
+    CONTROL         "",IDC_IVALUE3,"CustEdit",WS_GROUP | WS_TABSTOP,52,175,
+                    40,10
+    CONTROL         "",IDC_IVALUESPIN3,"SpinnerControl",WS_GROUP,94,175,8,10
+    CONTROL         "",IDC_IVALUE4,"CustEdit",WS_GROUP | WS_TABSTOP,52,187,
+                    40,10
+    CONTROL         "",IDC_IVALUESPIN4,"SpinnerControl",WS_GROUP,94,187,8,10
+    CONTROL         "",IDC_IVALUE5,"CustEdit",WS_GROUP | WS_TABSTOP,52,199,
+                    40,10
+    CONTROL         "",IDC_IVALUESPIN5,"SpinnerControl",WS_GROUP,94,199,8,10
+    CONTROL         "",IDC_IVALUE6,"CustEdit",WS_GROUP | WS_TABSTOP,52,211,
+                    40,10
+    CONTROL         "",IDC_IVALUESPIN6,"SpinnerControl",WS_GROUP,94,211,8,10
+    CONTROL         "",IDC_IVALUE7,"CustEdit",WS_GROUP | WS_TABSTOP,52,223,
+                    40,10
+    CONTROL         "",IDC_IVALUESPIN7,"SpinnerControl",WS_GROUP,94,223,8,10
+    CONTROL         "",IDC_PVALUE1,"CustEdit",WS_GROUP | WS_TABSTOP,52,151,
+                    40,10
+    CONTROL         "",IDC_PVALUESPIN1,"SpinnerControl",WS_GROUP,94,151,8,10
+    CONTROL         "",IDC_PVALUE2,"CustEdit",WS_GROUP | WS_TABSTOP,52,163,
+                    40,10
+    CONTROL         "",IDC_PVALUESPIN2,"SpinnerControl",WS_GROUP,94,163,8,10
+    CONTROL         "",IDC_PVALUE3,"CustEdit",WS_GROUP | WS_TABSTOP,52,175,
+                    40,10
+    CONTROL         "",IDC_PVALUESPIN3,"SpinnerControl",WS_GROUP,94,175,8,10
+    CONTROL         "",IDC_PVALUE4,"CustEdit",WS_GROUP | WS_TABSTOP,52,187,
+                    40,10
+    CONTROL         "",IDC_PVALUESPIN4,"SpinnerControl",WS_GROUP,94,187,8,10
+    CONTROL         "",IDC_PVALUE5,"CustEdit",WS_GROUP | WS_TABSTOP,52,199,
+                    40,10
+    CONTROL         "",IDC_PVALUESPIN5,"SpinnerControl",WS_GROUP,94,199,8,10
+    CONTROL         "",IDC_PVALUE6,"CustEdit",WS_GROUP | WS_TABSTOP,52,211,
+                    40,10
+    CONTROL         "",IDC_PVALUESPIN6,"SpinnerControl",WS_GROUP,94,211,8,10
+    CONTROL         "",IDC_PVALUE7,"CustEdit",WS_GROUP | WS_TABSTOP,52,223,
+                    40,10
+    CONTROL         "",IDC_PVALUESPIN7,"SpinnerControl",WS_GROUP,94,223,8,10
+    CONTROL         "",IDC_WVALUE1,"CustEdit",WS_GROUP | WS_TABSTOP,52,151,
+                    40,10
+    CONTROL         "",IDC_WVALUESPIN1,"SpinnerControl",WS_GROUP,94,151,8,10
+    CONTROL         "",IDC_WVALUE2,"CustEdit",WS_GROUP | WS_TABSTOP,52,163,
+                    40,10
+    CONTROL         "",IDC_WVALUESPIN2,"SpinnerControl",WS_GROUP,94,163,8,10
+    CONTROL         "",IDC_WVALUE3,"CustEdit",WS_GROUP | WS_TABSTOP,52,175,
+                    40,10
+    CONTROL         "",IDC_WVALUESPIN3,"SpinnerControl",WS_GROUP,94,175,8,10
+    CONTROL         "",IDC_WVALUE4,"CustEdit",WS_GROUP | WS_TABSTOP,52,187,
+                    40,10
+    CONTROL         "",IDC_WVALUESPIN4,"SpinnerControl",WS_GROUP,94,187,8,10
+    CONTROL         "",IDC_WVALUE5,"CustEdit",WS_GROUP | WS_TABSTOP,52,199,
+                    40,10
+    CONTROL         "",IDC_WVALUESPIN5,"SpinnerControl",WS_GROUP,94,199,8,10
+    CONTROL         "",IDC_WVALUE6,"CustEdit",WS_GROUP | WS_TABSTOP,52,211,
+                    40,10
+    CONTROL         "",IDC_WVALUESPIN6,"SpinnerControl",WS_GROUP,94,211,8,10
+    CONTROL         "",IDC_WVALUE7,"CustEdit",WS_GROUP | WS_TABSTOP,52,223,
+                    40,10
+    CONTROL         "",IDC_WVALUESPIN7,"SpinnerControl",WS_GROUP,94,223,8,10
+    CONTROL         "",IDC_RPMIN,"CustEdit",WS_GROUP | WS_TABSTOP,52,278,40,
+                    10
+    CONTROL         "",IDC_RPMINSPIN,"SpinnerControl",WS_GROUP,94,278,8,10
+    CONTROL         "",IDC_RPMAX,"CustEdit",WS_GROUP | WS_TABSTOP,52,290,40,
+                    10
+    CONTROL         "",IDC_RPMAXSPIN,"SpinnerControl",WS_GROUP,94,290,8,10
+    CONTROL         "",IDC_GPMIN,"CustEdit",WS_GROUP | WS_TABSTOP,52,316,40,
+                    10
+    CONTROL         "",IDC_GPMINSPIN,"SpinnerControl",WS_GROUP,94,316,8,10
+    CONTROL         "",IDC_GPMAX,"CustEdit",WS_GROUP | WS_TABSTOP,52,328,40,
+                    10
+    CONTROL         "",IDC_GPMAXSPIN,"SpinnerControl",WS_GROUP,94,328,8,10
+    CONTROL         "",IDC_BPMIN,"CustEdit",WS_GROUP | WS_TABSTOP,52,353,40,
+                    10
+    CONTROL         "",IDC_BPMINSPIN,"SpinnerControl",WS_GROUP,94,353,8,10
+    CONTROL         "",IDC_BPMAX,"CustEdit",WS_GROUP | WS_TABSTOP,52,365,40,
+                    10
+    CONTROL         "",IDC_BPMAXSPIN,"SpinnerControl",WS_GROUP,94,365,8,10
+    CONTROL         "",IDC_RWMIN,"CustEdit",WS_GROUP | WS_TABSTOP,52,278,40,
+                    10
+    CONTROL         "",IDC_RWMINSPIN,"SpinnerControl",WS_GROUP,94,278,8,10
+    CONTROL         "",IDC_RWMAX,"CustEdit",WS_GROUP | WS_TABSTOP,52,290,40,
+                    10
+    CONTROL         "",IDC_RWMAXSPIN,"SpinnerControl",WS_GROUP,94,290,8,10
+    CONTROL         "",IDC_GWMIN,"CustEdit",WS_GROUP | WS_TABSTOP,52,316,40,
+                    10
+    CONTROL         "",IDC_GWMINSPIN,"SpinnerControl",WS_GROUP,94,316,8,10
+    CONTROL         "",IDC_GWMAX,"CustEdit",WS_GROUP | WS_TABSTOP,52,328,40,
+                    10
+    CONTROL         "",IDC_GWMAXSPIN,"SpinnerControl",WS_GROUP,94,328,8,10
+    CONTROL         "",IDC_BWMIN,"CustEdit",WS_GROUP | WS_TABSTOP,52,353,40,
+                    10
+    CONTROL         "",IDC_BWMINSPIN,"SpinnerControl",WS_GROUP,94,353,8,10
+    CONTROL         "",IDC_BWMAX,"CustEdit",WS_GROUP | WS_TABSTOP,52,365,40,
+                    10
+    CONTROL         "",IDC_BWMAXSPIN,"SpinnerControl",WS_GROUP,94,365,8,10
+    CONTROL         "For Selected Only",IDC_SELECTEDONLY,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,16,70,76,10
+    GROUPBOX        "Lines For Particle Speed:",IDC_FRAME_LINES,2,382,104,40
+    RTEXT           "Scale %",IDC_TEXT_SPEEDFACTOR,22,395,26,8
+    CONTROL         "",IDC_SPEEDFACTOR,"CustEdit",WS_GROUP | WS_TABSTOP,51,
+                    394,40,10
+    CONTROL         "",IDC_SPEEDFACTORSPIN,"SpinnerControl",WS_GROUP,93,394,
+                    8,10
+    COMBOBOX        IDC_PLACEMENT,51,406,52,145,CBS_DROPDOWNLIST | 
+                    CBS_DISABLENOSCROLL | WS_GROUP | WS_TABSTOP
+    RTEXT           "Placement:",IDC_TEXT_PLACEMENT,13,408,36,8
+    RTEXT           "Precision:",IDC_TEXT_PRECISION,5,427,32,8
+    CONTROL         "",IDC_PRECISION,"CustEdit",WS_GROUP | WS_TABSTOP,39,425,
+                    21,10
+    CONTROL         "",IDC_PRECISIONSPIN,"SpinnerControl",WS_GROUP,62,425,8,
+                    10
+    RTEXT           "Decimals",IDC_TEXT_DECIMALS,71,427,30,8
+END
+
+IDD_TEST_PARAMETERS DIALOG  0, 0, 108, 122
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Channel To Test:",IDC_FRAME_INPUT,2,3,104,42
+    LTEXT           "Name:",IDC_TEXT_CUSTOMNAME,7,15,22,8
+    CONTROL         "",IDC_CHANNELNAME,"CustEdit",WS_GROUP | WS_TABSTOP,29,
+                    14,71,10
+    LTEXT           "Type:",IDC_TEXT_CUSTOMTYPE,9,30,19,8
+    COMBOBOX        IDC_CHANNELTYPE,29,27,72,145,CBS_DROPDOWNLIST | 
+                    CBS_DISABLENOSCROLL | WS_GROUP | WS_TABSTOP
+    GROUPBOX        "Test True If Channel Value:",IDC_FRAME_TESTTRUEIF,2,48,
+                    104,72
+    CONTROL         "Is Less Than Value #1",IDC_ISLESS,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,6,59,86,10
+    CONTROL         "Is Greater Than Value #1",IDC_ISGREATER,"Button",
+                    BS_AUTORADIOBUTTON,6,70,94,10
+    RTEXT           "Value #1:",IDC_TEXT_VALUE1,14,82,32,8
+    CONTROL         "",IDC_FVALUE_1,"CustEdit",WS_GROUP | WS_TABSTOP,50,81,
+                    41,10
+    CONTROL         "",IDC_FVALUESPIN_1,"SpinnerControl",WS_GROUP,93,81,8,10
+    CONTROL         "",IDC_AVALUE_1,"CustEdit",WS_GROUP | WS_TABSTOP,50,81,
+                    41,10
+    CONTROL         "",IDC_AVALUESPIN_1,"SpinnerControl",WS_GROUP,93,81,8,10
+    CONTROL         "",IDC_IVALUE_1,"CustEdit",WS_GROUP | WS_TABSTOP,50,81,
+                    41,10
+    CONTROL         "",IDC_IVALUESPIN_1,"SpinnerControl",WS_GROUP,93,81,8,10
+    CONTROL         "",IDC_TVALUE_1,"CustEdit",WS_GROUP | WS_TABSTOP,50,81,
+                    41,10
+    CONTROL         "",IDC_TVALUESPIN_1,"SpinnerControl",WS_GROUP,93,81,8,10
+    CONTROL         "",IDC_PVALUE_1,"CustEdit",WS_GROUP | WS_TABSTOP,50,81,
+                    41,10
+    CONTROL         "",IDC_PVALUESPIN_1,"SpinnerControl",WS_GROUP,93,81,8,10
+    CONTROL         "",IDC_WVALUE_1,"CustEdit",WS_GROUP | WS_TABSTOP,50,81,
+                    41,10
+    CONTROL         "",IDC_WVALUESPIN_1,"SpinnerControl",WS_GROUP,93,81,8,10
+    CONTROL         "Or Greater Than Value #2",IDC_ANDOR,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,6,94,95,10
+    RTEXT           "Value #2:",IDC_TEXT_VALUE2,14,106,32,8
+    CONTROL         "",IDC_FVALUE_2,"CustEdit",WS_GROUP | WS_TABSTOP,50,106,
+                    41,10
+    CONTROL         "",IDC_FVALUESPIN_2,"SpinnerControl",WS_GROUP,93,106,8,
+                    10
+    CONTROL         "",IDC_AVALUE_2,"CustEdit",WS_GROUP | WS_TABSTOP,50,106,
+                    41,10
+    CONTROL         "",IDC_AVALUESPIN_2,"SpinnerControl",WS_GROUP,93,106,8,
+                    10
+    CONTROL         "",IDC_IVALUE_2,"CustEdit",WS_GROUP | WS_TABSTOP,50,106,
+                    41,10
+    CONTROL         "",IDC_IVALUESPIN_2,"SpinnerControl",WS_GROUP,93,106,8,
+                    10
+    CONTROL         "",IDC_TVALUE_2,"CustEdit",WS_GROUP | WS_TABSTOP,50,106,
+                    41,10
+    CONTROL         "",IDC_TVALUESPIN_2,"SpinnerControl",WS_GROUP,93,106,8,
+                    10
+    CONTROL         "",IDC_PVALUE_2,"CustEdit",WS_GROUP | WS_TABSTOP,50,106,
+                    41,10
+    CONTROL         "",IDC_PVALUESPIN_2,"SpinnerControl",WS_GROUP,93,106,8,
+                    10
+    CONTROL         "",IDC_WVALUE_2,"CustEdit",WS_GROUP | WS_TABSTOP,50,106,
+                    41,10
+    CONTROL         "",IDC_WVALUESPIN_2,"SpinnerControl",WS_GROUP,93,106,8,
+                    10
+END
+
+IDD_COPY_PARAMETERS DIALOG  0, 0, 108, 336
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Source Channel:",IDC_FRAME_SOURCECHANNEL,2,3,104,58
+    LTEXT           "Data:",IDC_TEXT_SRCDATA,9,17,18,8
+    COMBOBOX        IDC_SRCDATATYPE,28,14,74,378,CBS_DROPDOWNLIST | 
+                    CBS_DISABLENOSCROLL | WS_GROUP | WS_TABSTOP
+    LTEXT           "Name:",IDC_TEXT_SRCCUSTOMNAME,6,31,22,8
+    CONTROL         "",IDC_SRCCHANNELNAME,"CustEdit",WS_GROUP | WS_TABSTOP,
+                    28,30,73,10
+    LTEXT           "Type:",IDC_TEXT_SRCCUSTOMTYPE,8,46,19,8
+    COMBOBOX        IDC_SRCCHANNELTYPE,28,43,74,145,CBS_DROPDOWNLIST | 
+                    CBS_DISABLENOSCROLL | WS_GROUP | WS_TABSTOP
+    GROUPBOX        "Destination Channel:",IDC_FRAME_DESTINATIONCHANNEL,2,64,
+                    104,71
+    LTEXT           "Data:",IDC_TEXT_DSTDATA,9,78,18,8
+    COMBOBOX        IDC_DSTDATATYPE,28,75,74,378,CBS_DROPDOWNLIST | 
+                    CBS_DISABLENOSCROLL | WS_GROUP | WS_TABSTOP
+    LTEXT           "Name:",IDC_TEXT_DSTCUSTOMNAME,6,91,22,8
+    CONTROL         "",IDC_DSTCHANNELNAME,"CustEdit",WS_GROUP | WS_TABSTOP,
+                    28,91,73,10
+    LTEXT           "Type:",IDC_TEXT_DSTCUSTOMTYPE,8,107,19,8
+    COMBOBOX        IDC_DSTCHANNELTYPE,28,104,74,145,CBS_DROPDOWNLIST | 
+                    CBS_DISABLENOSCROLL | WS_GROUP | WS_TABSTOP
+    LTEXT           "Scope:",IDC_TEXT_SCOPE,6,122,22,8
+    CONTROL         "Global",IDC_GLOBAL,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,32,121,33,10
+    CONTROL         "Local",IDC_LOCAL,"Button",BS_AUTORADIOBUTTON,70,121,30,
+                    10
+    CONTROL         "Assign Only Once",IDC_ASSIGNONCE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,140,70,10
+    CONTROL         "Use Condition Filter",IDC_USECONDITION,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,152,76,10
+    LTEXT           "Name:",IDC_TEXT_CONDITIONNAME,7,165,22,8
+    CONTROL         "",IDC_CONDITIONNAME,"CustEdit",WS_GROUP | WS_TABSTOP,29,
+                    164,73,10
+    GROUPBOX        "Scalar/Vector Conversion:",IDC_FRAME_SCALARVECTOR,2,179,
+                    104,47
+    CONTROL         "X",IDC_X,"Button",BS_AUTORADIOBUTTON | WS_GROUP | 
+                    WS_TABSTOP,7,191,20,10
+    CONTROL         "Y",IDC_Y,"Button",BS_AUTORADIOBUTTON,29,191,19,10
+    CONTROL         "Z",IDC_Z,"Button",BS_AUTORADIOBUTTON,51,191,17,10
+    CONTROL         "XYZ",IDC_XYZ,"Button",BS_AUTORADIOBUTTON,74,191,27,10
+    CONTROL         "Length",IDC_LENGTH,"Button",BS_AUTORADIOBUTTON,7,202,35,
+                    10
+    CONTROL         "Average",IDC_AVERAGE,"Button",BS_AUTORADIOBUTTON,55,202,
+                    40,10
+    CONTROL         "Minimum",IDC_MINIMUM,"Button",BS_AUTORADIOBUTTON,7,213,
+                    41,10
+    CONTROL         "Maximum",IDC_MAXIMUM,"Button",BS_AUTORADIOBUTTON,55,213,
+                    44,10
+    GROUPBOX        "Float/Integer Conversion:",IDC_FRAME_FLOATINTEGER,2,228,
+                    104,25
+    CONTROL         "Up",IDC_UP,"Button",BS_AUTORADIOBUTTON | WS_GROUP | 
+                    WS_TABSTOP,7,239,22,10
+    CONTROL         "Down",IDC_DOWN,"Button",BS_AUTORADIOBUTTON,32,239,31,10
+    CONTROL         "Round",IDC_ROUND,"Button",BS_AUTORADIOBUTTON,68,239,33,
+                    10
+    GROUPBOX        "Float/Time Conversion:",IDC_FRAME_FLOATTIME,2,255,104,
+                    25
+    CONTROL         "Sec",IDC_SEC,"Button",BS_AUTORADIOBUTTON | WS_GROUP | 
+                    WS_TABSTOP,7,266,26,10
+    CONTROL         "Frame",IDC_FRAME,"Button",BS_AUTORADIOBUTTON,38,266,31,
+                    10
+    CONTROL         "Tick",IDC_TICK,"Button",BS_AUTORADIOBUTTON,76,266,27,10
+    GROUPBOX        "Float/Percent Conversion:",IDC_FRAME_FLOATPERCENT,2,282,
+                    104,25
+    CONTROL         "100 = 100%",IDC_100_100,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,7,294,49,10
+    CONTROL         "1 = 100%",IDC_1_100,"Button",BS_AUTORADIOBUTTON,61,294,
+                    41,10
+    GROUPBOX        "Float/Angle Conversion:",IDC_FRAME_FLOATANGLE,2,309,104,
+                    25
+    CONTROL         "Degrees",IDC_DEGREES,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,7,321,49,10
+    CONTROL         "Radians",IDC_RADIANS,"Button",BS_AUTORADIOBUTTON,61,321,
+                    41,10
+END
+
+IDD_FUNCTION_PARAMETERS DIALOG  0, 0, 108, 268
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "First Operand (A):",IDC_FRAME_A,2,3,104,54
+    LTEXT           "Name:",IDC_TEXT_ANAME,6,15,22,8
+    CONTROL         "",IDC_ANAME,"CustEdit",WS_GROUP | WS_TABSTOP,28,14,73,
+                    10
+    LTEXT           "Type:",IDC_TEXT_ATYPE,8,30,19,8
+    COMBOBOX        IDC_OPATYPE,28,27,74,145,CBS_DROPDOWNLIST | 
+                    CBS_DISABLENOSCROLL | WS_GROUP | WS_TABSTOP
+    RTEXT           "Pre-Factor:",IDC_TEXT_AFACTOR,10,44,36,8
+    CONTROL         "",IDC_AFACTOR,"CustEdit",WS_GROUP | WS_TABSTOP,47,43,44,
+                    10
+    CONTROL         "",IDC_AFACTORSPIN,"SpinnerControl",WS_GROUP,93,43,8,10
+    CONTROL         "Use Second Operand",IDC_USESECONDOPERAND,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,61,82,10
+    GROUPBOX        "Second Operand (B):",IDC_FRAME_B,2,72,104,54
+    LTEXT           "Name:",IDC_TEXT_BNAME,6,84,22,8
+    CONTROL         "",IDC_BNAME,"CustEdit",WS_GROUP | WS_TABSTOP,28,83,73,
+                    10
+    LTEXT           "Type:",IDC_TEXT_BTYPE,8,99,19,8
+    COMBOBOX        IDC_OPBTYPE,28,96,74,145,CBS_DROPDOWNLIST | 
+                    CBS_DISABLENOSCROLL | WS_GROUP | WS_TABSTOP
+    RTEXT           "Pre-Factor:",IDC_TEXT_BFACTOR,10,112,36,8
+    CONTROL         "",IDC_BFACTOR,"CustEdit",WS_GROUP | WS_TABSTOP,47,112,
+                    44,10
+    CONTROL         "",IDC_BFACTORSPIN,"SpinnerControl",WS_GROUP,93,112,8,10
+    LTEXT           "Boolean",IDC_TEXT_BOOLEAN_OR_TIME,27,99,27,8
+    GROUPBOX        "Function:",IDC_FRAME_FUNCTION,2,129,104,29
+    COMBOBOX        IDC_BBTYPE,6,140,96,378,CBS_DROPDOWNLIST | 
+                    CBS_DISABLENOSCROLL | WS_GROUP | WS_TABSTOP
+    COMBOBOX        IDC_FTYPE,6,140,96,378,CBS_DROPDOWNLIST | 
+                    CBS_DISABLENOSCROLL | WS_GROUP | WS_TABSTOP
+    COMBOBOX        IDC_FFTYPE,6,140,96,378,CBS_DROPDOWNLIST | 
+                    CBS_DISABLENOSCROLL | WS_GROUP | WS_TABSTOP
+    COMBOBOX        IDC_VTYPE,6,140,96,378,CBS_DROPDOWNLIST | 
+                    CBS_DISABLENOSCROLL | WS_GROUP | WS_TABSTOP
+    COMBOBOX        IDC_VFTYPE,6,140,96,378,CBS_DROPDOWNLIST | 
+                    CBS_DISABLENOSCROLL | WS_GROUP | WS_TABSTOP
+    COMBOBOX        IDC_VVTYPE,6,140,96,378,CBS_DROPDOWNLIST | 
+                    CBS_DISABLENOSCROLL | WS_GROUP | WS_TABSTOP
+    COMBOBOX        IDC_TTTYPE,6,140,96,378,CBS_DROPDOWNLIST | 
+                    CBS_DISABLENOSCROLL | WS_GROUP | WS_TABSTOP
+    LTEXT           "NOT",IDC_BTYPE,8,142,81,8
+    GROUPBOX        "Result:",IDC_FRAME_RESULT,2,161,104,61
+    LTEXT           "Name:",IDC_TEXT_RNAME,6,172,22,8
+    CONTROL         "",IDC_RNAME,"CustEdit",WS_GROUP | WS_TABSTOP,28,171,73,
+                    10
+    LTEXT           "Type:",IDC_TEXT_RTYPE,8,183,19,8
+    LTEXT           "Boolean",IDC_RTYPE,27,183,27,8
+    RTEXT           "Post-Factor:",IDC_TEXT_RFACTOR,6,194,39,8
+    CONTROL         "",IDC_RFACTOR,"CustEdit",WS_GROUP | WS_TABSTOP,47,194,
+                    44,10
+    CONTROL         "",IDC_RFACTORSPIN,"SpinnerControl",WS_GROUP,93,194,8,10
+    LTEXT           "Scope:",IDC_TEXT_SCOPE,6,209,22,8
+    CONTROL         "Global",IDC_GLOBAL,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,32,208,33,10
+    CONTROL         "Local",IDC_LOCAL,"Button",BS_AUTORADIOBUTTON,70,208,30,
+                    10
+    CONTROL         "Assign Only Once",IDC_ASSIGNONCE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,229,70,10
+    CONTROL         "Use Condition Filter",IDC_USECONDITION,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,241,76,10
+    LTEXT           "Name:",IDC_TEXT_CONDITIONNAME,7,254,22,8
+    CONTROL         "",IDC_CONDITIONNAME,"CustEdit",WS_GROUP | WS_TABSTOP,29,
+                    253,73,10
+END
+
+IDD_RANDOM_PARAMETERS DIALOG  0, 0, 108, 187
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Name:",IDC_TEXT_NAME,7,6,22,8
+    CONTROL         "",IDC_NAME,"CustEdit",WS_GROUP | WS_TABSTOP,29,5,73,10
+    LTEXT           "Type:",IDC_TEXT_TYPE,9,21,19,8
+    COMBOBOX        IDC_TYPE,29,18,74,145,CBS_DROPDOWNLIST | 
+                    CBS_DISABLENOSCROLL | WS_GROUP | WS_TABSTOP
+    LTEXT           "Scope:",IDC_TEXT_SCOPE,6,37,22,8
+    CONTROL         "Global",IDC_GLOBAL,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,32,36,33,10
+    CONTROL         "Local",IDC_LOCAL,"Button",BS_AUTORADIOBUTTON,70,36,30,
+                    10
+    GROUPBOX        "Distribution:",IDC_FRAME_DISTRIBUTION,2,49,104,66
+    COMBOBOX        IDC_FLOATTYPE,6,59,96,145,CBS_DROPDOWNLIST | 
+                    CBS_DISABLENOSCROLL | WS_GROUP | WS_TABSTOP
+    COMBOBOX        IDC_VECTORTYPE,6,59,96,145,CBS_DROPDOWNLIST | 
+                    CBS_DISABLENOSCROLL | WS_GROUP | WS_TABSTOP
+    COMBOBOX        IDC_INTEGERTYPE,6,59,96,145,CBS_DROPDOWNLIST | 
+                    CBS_DISABLENOSCROLL | WS_GROUP | WS_TABSTOP
+    RTEXT           "Parameter 1:",IDC_TEXT_PARAM1,4,77,41,8
+    CONTROL         "",IDC_PARAM1,"CustEdit",WS_GROUP | WS_TABSTOP,47,77,44,
+                    10
+    CONTROL         "",IDC_PARAM1SPIN,"SpinnerControl",WS_GROUP,93,77,8,10
+    CONTROL         "",IDC_POSPARAM1,"CustEdit",WS_GROUP | WS_TABSTOP,47,77,
+                    44,10
+    CONTROL         "",IDC_POSPARAM1SPIN,"SpinnerControl",WS_GROUP,93,77,8,
+                    10
+    CONTROL         "",IDC_INTPARAM1,"CustEdit",WS_GROUP | WS_TABSTOP,47,77,
+                    44,10
+    CONTROL         "",IDC_INTPARAM1SPIN,"SpinnerControl",WS_GROUP,93,77,8,
+                    10
+    RTEXT           "Parameter 2:",IDC_TEXT_PARAM2,4,89,41,8
+    CONTROL         "",IDC_PARAM2,"CustEdit",WS_GROUP | WS_TABSTOP,47,89,44,
+                    10
+    CONTROL         "",IDC_PARAM2SPIN,"SpinnerControl",WS_GROUP,93,89,8,10
+    CONTROL         "",IDC_POSPARAM2,"CustEdit",WS_GROUP | WS_TABSTOP,47,89,
+                    44,10
+    CONTROL         "",IDC_POSPARAM2SPIN,"SpinnerControl",WS_GROUP,93,89,8,
+                    10
+    CONTROL         "",IDC_INTPARAM2,"CustEdit",WS_GROUP | WS_TABSTOP,47,89,
+                    44,10
+    CONTROL         "",IDC_INTPARAM2SPIN,"SpinnerControl",WS_GROUP,93,89,8,
+                    10
+    RTEXT           "Parameter 3:",IDC_TEXT_PARAM3,4,101,41,8
+    CONTROL         "",IDC_PARAM3,"CustEdit",WS_GROUP | WS_TABSTOP,47,101,44,
+                    10
+    CONTROL         "",IDC_PARAM3SPIN,"SpinnerControl",WS_GROUP,93,101,8,10
+    CONTROL         "",IDC_POSPARAM3,"CustEdit",WS_GROUP | WS_TABSTOP,47,101,
+                    44,10
+    CONTROL         "",IDC_POSPARAM3SPIN,"SpinnerControl",WS_GROUP,93,101,8,
+                    10
+    CONTROL         "",IDC_INTPARAM3,"CustEdit",WS_GROUP | WS_TABSTOP,47,101,
+                    44,10
+    CONTROL         "",IDC_INTPARAM3SPIN,"SpinnerControl",WS_GROUP,93,101,8,
+                    10
+    CONTROL         "Assign Only Once",IDC_ASSIGNONCE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,120,70,10
+    CONTROL         "Use Condition Filter",IDC_USECONDITION,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,132,76,10
+    LTEXT           "Name:",IDC_TEXT_CONDITIONNAME,7,145,22,8
+    CONTROL         "",IDC_CONDITIONNAME,"CustEdit",WS_GROUP | WS_TABSTOP,29,
+                    144,73,10
+    GROUPBOX        "Uniqueness:",IDC_UNIQUENESSBOX,2,158,104,27
+    RTEXT           "Seed:",IDC_SEEDTEXT,7,170,20,8
+    CONTROL         "",IDC_SEED,"CustEdit",WS_GROUP | WS_TABSTOP,29,170,36,
+                    10
+    CONTROL         "",IDC_SEEDSPIN,"SpinnerControl",WS_GROUP,67,170,8,10
+    CONTROL         "New",IDC_NEW,"CustButton",WS_GROUP | WS_TABSTOP,79,170,
+                    22,10
+END
+
+IDD_VALUE_PARAMETERS DIALOG  0, 0, 108, 185
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Name:",IDC_TEXT_CUSTOMNAME,7,6,22,8
+    CONTROL         "",IDC_CHANNELNAME,"CustEdit",WS_GROUP | WS_TABSTOP,29,5,
+                    73,10
+    LTEXT           "Type:",IDC_TEXT_CUSTOMTYPE,9,21,19,8
+    COMBOBOX        IDC_CHANNELTYPE,29,18,74,145,CBS_DROPDOWNLIST | 
+                    CBS_DISABLENOSCROLL | WS_GROUP | WS_TABSTOP
+    LTEXT           "Scope:",IDC_TEXT_SCOPE,6,37,22,8
+    CONTROL         "Global",IDC_GLOBAL,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,32,36,33,10
+    CONTROL         "Local",IDC_LOCAL,"Button",BS_AUTORADIOBUTTON,70,36,30,
+                    10
+    GROUPBOX        "Scalar:",IDC_FRAME_SCALAR,2,48,104,24
+    RTEXT           "Value:",IDC_TEXT_VALUE,26,59,21,8
+    CONTROL         "",IDC_FVALUE,"CustEdit",WS_GROUP | WS_TABSTOP,50,58,41,
+                    10
+    CONTROL         "",IDC_FVALUESPIN,"SpinnerControl",WS_GROUP,93,58,8,10
+    CONTROL         "",IDC_IVALUE,"CustEdit",WS_GROUP | WS_TABSTOP,50,58,41,
+                    10
+    CONTROL         "",IDC_IVALUESPIN,"SpinnerControl",WS_GROUP,93,58,8,10
+    CONTROL         "",IDC_TVALUE,"CustEdit",WS_GROUP | WS_TABSTOP,50,58,41,
+                    10
+    CONTROL         "",IDC_TVALUESPIN,"SpinnerControl",WS_GROUP,93,58,8,10
+    CONTROL         "",IDC_PVALUE,"CustEdit",WS_GROUP | WS_TABSTOP,50,58,41,
+                    10
+    CONTROL         "",IDC_PVALUESPIN,"SpinnerControl",WS_GROUP,93,58,8,10
+    CONTROL         "",IDC_WVALUE,"CustEdit",WS_GROUP | WS_TABSTOP,50,58,41,
+                    10
+    CONTROL         "",IDC_WVALUESPIN,"SpinnerControl",WS_GROUP,93,58,8,10
+    CONTROL         "",IDC_AVALUE,"CustEdit",WS_GROUP | WS_TABSTOP,50,58,41,
+                    10
+    CONTROL         "",IDC_AVALUESPIN,"SpinnerControl",WS_GROUP,93,58,8,10
+    GROUPBOX        "Vector:",IDC_FRAME_VECTOR,2,74,104,48
+    RTEXT           "X:",IDC_TEXT_X,40,86,8,8
+    CONTROL         "",IDC_FX,"CustEdit",WS_GROUP | WS_TABSTOP,50,84,41,10
+    CONTROL         "",IDC_FXSPIN,"SpinnerControl",WS_GROUP,93,84,8,10
+    RTEXT           "Y:",IDC_TEXT_Y,40,98,8,8
+    CONTROL         "",IDC_FY,"CustEdit",WS_GROUP | WS_TABSTOP,50,96,41,10
+    CONTROL         "",IDC_FYSPIN,"SpinnerControl",WS_GROUP,93,96,8,10
+    RTEXT           "Z:",IDC_TEXT_Z,40,110,8,8
+    CONTROL         "",IDC_FZ,"CustEdit",WS_GROUP | WS_TABSTOP,50,108,41,10
+    CONTROL         "",IDC_FZSPIN,"SpinnerControl",WS_GROUP,93,108,8,10
+    CONTROL         "",IDC_PX,"CustEdit",WS_GROUP | WS_TABSTOP,50,84,41,10
+    CONTROL         "",IDC_PXSPIN,"SpinnerControl",WS_GROUP,93,84,8,10
+    CONTROL         "",IDC_PY,"CustEdit",WS_GROUP | WS_TABSTOP,50,96,41,10
+    CONTROL         "",IDC_PYSPIN,"SpinnerControl",WS_GROUP,93,96,8,10
+    CONTROL         "",IDC_PZ,"CustEdit",WS_GROUP | WS_TABSTOP,50,108,41,10
+    CONTROL         "",IDC_PZSPIN,"SpinnerControl",WS_GROUP,93,108,8,10
+    CONTROL         "",IDC_WX,"CustEdit",WS_GROUP | WS_TABSTOP,50,84,41,10
+    CONTROL         "",IDC_WXSPIN,"SpinnerControl",WS_GROUP,93,84,8,10
+    CONTROL         "",IDC_WY,"CustEdit",WS_GROUP | WS_TABSTOP,50,96,41,10
+    CONTROL         "",IDC_WYSPIN,"SpinnerControl",WS_GROUP,93,96,8,10
+    CONTROL         "",IDC_WZ,"CustEdit",WS_GROUP | WS_TABSTOP,50,108,41,10
+    CONTROL         "",IDC_WZSPIN,"SpinnerControl",WS_GROUP,93,108,8,10
+    CONTROL         "",IDC_AX,"CustEdit",WS_GROUP | WS_TABSTOP,50,84,41,10
+    CONTROL         "",IDC_AXSPIN,"SpinnerControl",WS_GROUP,93,84,8,10
+    CONTROL         "",IDC_AY,"CustEdit",WS_GROUP | WS_TABSTOP,50,96,41,10
+    CONTROL         "",IDC_AYSPIN,"SpinnerControl",WS_GROUP,93,96,8,10
+    CONTROL         "",IDC_AZ,"CustEdit",WS_GROUP | WS_TABSTOP,50,108,41,10
+    CONTROL         "",IDC_AZSPIN,"SpinnerControl",WS_GROUP,93,108,8,10
+    CONTROL         "Use Condition Filter",IDC_USECONDITION,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,158,76,10
+    LTEXT           "Name:",IDC_TEXT_CONDITIONNAME,7,171,22,8
+    CONTROL         "",IDC_CONDITIONNAME,"CustEdit",WS_GROUP | WS_TABSTOP,29,
+                    170,73,10
+    CONTROL         "Assign Only Once",IDC_ASSIGNONCE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,126,70,10
+    LTEXT           "Sync:",IDC_TEXT_SYNC,9,141,19,8
+    COMBOBOX        IDC_SYNC,29,139,74,48,CBS_DROPDOWNLIST | 
+                    CBS_DISABLENOSCROLL | WS_GROUP | WS_TABSTOP
+END
+
+IDD_CONDITION_PARAMETERS DIALOGEX 0, 0, 108, 183
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "Channel To Test:",IDC_FRAME_INPUT,2,3,104,42
+    LTEXT           "Name:",IDC_TEXT_CUSTOMNAME,7,15,22,8
+    CONTROL         "",IDC_CHANNELNAME,"CustEdit",WS_GROUP | WS_TABSTOP,29,
+                    14,71,10
+    LTEXT           "Type:",IDC_TEXT_CUSTOMTYPE,9,30,19,8
+    COMBOBOX        IDC_CHANNELTYPE,29,27,72,145,CBS_DROPDOWNLIST | 
+                    CBS_DISABLENOSCROLL | WS_GROUP | WS_TABSTOP
+    GROUPBOX        "Test True If Channel Value:",IDC_FRAME_TESTTRUEIF,2,48,
+                    104,72
+    CONTROL         "Is Less Than Value #1",IDC_ISLESS,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,6,59,86,10
+    CONTROL         "Is Greater Than Value #1",IDC_ISGREATER,"Button",
+                    BS_AUTORADIOBUTTON,6,70,94,10
+    RTEXT           "Value #1:",IDC_TEXT_VALUE1,14,82,32,8
+    CONTROL         "",IDC_FVALUE_1,"CustEdit",WS_GROUP | WS_TABSTOP,50,81,
+                    41,10
+    CONTROL         "",IDC_FVALUESPIN_1,"SpinnerControl",WS_GROUP,93,81,8,10
+    CONTROL         "",IDC_AVALUE_1,"CustEdit",WS_GROUP | WS_TABSTOP,50,81,
+                    41,10
+    CONTROL         "",IDC_AVALUESPIN_1,"SpinnerControl",WS_GROUP,93,81,8,10
+    CONTROL         "",IDC_IVALUE_1,"CustEdit",WS_GROUP | WS_TABSTOP,50,81,
+                    41,10
+    CONTROL         "",IDC_IVALUESPIN_1,"SpinnerControl",WS_GROUP,93,81,8,10
+    CONTROL         "",IDC_TVALUE_1,"CustEdit",WS_GROUP | WS_TABSTOP,50,81,
+                    41,10
+    CONTROL         "",IDC_TVALUESPIN_1,"SpinnerControl",WS_GROUP,93,81,8,10
+    CONTROL         "",IDC_PVALUE_1,"CustEdit",WS_GROUP | WS_TABSTOP,50,81,
+                    41,10
+    CONTROL         "",IDC_PVALUESPIN_1,"SpinnerControl",WS_GROUP,93,81,8,10
+    CONTROL         "",IDC_WVALUE_1,"CustEdit",WS_GROUP | WS_TABSTOP,50,81,
+                    41,10
+    CONTROL         "",IDC_WVALUESPIN_1,"SpinnerControl",WS_GROUP,93,81,8,10
+    CONTROL         "Or Greater Than Value #2",IDC_ANDOR,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,6,94,95,10
+    RTEXT           "Value #2:",IDC_TEXT_VALUE2,14,106,32,8
+    CONTROL         "",IDC_FVALUE_2,"CustEdit",WS_GROUP | WS_TABSTOP,50,106,
+                    41,10
+    CONTROL         "",IDC_FVALUESPIN_2,"SpinnerControl",WS_GROUP,93,106,8,
+                    10
+    CONTROL         "",IDC_AVALUE_2,"CustEdit",WS_GROUP | WS_TABSTOP,50,106,
+                    41,10
+    CONTROL         "",IDC_AVALUESPIN_2,"SpinnerControl",WS_GROUP,93,106,8,
+                    10
+    CONTROL         "",IDC_IVALUE_2,"CustEdit",WS_GROUP | WS_TABSTOP,50,106,
+                    41,10
+    CONTROL         "",IDC_IVALUESPIN_2,"SpinnerControl",WS_GROUP,93,106,8,
+                    10
+    CONTROL         "",IDC_TVALUE_2,"CustEdit",WS_GROUP | WS_TABSTOP,50,106,
+                    41,10
+    CONTROL         "",IDC_TVALUESPIN_2,"SpinnerControl",WS_GROUP,93,106,8,
+                    10
+    CONTROL         "",IDC_PVALUE_2,"CustEdit",WS_GROUP | WS_TABSTOP,50,106,
+                    41,10
+    CONTROL         "",IDC_PVALUESPIN_2,"SpinnerControl",WS_GROUP,93,106,8,
+                    10
+    CONTROL         "",IDC_WVALUE_2,"CustEdit",WS_GROUP | WS_TABSTOP,50,106,
+                    41,10
+    CONTROL         "",IDC_WVALUESPIN_2,"SpinnerControl",WS_GROUP,93,106,8,
+                    10
+    CONTROL         "Assign Only Once",IDC_ASSIGNONCE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,127,70,10
+    GROUPBOX        "Result Condition Filter:",IDC_FRAME_FILTER,2,141,104,40
+    LTEXT           "Name:",IDC_TEXT_CONDITIONNAME,7,153,22,8
+    CONTROL         "",IDC_CONDITIONNAME,"CustEdit",WS_GROUP | WS_TABSTOP,29,
+                    152,71,10
+    LTEXT           "Scope:",IDC_TEXT_SCOPE,6,167,22,8
+    CONTROL         "Global",IDC_GLOBAL,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,32,166,33,10
+    CONTROL         "Local",IDC_LOCAL,"Button",BS_AUTORADIOBUTTON,70,166,30,
+                    10
+END
+
+IDD_OBJECT_PARAMETERS DIALOG  0, 0, 108, 374
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Channel:",IDC_FRAME_CHANNEL,2,2,104,56
+    LTEXT           "Name:",IDC_TEXT_CUSTOMNAME,9,14,22,8
+    CONTROL         "",IDC_CHANNELNAME,"CustEdit",WS_GROUP | WS_TABSTOP,31,
+                    13,70,10
+    LTEXT           "Type:",IDC_TEXT_CUSTOMTYPE,11,29,19,8
+    COMBOBOX        IDC_CHANNELTYPE,31,26,71,145,CBS_DROPDOWNLIST | 
+                    CBS_DISABLENOSCROLL | WS_GROUP | WS_TABSTOP
+    LTEXT           "Scope:",IDC_TEXT_SCOPE,9,45,22,8
+    CONTROL         "Global",IDC_GLOBAL,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,34,44,33,10
+    CONTROL         "Local",IDC_LOCAL,"Button",BS_AUTORADIOBUTTON,71,44,30,
+                    10
+    GROUPBOX        "Object Property:",IDC_FRAME_OBJECTPROPERTY,2,61,104,91
+    COMBOBOX        IDC_FLOATTYPE,6,71,96,145,CBS_DROPDOWNLIST | 
+                    CBS_DISABLENOSCROLL | WS_GROUP | WS_TABSTOP
+    COMBOBOX        IDC_INTTYPE,6,71,96,145,CBS_DROPDOWNLIST | 
+                    CBS_DISABLENOSCROLL | WS_GROUP | WS_TABSTOP
+    COMBOBOX        IDC_VECTORTYPE2,6,71,96,145,CBS_DROPDOWNLIST | 
+                    CBS_DISABLENOSCROLL | WS_GROUP | WS_TABSTOP
+    LTEXT           "Here's text placed to explain the property acquired in fine details.",
+                    IDC_TEXT_PROPERTY,7,87,94,25
+    CONTROL         " Sub-Material #:",IDC_USESUBMATERIAL,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,8,116,62,10
+    CONTROL         "",IDC_SUBMATERIAL,"CustEdit",WS_GROUP | WS_TABSTOP,73,
+                    115,18,10
+    CONTROL         "",IDC_SUBMATERIALSPIN,"SpinnerControl",WS_GROUP,93,115,
+                    8,10
+    RTEXT           "Mapping Channel #:",IDC_TEXT_MAPPINGCHANNEL,6,128,65,8
+    CONTROL         "",IDC_MAPPINGCHANNEL,"CustEdit",WS_GROUP | WS_TABSTOP,
+                    73,127,18,10
+    CONTROL         "",IDC_MAPPINGCHANNELSPIN,"SpinnerControl",WS_GROUP,93,
+                    127,8,10
+    CONTROL         "Compensate Integr. Lag",IDC_COMPENSATEINTEGRATION,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,139,89,10
+    GROUPBOX        "Objects:",IDC_OBJECTFRAME,2,154,104,178
+    LISTBOX         IDC_OBJECTLIST,7,164,94,45,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Add",IDC_PICKNODE,"CustButton",WS_TABSTOP,7,213,21,12
+    PUSHBUTTON      "By List",IDC_BYLIST,28,213,28,12
+    CONTROL         "Remove",IDC_REMOVENODE,"CustButton",WS_TABSTOP,59,213,
+                    41,12
+    CONTROL         "Use Integer Channel To Designate Objects",
+                    IDC_DESIGNATEOBJECTS,"Button",BS_AUTOCHECKBOX | BS_LEFT | 
+                    BS_TOP | BS_MULTILINE | WS_TABSTOP,7,230,83,18
+    LTEXT           "Name:",IDC_TEXT_CUSTOMNAME2,9,250,22,8
+    CONTROL         "",IDC_CHANNELNAME2,"CustEdit",WS_GROUP | WS_TABSTOP,31,
+                    249,70,10
+    LTEXT           "Sync By:",IDC_TARGETSYNCBYTEXT,6,266,28,8
+    COMBOBOX        IDC_TARGETSYNC,36,264,66,48,CBS_DROPDOWNLIST | 
+                    CBS_DISABLENOSCROLL | WS_GROUP | WS_TABSTOP
+    LTEXT           "Name:",IDC_TEXT_CUSTOMNAME3,9,279,22,8
+    CONTROL         "",IDC_CHANNELNAME3,"CustEdit",WS_GROUP | WS_TABSTOP,31,
+                    279,70,10
+    CONTROL         "Animated Shape",IDC_ANIMATED,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,8,294,68,10
+    GROUPBOX        "Subframe Sampling:",IDC_FRAME_SUBFRAME,4,305,99,24
+    CONTROL         "Location",IDC_LOCATION,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,8,316,40,10
+    CONTROL         "Geometry",IDC_GEOMETRY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,55,316,43,10
+    CONTROL         "Assign Only Once",IDC_ASSIGNONCE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,336,70,10
+    CONTROL         "Use Condition Filter",IDC_USECONDITION,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,348,76,10
+    LTEXT           "Name:",IDC_TEXT_CONDITIONNAME2,7,361,22,8
+    CONTROL         "",IDC_CONDITIONNAME2,"CustEdit",WS_GROUP | WS_TABSTOP,
+                    29,360,73,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DISPLAY_PARAMETERS DLGINIT
+BEGIN
+    IDC_DISPLAYVIEWPORT, 0x403, 10, 0
+0x6552, 0x7463, 0x6e61, 0x6c67, 0x0065, 
+    IDC_DISPLAYVIEWPORT, 0x403, 4, 0
+0x6f42, 0x0078, 
+    IDC_DISPLAYVIEWPORT, 0x403, 7, 0
+0x6943, 0x6372, 0x656c, "\000" 
+    IDC_DISPLAYVIEWPORT, 0x403, 7, 0
+0x7053, 0x6568, 0x6572, "\000" 
+    IDC_DATATYPE, 0x403, 10, 0
+0x6552, 0x7463, 0x6e61, 0x6c67, 0x0065, 
+    IDC_DATATYPE, 0x403, 4, 0
+0x6f42, 0x0078, 
+    IDC_DATATYPE, 0x403, 7, 0
+0x6943, 0x6372, 0x656c, "\000" 
+    IDC_DATATYPE, 0x403, 7, 0
+0x7053, 0x6568, 0x6572, "\000" 
+    IDC_CUSTOMTYPE, 0x403, 10, 0
+0x6552, 0x7463, 0x6e61, 0x6c67, 0x0065, 
+    IDC_CUSTOMTYPE, 0x403, 4, 0
+0x6f42, 0x0078, 
+    IDC_CUSTOMTYPE, 0x403, 7, 0
+0x6943, 0x6372, 0x656c, "\000" 
+    IDC_CUSTOMTYPE, 0x403, 7, 0
+0x7053, 0x6568, 0x6572, "\000" 
+    IDC_PLACEMENT, 0x403, 10, 0
+0x6552, 0x7463, 0x6e61, 0x6c67, 0x0065, 
+    IDC_PLACEMENT, 0x403, 4, 0
+0x6f42, 0x0078, 
+    IDC_PLACEMENT, 0x403, 7, 0
+0x6943, 0x6372, 0x656c, "\000" 
+    IDC_PLACEMENT, 0x403, 7, 0
+0x7053, 0x6568, 0x6572, "\000" 
+    0
+END
+
+IDD_CONDITION_PARAMETERS DLGINIT
+BEGIN
+    IDC_CHANNELTYPE, 0x403, 10, 0
+0x6552, 0x7463, 0x6e61, 0x6c67, 0x0065, 
+    IDC_CHANNELTYPE, 0x403, 4, 0
+0x6f42, 0x0078, 
+    IDC_CHANNELTYPE, 0x403, 7, 0
+0x6943, 0x6372, 0x656c, "\000" 
+    IDC_CHANNELTYPE, 0x403, 7, 0
+0x7053, 0x6568, 0x6572, "\000" 
+    0
+END
+
+IDD_COPY_PARAMETERS DLGINIT
+BEGIN
+    IDC_SRCDATATYPE, 0x403, 10, 0
+0x6552, 0x7463, 0x6e61, 0x6c67, 0x0065, 
+    IDC_SRCDATATYPE, 0x403, 4, 0
+0x6f42, 0x0078, 
+    IDC_SRCDATATYPE, 0x403, 7, 0
+0x6943, 0x6372, 0x656c, "\000" 
+    IDC_SRCDATATYPE, 0x403, 7, 0
+0x7053, 0x6568, 0x6572, "\000" 
+    IDC_SRCCHANNELTYPE, 0x403, 10, 0
+0x6552, 0x7463, 0x6e61, 0x6c67, 0x0065, 
+    IDC_SRCCHANNELTYPE, 0x403, 4, 0
+0x6f42, 0x0078, 
+    IDC_SRCCHANNELTYPE, 0x403, 7, 0
+0x6943, 0x6372, 0x656c, "\000" 
+    IDC_SRCCHANNELTYPE, 0x403, 7, 0
+0x7053, 0x6568, 0x6572, "\000" 
+    IDC_DSTDATATYPE, 0x403, 10, 0
+0x6552, 0x7463, 0x6e61, 0x6c67, 0x0065, 
+    IDC_DSTDATATYPE, 0x403, 4, 0
+0x6f42, 0x0078, 
+    IDC_DSTDATATYPE, 0x403, 7, 0
+0x6943, 0x6372, 0x656c, "\000" 
+    IDC_DSTDATATYPE, 0x403, 7, 0
+0x7053, 0x6568, 0x6572, "\000" 
+    IDC_DSTCHANNELTYPE, 0x403, 10, 0
+0x6552, 0x7463, 0x6e61, 0x6c67, 0x0065, 
+    IDC_DSTCHANNELTYPE, 0x403, 4, 0
+0x6f42, 0x0078, 
+    IDC_DSTCHANNELTYPE, 0x403, 7, 0
+0x6943, 0x6372, 0x656c, "\000" 
+    IDC_DSTCHANNELTYPE, 0x403, 7, 0
+0x7053, 0x6568, 0x6572, "\000" 
+    0
+END
+
+IDD_FUNCTION_PARAMETERS DLGINIT
+BEGIN
+    IDC_OPATYPE, 0x403, 10, 0
+0x6552, 0x7463, 0x6e61, 0x6c67, 0x0065, 
+    IDC_OPATYPE, 0x403, 4, 0
+0x6f42, 0x0078, 
+    IDC_OPATYPE, 0x403, 7, 0
+0x6943, 0x6372, 0x656c, "\000" 
+    IDC_OPATYPE, 0x403, 7, 0
+0x7053, 0x6568, 0x6572, "\000" 
+    IDC_OPBTYPE, 0x403, 10, 0
+0x6552, 0x7463, 0x6e61, 0x6c67, 0x0065, 
+    IDC_OPBTYPE, 0x403, 4, 0
+0x6f42, 0x0078, 
+    IDC_OPBTYPE, 0x403, 7, 0
+0x6943, 0x6372, 0x656c, "\000" 
+    IDC_OPBTYPE, 0x403, 7, 0
+0x7053, 0x6568, 0x6572, "\000" 
+    IDC_BBTYPE, 0x403, 10, 0
+0x6552, 0x7463, 0x6e61, 0x6c67, 0x0065, 
+    IDC_BBTYPE, 0x403, 4, 0
+0x6f42, 0x0078, 
+    IDC_BBTYPE, 0x403, 7, 0
+0x6943, 0x6372, 0x656c, "\000" 
+    IDC_BBTYPE, 0x403, 7, 0
+0x7053, 0x6568, 0x6572, "\000" 
+    IDC_FTYPE, 0x403, 10, 0
+0x6552, 0x7463, 0x6e61, 0x6c67, 0x0065, 
+    IDC_FTYPE, 0x403, 4, 0
+0x6f42, 0x0078, 
+    IDC_FTYPE, 0x403, 7, 0
+0x6943, 0x6372, 0x656c, "\000" 
+    IDC_FTYPE, 0x403, 7, 0
+0x7053, 0x6568, 0x6572, "\000" 
+    IDC_FFTYPE, 0x403, 10, 0
+0x6552, 0x7463, 0x6e61, 0x6c67, 0x0065, 
+    IDC_FFTYPE, 0x403, 4, 0
+0x6f42, 0x0078, 
+    IDC_FFTYPE, 0x403, 7, 0
+0x6943, 0x6372, 0x656c, "\000" 
+    IDC_FFTYPE, 0x403, 7, 0
+0x7053, 0x6568, 0x6572, "\000" 
+    IDC_VTYPE, 0x403, 10, 0
+0x6552, 0x7463, 0x6e61, 0x6c67, 0x0065, 
+    IDC_VTYPE, 0x403, 4, 0
+0x6f42, 0x0078, 
+    IDC_VTYPE, 0x403, 7, 0
+0x6943, 0x6372, 0x656c, "\000" 
+    IDC_VTYPE, 0x403, 7, 0
+0x7053, 0x6568, 0x6572, "\000" 
+    IDC_VFTYPE, 0x403, 10, 0
+0x6552, 0x7463, 0x6e61, 0x6c67, 0x0065, 
+    IDC_VFTYPE, 0x403, 4, 0
+0x6f42, 0x0078, 
+    IDC_VFTYPE, 0x403, 7, 0
+0x6943, 0x6372, 0x656c, "\000" 
+    IDC_VFTYPE, 0x403, 7, 0
+0x7053, 0x6568, 0x6572, "\000" 
+    IDC_VVTYPE, 0x403, 10, 0
+0x6552, 0x7463, 0x6e61, 0x6c67, 0x0065, 
+    IDC_VVTYPE, 0x403, 4, 0
+0x6f42, 0x0078, 
+    IDC_VVTYPE, 0x403, 7, 0
+0x6943, 0x6372, 0x656c, "\000" 
+    IDC_VVTYPE, 0x403, 7, 0
+0x7053, 0x6568, 0x6572, "\000" 
+    IDC_TTTYPE, 0x403, 10, 0
+0x6552, 0x7463, 0x6e61, 0x6c67, 0x0065, 
+    IDC_TTTYPE, 0x403, 4, 0
+0x6f42, 0x0078, 
+    IDC_TTTYPE, 0x403, 7, 0
+0x6943, 0x6372, 0x656c, "\000" 
+    IDC_TTTYPE, 0x403, 7, 0
+0x7053, 0x6568, 0x6572, "\000" 
+    0
+END
+
+IDD_RANDOM_PARAMETERS DLGINIT
+BEGIN
+    IDC_TYPE, 0x403, 10, 0
+0x6552, 0x7463, 0x6e61, 0x6c67, 0x0065, 
+    IDC_TYPE, 0x403, 4, 0
+0x6f42, 0x0078, 
+    IDC_TYPE, 0x403, 7, 0
+0x6943, 0x6372, 0x656c, "\000" 
+    IDC_TYPE, 0x403, 7, 0
+0x7053, 0x6568, 0x6572, "\000" 
+    IDC_FLOATTYPE, 0x403, 10, 0
+0x6552, 0x7463, 0x6e61, 0x6c67, 0x0065, 
+    IDC_FLOATTYPE, 0x403, 4, 0
+0x6f42, 0x0078, 
+    IDC_FLOATTYPE, 0x403, 7, 0
+0x6943, 0x6372, 0x656c, "\000" 
+    IDC_FLOATTYPE, 0x403, 7, 0
+0x7053, 0x6568, 0x6572, "\000" 
+    IDC_VECTORTYPE, 0x403, 10, 0
+0x6552, 0x7463, 0x6e61, 0x6c67, 0x0065, 
+    IDC_VECTORTYPE, 0x403, 4, 0
+0x6f42, 0x0078, 
+    IDC_VECTORTYPE, 0x403, 7, 0
+0x6943, 0x6372, 0x656c, "\000" 
+    IDC_VECTORTYPE, 0x403, 7, 0
+0x7053, 0x6568, 0x6572, "\000" 
+    IDC_INTEGERTYPE, 0x403, 10, 0
+0x6552, 0x7463, 0x6e61, 0x6c67, 0x0065, 
+    IDC_INTEGERTYPE, 0x403, 4, 0
+0x6f42, 0x0078, 
+    IDC_INTEGERTYPE, 0x403, 7, 0
+0x6943, 0x6372, 0x656c, "\000" 
+    IDC_INTEGERTYPE, 0x403, 7, 0
+0x7053, 0x6568, 0x6572, "\000" 
+    0
+END
+
+IDD_VALUE_PARAMETERS DLGINIT
+BEGIN
+    IDC_CHANNELTYPE, 0x403, 10, 0
+0x6552, 0x7463, 0x6e61, 0x6c67, 0x0065, 
+    IDC_CHANNELTYPE, 0x403, 4, 0
+0x6f42, 0x0078, 
+    IDC_CHANNELTYPE, 0x403, 7, 0
+0x6943, 0x6372, 0x656c, "\000" 
+    IDC_CHANNELTYPE, 0x403, 7, 0
+0x7053, 0x6568, 0x6572, "\000" 
+    IDC_SYNC, 0x403, 14, 0
+0x6241, 0x6f73, 0x756c, 0x6574, 0x5420, 0x6d69, 0x0065, 
+    IDC_SYNC, 0x403, 13, 0
+0x6150, 0x7472, 0x6369, 0x656c, 0x4120, 0x6567, "\000" 
+    IDC_SYNC, 0x403, 12, 0
+0x7645, 0x6e65, 0x2074, 0x7453, 0x7261, 0x0074, 
+    IDC_SYNC, 0x403, 7, 0
+0x6152, 0x646e, 0x6d6f, "\000" 
+    0
+END
+
+IDD_TEST_PARAMETERS DLGINIT
+BEGIN
+    IDC_CHANNELTYPE, 0x403, 10, 0
+0x6552, 0x7463, 0x6e61, 0x6c67, 0x0065, 
+    IDC_CHANNELTYPE, 0x403, 4, 0
+0x6f42, 0x0078, 
+    IDC_CHANNELTYPE, 0x403, 7, 0
+0x6943, 0x6372, 0x656c, "\000" 
+    IDC_CHANNELTYPE, 0x403, 7, 0
+0x7053, 0x6568, 0x6572, "\000" 
+    0
+END
+
+IDD_OBJECT_PARAMETERS DLGINIT
+BEGIN
+    IDC_CHANNELTYPE, 0x403, 10, 0
+0x6552, 0x7463, 0x6e61, 0x6c67, 0x0065, 
+    IDC_CHANNELTYPE, 0x403, 4, 0
+0x6f42, 0x0078, 
+    IDC_CHANNELTYPE, 0x403, 7, 0
+0x6943, 0x6372, 0x656c, "\000" 
+    IDC_CHANNELTYPE, 0x403, 7, 0
+0x7053, 0x6568, 0x6572, "\000" 
+    IDC_FLOATTYPE, 0x403, 10, 0
+0x6552, 0x7463, 0x6e61, 0x6c67, 0x0065, 
+    IDC_FLOATTYPE, 0x403, 4, 0
+0x6f42, 0x0078, 
+    IDC_FLOATTYPE, 0x403, 7, 0
+0x6943, 0x6372, 0x656c, "\000" 
+    IDC_FLOATTYPE, 0x403, 7, 0
+0x7053, 0x6568, 0x6572, "\000" 
+    IDC_INTTYPE, 0x403, 10, 0
+0x6552, 0x7463, 0x6e61, 0x6c67, 0x0065, 
+    IDC_INTTYPE, 0x403, 4, 0
+0x6f42, 0x0078, 
+    IDC_INTTYPE, 0x403, 7, 0
+0x6943, 0x6372, 0x656c, "\000" 
+    IDC_INTTYPE, 0x403, 7, 0
+0x7053, 0x6568, 0x6572, "\000" 
+    IDC_VECTORTYPE2, 0x403, 10, 0
+0x6552, 0x7463, 0x6e61, 0x6c67, 0x0065, 
+    IDC_VECTORTYPE2, 0x403, 4, 0
+0x6f42, 0x0078, 
+    IDC_VECTORTYPE2, 0x403, 7, 0
+0x6943, 0x6372, 0x656c, "\000" 
+    IDC_VECTORTYPE2, 0x403, 7, 0
+0x7053, 0x6568, 0x6572, "\000" 
+    IDC_TARGETSYNC, 0x403, 14, 0
+0x6241, 0x6f73, 0x756c, 0x6574, 0x5420, 0x6d69, 0x0065, 
+    IDC_TARGETSYNC, 0x403, 13, 0
+0x6150, 0x7472, 0x6369, 0x656c, 0x4120, 0x6567, "\000" 
+    IDC_TARGETSYNC, 0x403, 12, 0
+0x7645, 0x6e65, 0x2074, 0x7453, 0x7261, 0x0074, 
+    IDC_TARGETSYNC, 0x403, 7, 0
+0x6152, 0x646e, 0x6d6f, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_LIBDESCRIPTION   "ParticleFlow Channel Actions (Autodesk)"
+    IDS_OPERATOR_DISPLAY_CLASS_NAME "Channel Display"
+    IDS_PARTICLEASSEMBLER_CATEGORY "Particle Flow"
+    IDS_OPERATOR_DISPLAY_DESCRIPTION 
+                            "Channel Display draws particles in viewports and shows numerical values for different channel data. The particle color can be linked to the channel data. The operator is not suitable for editing/verifying selection set of particles."
+    IDS_OPERATOR_DISPLAY_PVIEW_NAME "Channel Display"
+    IDS_PF_OPERATOR_CATEGORY "Operator"
+    IDS_PARAMETERS          "Parameters"
+    IDS_TYPE                "Type"
+    IDS_VISIBLE             "Visible"
+    IDS_COLOR               "Color"
+    IDS_SHOWNUMBERING       "Show Particle IDs"
+    IDS_PRECISION           "Precision"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DISPLAYTYPE_DOTS    "Dots"
+    IDS_DISPLAYTYPE_TICKS   "Ticks"
+    IDS_DISPLAYTYPE_LINES   "Lines"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DISPLAYTYPE_BBOXES  "BoundingBox"
+    IDS_DISPLAYTYPE_GEOM    "Geometry"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DISPLAYTYPE_CIRCLES "Circles"
+    IDS_DISPLAYTYPE_DIAMONDS "Diamonds"
+    IDS_DISPLAYTYPE_BOXES   "Boxes"
+    IDS_DISPLAYTYPE_ASTERISKS "Asterisks"
+    IDS_DISPLAYTYPE_TRIANGLES "Triangles"
+    IDS_OPERATOR_DISPLAY_OBJECT_NAME "Ch.Display "
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SHOWPARTICLES       "Show Particles"
+    IDS_SHOWDATA            "Show Particle Data"
+    IDS_DATATYPE_CUSTOM     "Custom"
+    IDS_DATATYPE_BIRTHTIME  "Birth Time"
+    IDS_DATATYPE_AGE        "Age"
+    IDS_DATATYPE_DEATHTIME  "Death Time"
+    IDS_DATATYPE_LIFESPAN   "Lifespan"
+    IDS_DATATYPE_TIMEINEVENT "Time In Event"
+    IDS_DATATYPE_POSITION   "Position"
+    IDS_DATATYPE_POSITIONX  "Position X"
+    IDS_DATATYPE_POSITIONY  "Position Y"
+    IDS_DATATYPE_POSITIONZ  "Position Z"
+    IDS_DATATYPE_SPEEDVECTOR "Speed Vector"
+    IDS_DATATYPE_SPEEDX     "Speed X"
+    IDS_DATATYPE_SPEEDY     "Speed Y"
+    IDS_DATATYPE_SPEEDZ     "Speed Z"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DATATYPE_SPEEDMAGNITUDE "Speed Magnitude"
+    IDS_DATATYPE_SCALE      "Scale"
+    IDS_DATATYPE_SCALEX     "Scale X"
+    IDS_DATATYPE_SCALEY     "Scale Y"
+    IDS_DATATYPE_SCALEZ     "Scale Z"
+    IDS_DATATYPE_SIZE       "Size"
+    IDS_DATATYPE_SIZEX      "Size X"
+    IDS_DATATYPE_SIZEY      "Size Y"
+    IDS_DATATYPE_SIZEZ      "Size Z"
+    IDS_DATATYPE_ROTATIONAXIS "Rotation Axis"
+    IDS_DATATYPE_ROTATIONANGLE "Rotation Angle"
+    IDS_DATATYPE_EUCLIDEROTATION "Rotation Euclide"
+    IDS_DATATYPE_SPINAXIS   "Spin Axis"
+    IDS_DATATYPE_SPINRATE   "Spin Rate"
+    IDS_DATATYPE_MTLINDEX   "Material Index"
+    IDS_DATATYPE_SELECTED   "Selected"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DATATYPE_MAPCHANNEL1 "Map Channel #1"
+    IDS_DATATYPE_MAPCHANNEL2 "Map Channel #2"
+    IDS_DATATYPE_MAPCHANNEL3 "Map Channel #3"
+    IDS_DATATYPE_MAPCHANNEL4 "Map Channel #4"
+    IDS_DATATYPE_MAPCHANNEL5 "Map Channel #5"
+    IDS_DATATYPE_VERTICESFACES "Vertices/Faces"
+    IDS_DATATYPE_SCRIPTINTEGER "Script Integer"
+    IDS_DATATYPE_SCRIPTFLOAT "Script Float"
+    IDS_DATATYPE_SCRIPTVECTOR "Script Vector"
+    IDS_DATATYPE            "Data Type"
+    IDS_CUSTOMCHANNELNAME   "Custom Channel Name"
+    IDS_TYPECHANNELNAME     "Type Channel Name"
+    IDS_USECOLORCODING      "Use Color Coding"
+    IDS_USEGRADIENTVALUE    "Use Gradient Value"
+    IDS_GRADIENTCOLOR       "Gradient Color"
+    IDS_CUSTOMCHANNELTYPE   "Custom Channel Type"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CUSTOMTYPE_BOOL     "Boolean"
+    IDS_CUSTOMTYPE_FLOAT    "Float"
+    IDS_CUSTOMTYPE_FLOATVECTOR "Float Vector"
+    IDS_CUSTOMTYPE_INTEGER  "Integer"
+    IDS_CUSTOMTYPE_PERCENT  "Percentage"
+    IDS_CUSTOMTYPE_PERCENTVECTOR "Percent Vector"
+    IDS_CUSTOMTYPE_TIME     "Time"
+    IDS_CUSTOMTYPE_WORLDUNIT "World Unit"
+    IDS_CUSTOMTYPE_WORLDVECTOR "World Vector"
+    IDS_INTEGERVALUES       "Integer Values"
+    IDS_FLOATVALUES         "Float Values"
+    IDS_PERCENTAGEVALUES    "Percentage Values"
+    IDS_WORLDVALUES         "World Values"
+    IDS_TIMEVALUES          "Time Values"
+    IDS_GRADIENTTYPE        "Gradient Type"
+    IDS_REDTYPE             "Red Type"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_GREENTYPE           "Green Type"
+    IDS_BLUETYPE            "Blue Type"
+    IDS_RGBFLOATMINVALUES   "RGB Float Min Values"
+    IDS_RGBFLOATMAXVALUES   "RBG Float Max Values"
+    IDS_RGBPERCENTMINVALUES "RGB Percent Min Values"
+    IDS_RGBPERCENTMAXVALUES "RGB Percent Max Values"
+    IDS_RGBWORLDMINVALUES   "RGB World Min Values"
+    IDS_RGBWORLDMAXVALUES   "RGB World Max Values"
+    IDS_GRADIENTFORFLOATVALUES "Gradient For Float Values:"
+    IDS_GRADIENTFORINTEGERVALUES "Gradient For Integer Values:"
+    IDS_GRADIENTFORTIMEVALUES "Gradient For Time Values:"
+    IDS_GRADIENTFORPERCENTVALUES "Gradient For Percent Values:"
+    IDS_GRADIENTFORWORLDVALUES "Gradient For World Values:"
+    IDS_GRADIENTFORBOOLVALUES "Gradient For Boolean Values:"
+    IDS_UNKNOWNDATA         "?"
+    IDS_FORSELECTEDONLY     "For Selected Only"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MULTTEXTUREVERTICES "mult. texture vertices"
+    IDS_TRUE                "true"
+    IDS_FALSE               "false"
+    IDS_OPERATOR_VALUE_CLASS_NAME "Channel Value"
+    IDS_OPERATOR_VALUE_DESCRIPTION 
+                            "Channel Value assigns scalar or vector values to a custom particle channel. A boolean particle channel can be used as a condition filter for value assignment."
+    IDS_OPERATOR_VALUE_OBJECT_NAME "Ch.Value "
+    IDS_CHANNELNAME         "Channel Name"
+    IDS_CHANNELTYPE         "Channel Type"
+    IDS_SCOPE               "Scope"
+    IDS_FLOATVALUE          "Float Value"
+    IDS_INTEGERVALUE        "Integer Value"
+    IDS_TIMEVALUE           "Time Value"
+    IDS_CUSTOMTYPE_ANGLE    "Angle"
+    IDS_CUSTOMTYPE_EUCLIDEROTATION "Euclide Rotation"
+    IDS_PERCENTVALUE        "Percent Value"
+    IDS_WORLDUNITVALUE      "World Unit Value"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ANGLEVALUE          "Angle Value"
+    IDS_FLOATVECTOR         "Float Vector"
+    IDS_PERCENTVECTOR       "Percent Vector"
+    IDS_WORLDVECTOR         "World Vector"
+    IDS_ANGLEVECTOR         "Angle Vector"
+    IDS_USECONDITIONFILTER  "Use Condition Filter"
+    IDS_CONDITIONCHANNELNAME "Condition Channel Name"
+    IDS_ASSIGNONLYONCE      "Assign Only Once"
+    IDS_SYNCTYPE_TIME       "Absolute Time"
+    IDS_SYNCTYPE_AGE        "Particle Age"
+    IDS_SYNCTYPE_EVENT      "Event Duration"
+    IDS_SYNCTYPE            "Sync Type"
+    IDS_GRADIENTFORANGLEFALUES "Gradient For Angle Values"
+    IDS_SRCDATATYPE         "Source Data Type"
+    IDS_DATATYPE_SCRIPTMATRIXX "Script Matrix X"
+    IDS_DATATYPE_SCRIPTMATRIXY "Script Matrix Y"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DATATYPE_SCRIPTMATRIXZ "Script Matrix Z"
+    IDS_DATATYPE_SCRIPTMATRIXT "Script Matrix T"
+    IDS_DATATYPE_SHAPEFACES "Shape Faces"
+    IDS_DATATYPE_SHAPESURFACE "Shape Surface"
+    IDS_DATATYPE_SHAPEVERTICES "Shape Vertices"
+    IDS_DATATYPE_SHAPEVOLUME "Shape Volume"
+    IDS_DATATYPE_SPEED      "Speed"
+    IDS_SRCCHANNELNAME      "Source Channel Name"
+    IDS_SRCCHANNELTYPE      "Source Channel Type"
+    IDS_CUSTOMTYPE_BOOLEAN  "Boolean"
+    IDS_DSTDATATYPE         "Destination Data Type"
+    IDS_DSTCHANNELNAME      "Destination Channel name"
+    IDS_DSTCHANNELTYPE      "Destination Channel Type"
+    IDS_SCALARVECTORCONVERSION "Scalar/Vector Conversion"
+    IDS_FLOATINTEGERCONVERSION "Float/Integer Conversion"
+    IDS_FLOATTIMECONVERSION "Float/Time Conversion"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_FLOATPERCENTCONVERSION "Float/Percent Conversion"
+    IDS_FLOATANGLECONVERSION "Float/Angle Conversion"
+    IDS_OPERATOR_COPY_CLASS_NAME "Channel Copy"
+    IDS_OPERATOR_COPY_DESCRIPTION 
+                            "Channel Copy operator transfers particle data from one channel to another."
+    IDS_OPERATOR_COPY_OBJECT_NAME "Ch.Copy "
+    IDS_DATATYPE_TIME       "Time"
+    IDS_OPERANDACHANNELNAME "Operand A Channel Name"
+    IDS_OPERANDACHANNELTYPE "Operand A Channel Type"
+    IDS_CUSTOMTYPE_VECTOR   "Vector"
+    IDS_USESECONDOPERAND    "Use Second Operand"
+    IDS_OPERANDBCHANNELNAME "Operand B Channel Name"
+    IDS_OPERANDBCHANNELTYPE "Operand B Channel Type"
+    IDS_BOOLEANBOOLEANFUNCTIONTYPE "Boolean-Boolean Function Type"
+    IDS_FUNCTIONTYPE_AND    "AND"
+    IDS_FUNCTIONTYPE_OR     "OR"
+    IDS_FUNCTIONTYPE_XOR    "XOR"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_TIMETIMEFUNCTIONTYPE "Time-Time Function Type"
+    IDS_FLOATFUNCTIONTYPE   "Float Function Type"
+    IDS_FUNCTIONTYPE_ABSOLUTE "Absolute"
+    IDS_FUNCTIONTYPE_BINARYEXPONENT "Binary Exponent"
+    IDS_FUNCTIONTYPE_BINARYLOGARITHM "Binary Logarithm"
+    IDS_FUNCTIONTYPE_COSINE "Cosine"
+    IDS_FUNCTIONTYPE_COTANGENT "Cotangent"
+    IDS_FUNCTIONTYPE_CUBE   "Cube"
+    IDS_FUNCTIONTYPE_CUBICROOT "Cubic Root"
+    IDS_FUNCTIONTYPE_DECIMALEXPONENT "Decimal Exponent"
+    IDS_FUNCTIONTYPE_DECIMALLOGARITHM "Decimal Logarithm"
+    IDS_FUNCTIONTYPE_INVERSE "Inverse"
+    IDS_FUNCTIONTYPE_NATURALEXPONENT "Natural Exponent"
+    IDS_FUNCTIONTYPE_NATURALLOGARITHM "Natural Logarithm"
+    IDS_FUNCTIONTYPE_SINE   "Sine"
+    IDS_FUNCTIONTYPE_SQUARE "Square"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_FUNCTIONTYPE_SQUAREROOT "Square Root"
+    IDS_FUNCTIONTYPE_TANGENT "Tangent"
+    IDS_FLOATFLOATFUNCTIONTYPE "Float-Float Function Type"
+    IDS_FUNCTIONTYPE_ADDITION "Addition"
+    IDS_FUNCTIONTYPE_DIVISION "Division"
+    IDS_FUNCTIONTYPE_DIVISIONREMAINDER "Division Remainder"
+    IDS_FUNCTIONTYPE_LOGARITHM "Logarithm Log(A) Base(B)"
+    IDS_FUNCTIONTYPE_MAXIMUM "Maximum"
+    IDS_FUNCTIONTYPE_MINIMUM "Minimum"
+    IDS_FUNCTIONTYPE_MULTIPLICATION "Multiplication"
+    IDS_FUNCTIONTYPE_POWER  "Power A**B"
+    IDS_FUNCTIONTYPE_SUBTRACTION "Subtraction"
+    IDS_VECTORFUNCTIONTYPE  "Vector Function Type"
+    IDS_FUNCTIONTYPE_DEVIATE "Deviate"
+    IDS_VECTORVECTORFUNCTIONTYPE "Vector-Vector Function Type"
+    IDS_FUNCTIONTYPE_ADDROTATION "Add Rotation"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_FUNCTIONTYPE_DISTANCE "Distance"
+    IDS_FUNCTIONTYPE_NORMALCONFORM "Normal Conform"
+    IDS_FUNCTIONTYPE_SCALARPRODUCT "Scalar Product"
+    IDS_FUNCTIONTYPE_SCALEPRODUCT "Scale Product"
+    IDS_FUNCTIONTYPE_VECTORPRODUCT "Vector Product"
+    IDS_RESULTCHANNELNAME   "Result Channel Name"
+    IDS_FUNCTIONTYPE_LENGTH "Length"
+    IDS_FUNCTIONTYPE_NORMALIZE "Normalize"
+    IDS_VECTORFLOATFUNCTIONTYPE "Vector-Float Function Type"
+    IDS_FUNCTIONTYPE_NOT    "NOT"
+    IDS_OPERATOR_FUNCTION_CLASS_NAME "Channel Function"
+    IDS_OPERATOR_FUNCTION_DESCRIPTION 
+                            "Channel Function performs arithmetic or vector operations on particle channels. It can also apply algebraic or trigonometric functions to a particle channel. The operands can be pre-multiplied by a scalar. The result can be post-multiplied by a scalar. The operation can be restricted to new particles only or by a condition filter."
+    IDS_OPERATOR_FUNCTION_OBJECT_NAME "Ch.Function "
+    IDS_FUNCTIONTYPE_ROTATEBY "Rotate By"
+    IDS_INTEGERDISTRIBUTIONTYPE "Discreet Random Type"
+    IDS_DISTRIBUTIONTYPE_UNIFORMDISCREET "Uniform Discreet"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_FLOATDISTRIBUTIONTYPE "Continuous Random Type"
+    IDS_DISTRIBUTIONTYPE_EXPONENTIAL "Exponential"
+    IDS_DISTRIBUTIONTYPE_NORMAL "Normal (Gaussian)"
+    IDS_DISTRIBUTIONTYPE_TRIANGULAR "Triangular"
+    IDS_DISTRIBUTIONTYPE_UNIFORM "Uniform"
+    IDS_DISTRIBUTIONTYPE_WEIBULL "Weibull"
+    IDS_VECTORDISTRIBUTIONTYPE "3D Vector Random Type"
+    IDS_DISTRIBUTIONTYPE_SPHERESURFACE "Sphere Surface"
+    IDS_DISTRIBUTIONTYPE_SPHEREVOLUME "Sphere Volume"
+    IDS_PARAMETER1          "Parameter 1"
+    IDS_PARAMETER2          "Parameter 2"
+    IDS_PARAMETER3          "Parameter 3"
+    IDS_POSITIVEPARAMETER1  "Positive Parameter 1"
+    IDS_POSITIVEPARAMETER2  "Positive Parameter 2"
+    IDS_POSITIVEPARAMETER3  "Positive Parameter 3"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INTEGERPARAMETER1   "Integer Parameter 1"
+    IDS_INTEGERPARAMETER2   "Integer Parameter 2"
+    IDS_INTEGERPARAMETER3   "Integer Parameter 3"
+    IDS_MINIMUM             "Minimum:"
+    IDS_MAXIMUM             "Maximum:"
+    IDS_PEAK                "Peak:"
+    IDS_MEAN                "Mean:"
+    IDS_VARIANCE            "Variance:"
+    IDS_ALPHA               "Alpha:"
+    IDS_BETA                "Beta:"
+    IDS_RADIUS              "Radius:"
+    IDS_OPERATOR_RANDOM_CLASS_NAME "Channel Random"
+    IDS_OPERATOR_RANDOM_DESCRIPTION 
+                            "Channel Random generates sclar and vector random values."
+    IDS_OPERATOR_RANDOM_OBJECT_NAME "Ch.Random "
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DYNNAME_UNIFORM     "U"
+    IDS_DYNNAME_TRIANGULAR  "T"
+    IDS_DYNNAME_NORMAL      "N"
+    IDS_DYNNAME_EXPONENTIAL "Exp"
+    IDS_DYNNAME_WEIBULL     "We"
+    IDS_DYNNAME_UNIFORM3D   "U3d"
+    IDS_DYNNAME_SPHERESURFACE "SS"
+    IDS_DYNNAME_SPHEREVOLUME "SV"
+    IDS_DYNNAME_NORMAL3D    "N3d"
+    IDS_RANDOMSEED          "Random Seed"
+    IDS_NEWRANDOMSEED       "New Random Seed"
+    IDS_SCALE               "Scale:"
+    IDS_TESTTRUETYPE        "Test True Type"
+    IDS_USEVALUE2           "Use Value #2"
+    IDS_FLOATVALUE1         "Float Value #1"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CONDITIONSCOPE      "IDS_CONDITIONSCOPE"
+    IDS_ORGREATERTHANVALUE2 "Or Greater Than Value #2"
+    IDS_ANDLESSTHANVALUE2   "And Less Than Value #2"
+    IDS_OPERATOR_CONDITION_CLASS_NAME "Channel Condition"
+    IDS_OPERATOR_CONDITION_DESCRIPTION 
+                            "Channel Condition creates a condition filter channel by testing values in a custom channel."
+    IDS_OPERATOR_CONDITION_OBJECT_NAME "Ch.Condition "
+    IDS_INTEGERVALUE1       "Integer Value #1"
+    IDS_TIMEVALUE1          "Time Value #1"
+    IDS_PERCENTVALUE1       "Percent Value #1"
+    IDS_WORLDUNITVALUE1     "World Unit Value #1"
+    IDS_ANGLEVALUE1         "Angle Value #1"
+    IDS_FLOATVALUE2         "Float Value #2"
+    IDS_INTEGERVALUE2       "Integer Value #2"
+    IDS_TIMEVALUE2          "Time Value #2"
+    IDS_PERCENTVALUE2       "Percent Value #2"
+    IDS_WORLDUNITVALUE2     "World Unit Value #2"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ANGLEVALUE2         "Angle Value #2"
+    IDS_ISFALSE             "Is False"
+    IDS_ISTRUE              "Is True"
+    IDS_ISLESSTHANVALUE1    "Is Less Than Value #1"
+    IDS_ISGREATERTHANVALUE1 "Is Greater Than Value #1"
+    IDS_TEST_DESCRIPTION    "Channel Test tests if values in a given particle channel are in a specified numerical interval."
+    IDS_TEST_CLASS_NAME     "Channel Test"
+    IDS_TEST_OBJECT_NAME    "Ch.Test "
+    IDS_PF_TEST_CATEGORY    "Test"
+    IDS_OPERATOR_OBJECT_CLASS_NAME "Channel Object"
+    IDS_OBJECTPROPERTYFLOATTYPE "Object Property Float Type"
+    IDS_PROPERTYFLOAT_DISTANCETOPIVOT "Distance To Pivot"
+    IDS_PROPERTYFLOAT_DISTANCETOSURFACE "Distance To Surface"
+    IDS_PROPERTYFLOAT_DISTANCETOVERTEX "Distance To Vertex"
+    IDS_PROPERTYFLOAT_FACESQUARE "Area Of Nearest Face"
+    IDS_PROPERTYFLOAT_OBJECTSPINRATE "Object Spin Rate"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_PROPERTYFLOAT_POINTLUMINANCE "Point Luminance"
+    IDS_PROPERTYFLOAT_POINTOPACITY "Point Opacity"
+    IDS_OBJECTPROPERTYINTEGERTYPE "Object Property Integer Type"
+    IDS_PROPERTYINTEGER_FACEINDEX "Face Index"
+    IDS_PROPERTYINTEGER_OBJECTBYPIVOT "Object By Pivot"
+    IDS_PROPERTYINTEGER_OBJECTBYSURFACE "Object By Surface"
+    IDS_PROPERTYINTEGER_OBJECTBYVERTEX "Object By Vertex"
+    IDS_PROPERTYINTEGER_VERTEXINDEX "Vertex Index"
+    IDS_OBJECTPROPERTYVECTORTYPE "Object Property Vector Type"
+    IDS_OPERATOR_OBJECT_OBJECT_NAME "Ch.Object "
+    IDS_PROPERTYVECTOR_LOCALEUCLIDEROTATION "Local Euclide Rotation"
+    IDS_PROPERTYVECTOR_LOCALSCALE "Local Scale"
+    IDS_PROPERTYVECTOR_LOCALSPEED "Local Speed"
+    IDS_PROPERTYVECTOR_MAPPINGUVECTOR "Mapping U Vector"
+    IDS_PROPERTYVECTOR_MAPPINGVVECTOR "Mapping V Vector"
+    IDS_PROPERTYVECTOR_MAPPINGWVECTOR "Mapping W Vector"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_PROPERTYVECTOR_NEARESTCOLOR "Nearest Color"
+    IDS_PROPERTYVECTOR_NEARESTMAPPING "Nearest Mapping"
+    IDS_PROPERTYVECTOR_NEARESTNORMAL "Nearest Normal"
+    IDS_PROPERTYVECTOR_NEARESTSURFACEPOINT "Nearest Surface Point"
+    IDS_PROPERTYVECTOR_NEARESTVERTEX "Nearest Vertex"
+    IDS_PROPERTYVECTOR_OBJECTEUCLIDEROTATION "Object Euclide Rotation"
+    IDS_PROPERTYVECTOR_OBJECTPOSITION "Object Position"
+    IDS_PROPERTYVECTOR_OBJECTSCALE "Object Scale"
+    IDS_PROPERTYVECTOR_OBJECTSPEED "Object Speed"
+    IDS_PROPERTYVECTOR_OBJECTSPINAXIS "Object Spin Axis"
+    IDS_USESUBMATERIAL      "Use SubMaterial"
+    IDS_SUBMATERIALINDEX    "SubMaterial Index"
+    IDS_MAPPINGCHANNELINDEX "Mapping Channel Index"
+    IDS_OBJECTS             "Objects"
+    IDS_USEINTEGERCHANNELTODESIGNATEOBJECTS 
+                            "Use Integer Channel To Designate Objects"
+    IDS_SYNCTYPE_CHANNEL    "Time Channel"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ANIMATEDSHAPE       "Animated Shape"
+    IDS_SUBFRAMESAMPLINGFORLOCATION "Subframe Sampling For Location"
+    IDS_SUBFRAMESAMPLINGFORGEOMETRY "Subframe Sampling For Geometry"
+    IDS_OPERATOR_OBJECT_DESCRIPTION 
+                            "Channel Object acquires different properties from a reference object and assigns them to a custom channel."
+    IDS_DESCRIPTION_DISTANCETOPIVOT 
+                            "Distance from a particle to the object's pivot point."
+    IDS_DESCRIPTION_DISTANCETOVERTEX 
+                            "Distance from a particle to the closest vertex on the object's body."
+    IDS_DESCRIPTION_DISTANCETOSURFACE 
+                            "Distance from a particle to the closest point of the object's surface."
+    IDS_DESCRIPTION_OBJECTSPINRATE "Object's spin rate in degrees per tick."
+    IDS_DESCRIPTION_POINTLUMINANCE 
+                            "Luminance factor at the closest to a particle point on the object's surface."
+    IDS_DESCRIPTION_POINTOPACITY 
+                            "Opacity factor at the closest to a particle point on the object's surface."
+    IDS_DESCRIPTION_FACESQUARE 
+                            "Surface area of the object's face closest to a particle."
+    IDS_DESCRIPTION_OBJECTINDEXBYPIVOT 
+                            "Index of the object closest to a particle by the particle / object's-pivot distance."
+    IDS_DESCRIPTION_OBJECTINDEXBYVERTEX 
+                            "Index of the object closest to a particle by the particle / object's-closest-vertex distance."
+    IDS_DESCRIPTION_OBJECTINDEXBYSURFACE 
+                            "Index of the object closest to a particle by the particle / object's-closest-point distance."
+    IDS_DESCRIPTION_VERTEXINDEX "Index of the vertex closest to a particle."
+    IDS_DESCRIPTION_FACEINDEX "Index of the face closest to a particle."
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DESCRIPTION_OBJECTPOSITION "Object's pivot position in world space."
+    IDS_DESCRIPTION_OBJECTSPEED "Object's pivot speed in units per tick."
+    IDS_DESCRIPTION_OBJECTSCALE 
+                            "Object's scale factor as a vector for X, Y and Z scales."
+    IDS_DESCRIPTION_OBJECTEUCLIDEROTATION 
+                            "Object orientation as a series of X, Y, Z Euclide rotations."
+    IDS_DESCRIPTION_OBJECTSPINAXIS "Axis of the object's spinning."
+    IDS_DESCRIPTION_NEARESTCOLOR 
+                            "Color at the closest to a particle point on the object's surface."
+    IDS_DESCRIPTION_NEARESTMAPPING 
+                            "Mapping coordinates at the closest to a particle point on the object's surface."
+    IDS_DESCRIPTION_MAPPINGUVECTOR 
+                            "Mapping U vector at the closest to a particle point on the object's surface."
+    IDS_DESCRIPTION_MAPPINGVVECTOR 
+                            "Mapping V vector at the closest to a particle point on the object's surface."
+    IDS_DESCRIPTION_MAPPINGWVECTOR 
+                            "Mapping W vector at the closest to a particle point on the object's surface."
+    IDS_DESCRIPTION_NEARESTSURFACEPOINT 
+                            "Position of the object's surface point closest to a particle."
+    IDS_DESCRIPTION_NEARESTVERTEX 
+                            "Position of the object's vertex closest to a particle."
+    IDS_DESCRIPTION_NEARESTNORMAL 
+                            "Normal vector at the object's surface point closest to a particle."
+    IDS_DESCRIPTION_LOCALSPEED 
+                            "Speed vector of the object's surface point closest to a particle."
+    IDS_LOCKCLOSESTPOINT    "Lock Closest Point"
+    IDS_SELECTOBJECTS       "Select Objects"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SELECT              "Select"
+    IDS_PARAMETERCHANGE     "Parameter Change"
+    IDS_COMPENSATEINTEGRATIONLAG "Compensate Integration Lag"
+    IDS_SPEEDSCALEFORLINES  "Speed Scale For Lines"
+    IDS_SPEEDLINEPLACEMENT  "Speed Line Placement"
+    IDS_SPEEDMODE_LEADING   "Leading"
+    IDS_SPEEDMODE_CENTERED  "Centered"
+    IDS_SPEEDMODE_TRAILING  "Trailing"
+    IDS_DEVIATIONAXIS       "DeviationAxis"
+    IDS_IDENTITY            "Identity"
+    IDS_PROPERTYINTEGER_MATERIALINDEX "Material Index"
+    IDS_DESCRIPTION_MATERIALINDEX 
+                            "Index of the multi sub-object material at the surface point closest to a particle."
+    IDS_DATATYPE_PARTICLEID "Particle ID"
+    IDS_DESCRIPTION_SOFTSELECTION 
+                            "Soft Selection value at the surface point closest to a particle."
+    IDS_PROPERTYFLOAT_SOFTSELECTION "Soft Selection"
+    IDS_NONE                " "
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+#include "veroverrides.h"
+#include "maxversion.r"
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

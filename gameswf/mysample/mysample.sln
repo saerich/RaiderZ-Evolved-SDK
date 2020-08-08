@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mysample", "mysample.vcproj", "{F5FEC374-90B0-494E-90B2-849A3522550E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4EFB79AD-644B-42BF-ACE5-57CFB699E236} = {4EFB79AD-644B-42BF-ACE5-57CFB699E236}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libgameswf", "..\gameswf\win32\VC8\libgameswf.vcproj", "{4EFB79AD-644B-42BF-ACE5-57CFB699E236}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5FEC374-90B0-494E-90B2-849A3522550E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F5FEC374-90B0-494E-90B2-849A3522550E}.Debug|Win32.Build.0 = Debug|Win32
+		{F5FEC374-90B0-494E-90B2-849A3522550E}.Release|Win32.ActiveCfg = Release|Win32
+		{F5FEC374-90B0-494E-90B2-849A3522550E}.Release|Win32.Build.0 = Release|Win32
+		{4EFB79AD-644B-42BF-ACE5-57CFB699E236}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4EFB79AD-644B-42BF-ACE5-57CFB699E236}.Debug|Win32.Build.0 = Debug|Win32
+		{4EFB79AD-644B-42BF-ACE5-57CFB699E236}.Release|Win32.ActiveCfg = Release|Win32
+		{4EFB79AD-644B-42BF-ACE5-57CFB699E236}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

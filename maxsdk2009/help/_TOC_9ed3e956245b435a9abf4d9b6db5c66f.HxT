@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE HelpTOC>
+<HelpTOC DTDVersion="1.0" PluginStyle="Hierarchical" PluginTitle="3ds Max 2009 SDK Help" Id="TOC" FileVersion="1.0.0.0" LangId="1033">
+    <HelpTOCNode NodeType="TOC" Url="3dsMaxSDKFull" />
+    <HelpTOCNode NodeType="Regular" Title="3ds Max SDK Programmer's Guide">
+        <HelpTOCNode NodeType="TOC" Url="3dsMaxSDK" />
+    </HelpTOCNode>
+    <HelpTOCNode NodeType="Regular" Title="3ds Max SDK Reference">
+        <HelpTOCNode NodeType="TOC" Url="3dsMaxSDKRef" />
+        <HelpTOCNode NodeType="Regular" Title="Lists and Functions">
+            <HelpTOCNode NodeType="TOC" Url="ListsAndFunctions" />
+        </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode NodeType="Regular" Title="3ds Max Data Exchange Interface">
+        <HelpTOCNode NodeType="Regular" Title="Programmer's Guide">
+            <HelpTOCNode NodeType="TOC" Url="3DXISDK" />
+        </HelpTOCNode>
+        <HelpTOCNode NodeType="Regular" Title="Reference Guide">
+            <HelpTOCNode NodeType="TOC" Url="3DXISDKRef" />
+        </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode NodeType="Regular" Title="Particle Flow">
+        <HelpTOCNode NodeType="Regular" Title="Reference Guide">
+            <HelpTOCNode NodeType="TOC" Url="ParticleFlowSDKRef" />
+        </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode NodeType="Regular" Title="mental ray">
+        <HelpTOCNode NodeType="Regular" Title="Programmer's Guide">
+            <HelpTOCNode NodeType="TOC" Url="3dsMaxMentalRaySDK" />
+        </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode NodeType="Regular" Title="Character Studio">
+        <HelpTOCNode NodeType="Regular" Title="Programmer's Guide">
+            <HelpTOCNode NodeType="TOC" Url="CharacterStudioSDK" />
+        </HelpTOCNode>
+        <HelpTOCNode NodeType="Regular" Title="Reference Guide">
+            <HelpTOCNode NodeType="TOC" Url="CharacterStudioSDKRef" />
+        </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode NodeType="Regular" Title="MAXScript">
+        <HelpTOCNode NodeType="Regular" Title="Programmer's Guide">
+            <HelpTOCNode NodeType="TOC" Url="MAXScriptSDK" />
+        </HelpTOCNode>
+    </HelpTOCNode>
+</HelpTOC>

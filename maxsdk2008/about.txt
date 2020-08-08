@@ -1,0 +1,42 @@
+
+© 2007 Autodesk, Inc.  All rights reserved.  Except as otherwise permitted by Autodesk, Inc., this publication, or parts thereof, may not be reproduced in any form, by any method, for any purpose.
+
+Certain materials included in this publication are reprinted with the permission of the copyright holder.
+Portions Copyrighted © 2005 Microsoft Corporation. All rights reserved.
+Portions Copyrighted mental images GmbH 1989-2005.
+This software contains source code provided by mental images GmbH.
+Portions Copyright Max HTR created 2003-2005 by Motion Analysis.
+Portions zlib © 2007 TinyXml.
+REALVIZ Copyright © 2006 REALVIZ S.A. All rights reserved.
+JPEG software is copyright © 1991-1998, Thomas G. Lane.  All Rights Reserved.  This software is based in part on the work of the Independent JPEG Group.
+Portions Copyrighted © 2005 Blur Studio, Inc.
+Portions Copyrighted © 1989-2005 Joseph Alter, Inc. Credit to Joe Alter, Gonzalo Rueda, and Dean Edmonds.
+Certain patents licensed from Viewpoint Corporation.
+This product includes Radiance software (http://radsite.lbl.gov/radiance) developed by the Lawrence Berkeley National Laboratory (http://www.lbl.gov). Copyright © 1990–2005. The Regents of the University of California through Lawrence Berkeley National Laboratory. All rights reserved.
+OpenEXR Bitmap I/O Plugin © 2003-2005 SplutterFish, LLC.
+OpenEXR © 2003 Industrial Light and Magic a division of Lucas Digital Ltd. LLC.
+Zlib © 1995-2003 Jean-loup Gaily and Mark Alder
+Portions Copyrighted © 2000-2005 Size8 Software, Inc.
+Portions Copyrighted © 2006 IntegrityWare, Inc.
+Portions © Copyrighted 1999-2005 Havok.com Inc. (or its licensors). All Rights Reserved.
+Portions Copyright 1998-2003 by Neil Hodgson.  All Rights Reserved.  
+Portions of this software Point Cache 2 © 2005-2006 Blizzard Entertainment, Inc.
+Portions Copyrighted © 2003 ATI Technologies, Inc. All Rights Reserved. Permission to use, copy, modify, and distribute this software and it documentation for any purpose and without fee is hereby granted, provided that the above copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation.
+Portions Copyrighted © 1991, 1999 Free Software Foundation, Inc. Refer to GNU Lesser General Public License at http://www.gnu.org/licenses/lgpl.html.
+Copyright © 1991-1994 by Arthur D. Applegate.  All Rights Reserved.  No part of this source code may be copied, modified or reproduced in any form without retaining the above copyright notice. This source code, or source code derived from it, may not be redistributed without express written permission of the author.
+Portions Copyrighted © 1999, 2000 NVIDIA Corporation.  This file is provided without support, instructions or implied warranty of any kind.  NVIDIA makes no guarantee of its fitness for a particular purpose and is not liable under any circumstances for any damages or loss whatsoever arising from the use or inability to use this file or items derived from it.
+Portions Copyrighted © 2006 NVIDIA Corporation.
+
+The following are registered trademarks or trademarks of Autodesk, Inc., in the USA and other countries: 3DEC (design/logo), 3December, 3December.com, 3ds Max, ActiveShapes, Actrix, ADI, Alias, Alias (swirl design/logo), AliasStudio, Alias|Wavefront (design/logo), ATC, AUGI, AutoCAD, AutoCAD Learning Assistance, AutoCAD LT, AutoCAD Simulator, AutoCAD SQL Extension, AutoCAD SQL Interface, Autodesk, Autodesk Envision, Autodesk Insight, Autodesk Intent, Autodesk Inventor, Autodesk Map, Autodesk MapGuide, Autodesk Streamline, AutoLISP, AutoSnap, AutoSketch, AutoTrack, Backdraft, Built with ObjectARX (logo), Burn, Buzzsaw, CAiCE, Can You Imagine, Character Studio, Cinestream, Civil 3D, Cleaner, Cleaner Central, ClearScale, Colour Warper, Combustion, Communication Specification, Constructware, Content Explorer, Create>what’s>Next> (design/logo), Dancing Baby (image), DesignCenter, Design Doctor, Designer's Toolkit, DesignKids, DesignProf, DesignServer, DesignStudio, Design|Studio (design/logo), Design Your World, Design Your World (design/logo), DWF, DWG, DWG (logo), DWG TrueConvert, DWG TrueView, DXF, EditDV, Education by Design, Extending the Design Team, FBX, Filmbox, FMDesktop, Freewheel, GDX Driver, Gmax, Heads-up Design, Heidi, HOOPS, HumanIK, i-drop, iMOUT, Incinerator, IntroDV, Inventor, Inventor LT, Kaydara, Kaydara (design/logo), LocationLogic, Lustre, Maya, Mechanical Desktop, MotionBuilder, ObjectARX, ObjectDBX, Open Reality, PolarSnap, PortfolioWall, Powered with Autodesk Technology, Productstream, ProjectPoint, Reactor, RealDWG, Real-time Roto, Render Queue, Revit, Showcase, SketchBook, StudioTools, Topobase, Toxik, Visual, Visual Bridge, Visual Construction, Visual Drainage, Visual Hydro, Visual Landscape, Visual Roads, Visual Survey, Visual Syllabus, Visual Toolbox, Visual Tugboat, Visual LISP, Voice Reality, Volo, and Wiretap. 
+
+The following are registered trademarks or trademarks of Autodesk Canada Co. in the USA and/or Canada and other countries: Backburner, Discreet, Fire, Flame, Flint, Frost, Inferno, Multi-Master Editing, River, Smoke, Sparks, Stone, Wire.
+
+mental images is a registered trademarks of mental images GmbH in the U.S.A. and/or other countries. clothfx™ is a trademark of Size8 Software, Inc. Havok.com™ is a trademark or registered trademark of Havok.com Inc. or its licensors. Intel is a registered trademark of Intel Corporation. All other brand names, product names or trademarks belong to their respective holders.
+
+Disclaimer  
+THIS PUBLICATION AND THE INFORMATION CONTAINED HEREIN IS MADE AVAILABLE BY AUTODESK, INC. “AS IS.”  AUTODESK, INC., DISCLAIMS ALL WARRANTIES, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE REGARDING THESE MATERIALS. 
+
+Published by: 
+Autodesk, Inc. 
+111 Mclnnis Parkway 
+San Rafael, CA 94903, USA

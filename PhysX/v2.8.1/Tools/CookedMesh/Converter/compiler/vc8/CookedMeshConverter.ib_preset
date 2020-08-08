@@ -1,0 +1,8 @@
+<Presets>
+<Preset Name="Autobuild" FormatVersion="1">
+<Configuration Name="release|Win32">
+<Project Name="CookedMeshConverter"/>
+<Project Name="CookedMeshReader"/>
+</Configuration>
+</Preset>
+</Presets>

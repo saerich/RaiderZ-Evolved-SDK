@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CookedMeshConverter", "CookedMeshConverter.vcproj", "{05FF70F9-EC14-2D1D-7741-8244151E0039}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D328B16E-CB42-47A4-83E9-30DDFAD04BE7} = {D328B16E-CB42-47A4-83E9-30DDFAD04BE7}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CookedMeshReader", "..\..\..\Reader\compiler\vc8\CookedMeshReader.vcproj", "{D328B16E-CB42-47A4-83E9-30DDFAD04BE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05FF70F9-EC14-2D1D-7741-8244151E0039}.Debug|Win32.ActiveCfg = Debug|Win32
+		{05FF70F9-EC14-2D1D-7741-8244151E0039}.Debug|Win32.Build.0 = Debug|Win32
+		{05FF70F9-EC14-2D1D-7741-8244151E0039}.Release|Win32.ActiveCfg = Release|Win32
+		{05FF70F9-EC14-2D1D-7741-8244151E0039}.Release|Win32.Build.0 = Release|Win32
+		{D328B16E-CB42-47A4-83E9-30DDFAD04BE7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D328B16E-CB42-47A4-83E9-30DDFAD04BE7}.Debug|Win32.Build.0 = Debug|Win32
+		{D328B16E-CB42-47A4-83E9-30DDFAD04BE7}.Release|Win32.ActiveCfg = Release|Win32
+		{D328B16E-CB42-47A4-83E9-30DDFAD04BE7}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
