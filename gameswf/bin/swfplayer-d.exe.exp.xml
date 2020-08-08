@@ -1,0 +1,36 @@
+<EXCEPTION code="80000003" addr="0086022D" date="08/23/08" time="18:02:34" code_desc="BREAKPOINT" more_desc="">
+<STACKENTRY decl="array&lt;gameswf::line_style&gt;::operator[]" decl_offset="+29" srcfile="c:\works\gameswf\base\container.h" line="220" line_offset="+29" />
+<STACKENTRY decl="gameswf::mesh_set::display" decl_offset="+304" srcfile="c:\works\gameswf\gameswf\gameswf_shape.cpp" line="875" line_offset="+18" />
+<STACKENTRY decl="gameswf::morph2_character_def::display" decl_offset="+1706" srcfile="c:\works\gameswf\gameswf\gameswf_morph2.cpp" line="109" line_offset="+0" />
+<STACKENTRY decl="gameswf::generic_character::display" decl_offset="+71" srcfile="c:\works\gameswf\gameswf\gameswf_impl.h" line="93" line_offset="+0" />
+<STACKENTRY decl="gameswf::display_list::display" decl_offset="+209" srcfile="c:\works\gameswf\gameswf\gameswf_dlist.cpp" line="554" line_offset="+0" />
+<STACKENTRY decl="gameswf::sprite_instance::display" decl_offset="+109" srcfile="c:\works\gameswf\gameswf\gameswf_sprite.cpp" line="634" line_offset="+0" />
+<STACKENTRY decl="gameswf::display_list::display" decl_offset="+209" srcfile="c:\works\gameswf\gameswf\gameswf_dlist.cpp" line="554" line_offset="+0" />
+<STACKENTRY decl="gameswf::sprite_instance::display" decl_offset="+109" srcfile="c:\works\gameswf\gameswf\gameswf_sprite.cpp" line="634" line_offset="+0" />
+<STACKENTRY decl="gameswf::display_list::display" decl_offset="+209" srcfile="c:\works\gameswf\gameswf\gameswf_dlist.cpp" line="554" line_offset="+0" />
+<STACKENTRY decl="gameswf::sprite_instance::display" decl_offset="+109" srcfile="c:\works\gameswf\gameswf\gameswf_sprite.cpp" line="634" line_offset="+0" />
+<STACKENTRY decl="gameswf::display_list::display" decl_offset="+209" srcfile="c:\works\gameswf\gameswf\gameswf_dlist.cpp" line="554" line_offset="+0" />
+<STACKENTRY decl="gameswf::sprite_instance::display" decl_offset="+109" srcfile="c:\works\gameswf\gameswf\gameswf_sprite.cpp" line="634" line_offset="+0" />
+<STACKENTRY decl="gameswf::root::display" decl_offset="+211" srcfile="c:\works\gameswf\gameswf\gameswf_root.cpp" line="448" line_offset="+0" />
+<STACKENTRY decl="SDL_main" decl_offset="+6525" srcfile="c:\works\gameswf\gameswf\gameswf_test_ogl.cpp" line="938" line_offset="+0" />
+<STACKENTRY decl="__tmainCRTStartup" decl_offset="+422" srcfile="f:\sp\vctools\crt_bld\self_x86\crt\src\crtexe.c" line="597" line_offset="+25" />
+<STACKENTRY decl="mainCRTStartup" decl_offset="+13" srcfile="f:\sp\vctools\crt_bld\self_x86\crt\src\crtexe.c" line="414" line_offset="+0" />
+
+
+</EXCEPTION>
+<EXCEPTION code="C0000005" addr="0087EADC" date="08/23/08" time="23:57:31" code_desc="ACCESS VIOLATION" more_desc=" read attempt to address 0x00000000 ">
+<STACKENTRY decl="render_handler_d3d::render_handler_d3d" decl_offset="+156" srcfile="c:\works\gameswf\gameswf\gameswf_render_handler_d3d.cpp" line="369" line_offset="+5" />
+<STACKENTRY decl="gameswf::create_render_handler_d3d" decl_offset="+81" srcfile="c:\works\gameswf\gameswf\gameswf_render_handler_d3d.cpp" line="1345" line_offset="+41" />
+<STACKENTRY decl="SDL_main" decl_offset="+2755" srcfile="c:\works\gameswf\gameswf\gameswf_test_ogl.cpp" line="510" line_offset="+12" />
+<STACKENTRY decl="__tmainCRTStartup" decl_offset="+422" srcfile="f:\sp\vctools\crt_bld\self_x86\crt\src\crtexe.c" line="597" line_offset="+25" />
+<STACKENTRY decl="mainCRTStartup" decl_offset="+13" srcfile="f:\sp\vctools\crt_bld\self_x86\crt\src\crtexe.c" line="414" line_offset="+0" />
+
+
+</EXCEPTION>
+<EXCEPTION code="C0000005" addr="100162E7" date="08/24/08" time="02:43:44" code_desc="ACCESS VIOLATION" more_desc=" read attempt to address 0x01A87698 ">
+<STACKENTRY decl="_cexit" decl_offset="+14" srcfile="f:\sp\vctools\crt_bld\self_x86\crt\src\crt0dat.c" line="413" line_offset="+11" />
+<STACKENTRY decl="__CRTDLL_INIT" decl_offset="+652" srcfile="f:\sp\vctools\crt_bld\self_x86\crt\src\crtlib.c" line="389" line_offset="+0" />
+<STACKENTRY decl="_CRTDLL_INIT" decl_offset="+31" srcfile="f:\sp\vctools\crt_bld\self_x86\crt\src\crtlib.c" line="214" line_offset="+17" />
+
+
+</EXCEPTION>
