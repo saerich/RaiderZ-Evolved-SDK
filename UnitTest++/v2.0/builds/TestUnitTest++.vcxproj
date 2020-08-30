@@ -1,0 +1,407 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{65139E12-F764-3E14-8EE2-31C4684D69F2}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>TestUnitTest++</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Farbod\Desktop\unittest-cpp-master\builds\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">TestUnitTest++.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">TestUnitTest++-d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Farbod\Desktop\unittest-cpp-master\builds\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">TestUnitTest++.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">TestUnitTest++</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Farbod\Desktop\unittest-cpp-master\builds\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">TestUnitTest++.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">TestUnitTest++</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Farbod\Desktop\unittest-cpp-master\builds\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">TestUnitTest++.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">TestUnitTest++</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Farbod\Desktop\unittest-cpp-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Farbod\Desktop\unittest-cpp-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Farbod\Desktop\unittest-cpp-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Running unit tests</Message>
+      <Command>setlocal
+Debug\TestUnitTest++-d.exe
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>Debug\UnitTest++-d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Farbod/Desktop/unittest-cpp-master/builds/Debug/TestUnitTest++-d.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Farbod/Desktop/unittest-cpp-master/builds/Debug/TestUnitTest++-d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Farbod\Desktop\unittest-cpp-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Farbod\Desktop\unittest-cpp-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Farbod\Desktop\unittest-cpp-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Running unit tests</Message>
+      <Command>setlocal
+Release\TestUnitTest++.exe
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>Release\UnitTest++.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Farbod/Desktop/unittest-cpp-master/builds/Release/TestUnitTest++.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Farbod/Desktop/unittest-cpp-master/builds/Release/TestUnitTest++.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Farbod\Desktop\unittest-cpp-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Farbod\Desktop\unittest-cpp-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Farbod\Desktop\unittest-cpp-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Running unit tests</Message>
+      <Command>setlocal
+MinSizeRel\TestUnitTest++.exe
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>MinSizeRel\UnitTest++.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Farbod/Desktop/unittest-cpp-master/builds/MinSizeRel/TestUnitTest++.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Farbod/Desktop/unittest-cpp-master/builds/MinSizeRel/TestUnitTest++.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Farbod\Desktop\unittest-cpp-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Farbod\Desktop\unittest-cpp-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Farbod\Desktop\unittest-cpp-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Running unit tests</Message>
+      <Command>setlocal
+RelWithDebInfo\TestUnitTest++.exe
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>RelWithDebInfo\UnitTest++.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Farbod/Desktop/unittest-cpp-master/builds/RelWithDebInfo/TestUnitTest++.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Farbod/Desktop/unittest-cpp-master/builds/RelWithDebInfo/TestUnitTest++.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Farbod\Desktop\unittest-cpp-master\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Farbod/Desktop/unittest-cpp-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\bin\cmake.exe -SC:/Users/Farbod/Desktop/unittest-cpp-master -BC:/Users/Farbod/Desktop/unittest-cpp-master/builds --check-stamp-file C:/Users/Farbod/Desktop/unittest-cpp-master/builds/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakePackageConfigHelpers.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++.pc.in;C:\Users\Farbod\Desktop\unittest-cpp-master\builds\CMakeFiles\3.18.2\CMakeCCompiler.cmake;C:\Users\Farbod\Desktop\unittest-cpp-master\builds\CMakeFiles\3.18.2\CMakeCXXCompiler.cmake;C:\Users\Farbod\Desktop\unittest-cpp-master\builds\CMakeFiles\3.18.2\CMakeRCCompiler.cmake;C:\Users\Farbod\Desktop\unittest-cpp-master\builds\CMakeFiles\3.18.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Farbod\Desktop\unittest-cpp-master\builds\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Farbod/Desktop/unittest-cpp-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\bin\cmake.exe -SC:/Users/Farbod/Desktop/unittest-cpp-master -BC:/Users/Farbod/Desktop/unittest-cpp-master/builds --check-stamp-file C:/Users/Farbod/Desktop/unittest-cpp-master/builds/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakePackageConfigHelpers.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++.pc.in;C:\Users\Farbod\Desktop\unittest-cpp-master\builds\CMakeFiles\3.18.2\CMakeCCompiler.cmake;C:\Users\Farbod\Desktop\unittest-cpp-master\builds\CMakeFiles\3.18.2\CMakeCXXCompiler.cmake;C:\Users\Farbod\Desktop\unittest-cpp-master\builds\CMakeFiles\3.18.2\CMakeRCCompiler.cmake;C:\Users\Farbod\Desktop\unittest-cpp-master\builds\CMakeFiles\3.18.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Farbod\Desktop\unittest-cpp-master\builds\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/Farbod/Desktop/unittest-cpp-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\bin\cmake.exe -SC:/Users/Farbod/Desktop/unittest-cpp-master -BC:/Users/Farbod/Desktop/unittest-cpp-master/builds --check-stamp-file C:/Users/Farbod/Desktop/unittest-cpp-master/builds/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakePackageConfigHelpers.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++.pc.in;C:\Users\Farbod\Desktop\unittest-cpp-master\builds\CMakeFiles\3.18.2\CMakeCCompiler.cmake;C:\Users\Farbod\Desktop\unittest-cpp-master\builds\CMakeFiles\3.18.2\CMakeCXXCompiler.cmake;C:\Users\Farbod\Desktop\unittest-cpp-master\builds\CMakeFiles\3.18.2\CMakeRCCompiler.cmake;C:\Users\Farbod\Desktop\unittest-cpp-master\builds\CMakeFiles\3.18.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Farbod\Desktop\unittest-cpp-master\builds\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/Farbod/Desktop/unittest-cpp-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\bin\cmake.exe -SC:/Users/Farbod/Desktop/unittest-cpp-master -BC:/Users/Farbod/Desktop/unittest-cpp-master/builds --check-stamp-file C:/Users/Farbod/Desktop/unittest-cpp-master/builds/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakePackageConfigHelpers.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++.pc.in;C:\Users\Farbod\Desktop\unittest-cpp-master\builds\CMakeFiles\3.18.2\CMakeCCompiler.cmake;C:\Users\Farbod\Desktop\unittest-cpp-master\builds\CMakeFiles\3.18.2\CMakeCXXCompiler.cmake;C:\Users\Farbod\Desktop\unittest-cpp-master\builds\CMakeFiles\3.18.2\CMakeRCCompiler.cmake;C:\Users\Farbod\Desktop\unittest-cpp-master\builds\CMakeFiles\3.18.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Farbod\Desktop\unittest-cpp-master\builds\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Farbod\Desktop\unittest-cpp-master\tests\Main.cpp" />
+    <ClInclude Include="C:\Users\Farbod\Desktop\unittest-cpp-master\tests\RecordingReporter.h" />
+    <ClInclude Include="C:\Users\Farbod\Desktop\unittest-cpp-master\tests\ScopedCurrentTest.h" />
+    <ClCompile Include="C:\Users\Farbod\Desktop\unittest-cpp-master\tests\TestAssertHandler.cpp" />
+    <ClCompile Include="C:\Users\Farbod\Desktop\unittest-cpp-master\tests\TestCheckMacros.cpp" />
+    <ClCompile Include="C:\Users\Farbod\Desktop\unittest-cpp-master\tests\TestChecks.cpp" />
+    <ClCompile Include="C:\Users\Farbod\Desktop\unittest-cpp-master\tests\TestCompositeTestReporter.cpp" />
+    <ClCompile Include="C:\Users\Farbod\Desktop\unittest-cpp-master\tests\TestCurrentTest.cpp" />
+    <ClCompile Include="C:\Users\Farbod\Desktop\unittest-cpp-master\tests\TestDeferredTestReporter.cpp" />
+    <ClCompile Include="C:\Users\Farbod\Desktop\unittest-cpp-master\tests\TestExceptions.cpp" />
+    <ClCompile Include="C:\Users\Farbod\Desktop\unittest-cpp-master\tests\TestLongMacros.cpp" />
+    <ClCompile Include="C:\Users\Farbod\Desktop\unittest-cpp-master\tests\TestMemoryOutStream.cpp" />
+    <ClCompile Include="C:\Users\Farbod\Desktop\unittest-cpp-master\tests\TestRequireMacrosWithExceptionsOff.cpp" />
+    <ClCompile Include="C:\Users\Farbod\Desktop\unittest-cpp-master\tests\TestRequireMacrosWithExceptionsOn.cpp" />
+    <ClCompile Include="C:\Users\Farbod\Desktop\unittest-cpp-master\tests\TestTest.cpp" />
+    <ClCompile Include="C:\Users\Farbod\Desktop\unittest-cpp-master\tests\TestTestList.cpp" />
+    <ClCompile Include="C:\Users\Farbod\Desktop\unittest-cpp-master\tests\TestTestMacros.cpp" />
+    <ClCompile Include="C:\Users\Farbod\Desktop\unittest-cpp-master\tests\TestTestResults.cpp" />
+    <ClCompile Include="C:\Users\Farbod\Desktop\unittest-cpp-master\tests\TestTestRunner.cpp" />
+    <ClCompile Include="C:\Users\Farbod\Desktop\unittest-cpp-master\tests\TestTestSuite.cpp" />
+    <ClCompile Include="C:\Users\Farbod\Desktop\unittest-cpp-master\tests\TestTimeConstraint.cpp" />
+    <ClCompile Include="C:\Users\Farbod\Desktop\unittest-cpp-master\tests\TestTimeConstraintMacro.cpp" />
+    <ClCompile Include="C:\Users\Farbod\Desktop\unittest-cpp-master\tests\TestUnitTestPP.cpp" />
+    <ClCompile Include="C:\Users\Farbod\Desktop\unittest-cpp-master\tests\TestXmlTestReporter.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Farbod\Desktop\unittest-cpp-master\builds\ZERO_CHECK.vcxproj">
+      <Project>{F3825BC7-C0B2-3C10-A19F-54BA2D3B05F2}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Farbod\Desktop\unittest-cpp-master\builds\UnitTest++.vcxproj">
+      <Project>{FC1E5362-E138-3A60-B908-E0DDC066BB59}</Project>
+      <Name>UnitTest++</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

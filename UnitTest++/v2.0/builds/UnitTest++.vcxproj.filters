@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\AssertException.cpp" />
+    <ClCompile Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\Checks.cpp" />
+    <ClCompile Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\CompositeTestReporter.cpp" />
+    <ClCompile Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\CurrentTest.cpp" />
+    <ClCompile Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\DeferredTestReporter.cpp" />
+    <ClCompile Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\DeferredTestResult.cpp" />
+    <ClCompile Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\MemoryOutStream.cpp" />
+    <ClCompile Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\ReportAssert.cpp" />
+    <ClCompile Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\RequiredCheckException.cpp" />
+    <ClCompile Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\RequiredCheckTestReporter.cpp" />
+    <ClCompile Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\Test.cpp" />
+    <ClCompile Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\TestDetails.cpp" />
+    <ClCompile Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\TestList.cpp" />
+    <ClCompile Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\TestReporter.cpp" />
+    <ClCompile Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\TestReporterStdout.cpp" />
+    <ClCompile Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\TestResults.cpp" />
+    <ClCompile Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\TestRunner.cpp" />
+    <ClCompile Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\ThrowingTestReporter.cpp" />
+    <ClCompile Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\TimeConstraint.cpp" />
+    <ClCompile Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\XmlTestReporter.cpp" />
+    <ClCompile Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\Win32\TimeHelpers.cpp">
+      <Filter>Win32</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\AssertException.h" />
+    <ClInclude Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\CheckMacros.h" />
+    <ClInclude Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\Checks.h" />
+    <ClInclude Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\CompositeTestReporter.h" />
+    <ClInclude Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\Config.h" />
+    <ClInclude Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\CurrentTest.h" />
+    <ClInclude Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\DeferredTestReporter.h" />
+    <ClInclude Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\DeferredTestResult.h" />
+    <ClInclude Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\ExceptionMacros.h" />
+    <ClInclude Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\ExecuteTest.h" />
+    <ClInclude Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\HelperMacros.h" />
+    <ClInclude Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\MemoryOutStream.h" />
+    <ClInclude Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\ReportAssert.h" />
+    <ClInclude Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\ReportAssertImpl.h" />
+    <ClInclude Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\RequireMacros.h" />
+    <ClInclude Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\RequiredCheckException.h" />
+    <ClInclude Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\RequiredCheckTestReporter.h" />
+    <ClInclude Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\Test.h" />
+    <ClInclude Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\TestDetails.h" />
+    <ClInclude Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\TestList.h" />
+    <ClInclude Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\TestMacros.h" />
+    <ClInclude Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\TestReporter.h" />
+    <ClInclude Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\TestReporterStdout.h" />
+    <ClInclude Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\TestResults.h" />
+    <ClInclude Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\TestRunner.h" />
+    <ClInclude Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\TestSuite.h" />
+    <ClInclude Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\ThrowingTestReporter.h" />
+    <ClInclude Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\TimeConstraint.h" />
+    <ClInclude Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\TimeHelpers.h" />
+    <ClInclude Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\UnitTest++.h" />
+    <ClInclude Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\UnitTestPP.h" />
+    <ClInclude Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\XmlTestReporter.h" />
+    <ClInclude Include="C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++\Win32\TimeHelpers.h">
+      <Filter>Win32</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Farbod\Desktop\unittest-cpp-master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Win32">
+      <UniqueIdentifier>{66B66D45-7328-38BD-9F6F-32795D861B74}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9DB7079A-3F5F-3285-AC65-D276D48FD2FF}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Farbod\Desktop\unittest-cpp-master\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Farbod/Desktop/unittest-cpp-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\bin\cmake.exe -SC:/Users/Farbod/Desktop/unittest-cpp-master -BC:/Users/Farbod/Desktop/unittest-cpp-master/builds --check-stamp-file C:/Users/Farbod/Desktop/unittest-cpp-master/builds/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakePackageConfigHelpers.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++.pc.in;C:\Users\Farbod\Desktop\unittest-cpp-master\builds\CMakeFiles\3.18.2\CMakeCCompiler.cmake;C:\Users\Farbod\Desktop\unittest-cpp-master\builds\CMakeFiles\3.18.2\CMakeCXXCompiler.cmake;C:\Users\Farbod\Desktop\unittest-cpp-master\builds\CMakeFiles\3.18.2\CMakeRCCompiler.cmake;C:\Users\Farbod\Desktop\unittest-cpp-master\builds\CMakeFiles\3.18.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Farbod\Desktop\unittest-cpp-master\builds\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Farbod/Desktop/unittest-cpp-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\bin\cmake.exe -SC:/Users/Farbod/Desktop/unittest-cpp-master -BC:/Users/Farbod/Desktop/unittest-cpp-master/builds --check-stamp-file C:/Users/Farbod/Desktop/unittest-cpp-master/builds/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakePackageConfigHelpers.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++.pc.in;C:\Users\Farbod\Desktop\unittest-cpp-master\builds\CMakeFiles\3.18.2\CMakeCCompiler.cmake;C:\Users\Farbod\Desktop\unittest-cpp-master\builds\CMakeFiles\3.18.2\CMakeCXXCompiler.cmake;C:\Users\Farbod\Desktop\unittest-cpp-master\builds\CMakeFiles\3.18.2\CMakeRCCompiler.cmake;C:\Users\Farbod\Desktop\unittest-cpp-master\builds\CMakeFiles\3.18.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Farbod\Desktop\unittest-cpp-master\builds\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/Farbod/Desktop/unittest-cpp-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\bin\cmake.exe -SC:/Users/Farbod/Desktop/unittest-cpp-master -BC:/Users/Farbod/Desktop/unittest-cpp-master/builds --check-stamp-file C:/Users/Farbod/Desktop/unittest-cpp-master/builds/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakePackageConfigHelpers.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++.pc.in;C:\Users\Farbod\Desktop\unittest-cpp-master\builds\CMakeFiles\3.18.2\CMakeCCompiler.cmake;C:\Users\Farbod\Desktop\unittest-cpp-master\builds\CMakeFiles\3.18.2\CMakeCXXCompiler.cmake;C:\Users\Farbod\Desktop\unittest-cpp-master\builds\CMakeFiles\3.18.2\CMakeRCCompiler.cmake;C:\Users\Farbod\Desktop\unittest-cpp-master\builds\CMakeFiles\3.18.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Farbod\Desktop\unittest-cpp-master\builds\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/Farbod/Desktop/unittest-cpp-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\bin\cmake.exe -SC:/Users/Farbod/Desktop/unittest-cpp-master -BC:/Users/Farbod/Desktop/unittest-cpp-master/builds --check-stamp-file C:/Users/Farbod/Desktop/unittest-cpp-master/builds/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakePackageConfigHelpers.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Users\Farbod\Desktop\cmake-3.18.2-win64-x64\share\cmake-3.18\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Farbod\Desktop\unittest-cpp-master\UnitTest++.pc.in;C:\Users\Farbod\Desktop\unittest-cpp-master\builds\CMakeFiles\3.18.2\CMakeCCompiler.cmake;C:\Users\Farbod\Desktop\unittest-cpp-master\builds\CMakeFiles\3.18.2\CMakeCXXCompiler.cmake;C:\Users\Farbod\Desktop\unittest-cpp-master\builds\CMakeFiles\3.18.2\CMakeRCCompiler.cmake;C:\Users\Farbod\Desktop\unittest-cpp-master\builds\CMakeFiles\3.18.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Farbod\Desktop\unittest-cpp-master\builds\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Farbod\Desktop\unittest-cpp-master\builds\ZERO_CHECK.vcxproj">
+      <Project>{F3825BC7-C0B2-3C10-A19F-54BA2D3B05F2}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Farbod\Desktop\unittest-cpp-master\builds\TestUnitTest++.vcxproj">
+      <Project>{65139E12-F764-3E14-8EE2-31C4684D69F2}</Project>
+      <Name>TestUnitTest++</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Farbod\Desktop\unittest-cpp-master\builds\UnitTest++.vcxproj">
+      <Project>{FC1E5362-E138-3A60-B908-E0DDC066BB59}</Project>
+      <Name>UnitTest++</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
